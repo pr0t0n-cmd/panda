@@ -21,12 +21,13 @@
     ul{
         display: flex;
         flex-direction: row;
-        gap: .25rem;
     }
     li{
         padding: .25rem .75rem;
+        margin: 0 .125rem;
         list-style-type: none;
         background: linear-gradient(180deg, #93ff00 0%, #2be40f 100%);
+        border: 1px solid #222222;
     }
     a{
         text-decoration: none;
@@ -41,7 +42,7 @@
     }
     main{
         position: relative;
-        padding: 2rem 3rem;
+        padding: .5rem 3rem;
         flex: 1;
     }
     footer{
