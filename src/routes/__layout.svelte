@@ -10,7 +10,7 @@
         </ul>
     </header>
     <main>
-        <slot></slot>
+        <slot />
     </main>
     <footer>
         Footer - thecodingpanda.dev
