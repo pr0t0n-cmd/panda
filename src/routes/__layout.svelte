@@ -1,37 +1,27 @@
 <script>
     import { articles } from '$lib/data/articles.json'
-    import LiDropdown from '$lib/components/LiDropdown.svelte'
-    // // Import the functions you need from the SDKs you need
-    // import { initializeApp } from "firebase/app";
-    // import { getAnalytics } from "firebase/analytics";
-    // // TODO: Add SDKs for Firebase products that you want to use
-    // // https://firebase.google.com/docs/web/setup#available-libraries
-
-    // // Your web app's Firebase configuration
-    // // For Firebase JS SDK v7.20.0 and later, measurementId is optional
-    // const firebaseConfig = {
-    //     apiKey: "AIzaSyBCZHISfsZrDzAbDmzCTL8YMGeYeV1h77U",
-    //     authDomain: "panda-44de3.firebaseapp.com",
-    //     projectId: "panda-44de3",
-    //     storageBucket: "panda-44de3.appspot.com",
-    //     messagingSenderId: "123172133112",
-    //     appId: "1:123172133112:web:1cdcf4dcfb1159e618430d",
-    //     measurementId: "G-M18LEGPQ3W"
-    // };
-
-    // // Initialize Firebase
-    // const app = initializeApp(firebaseConfig);
-    // const analytics = getAnalytics(app);
+    import HeaderDropdown from '$lib/components/HeaderDropdown.svelte'
+    let blogMenuOpen = 0;
+    function toggleShow(){
+        blogMenuOpen = blogMenuOpen === 0 ? 1 : 0
+    }
+    function resetToggle(){
+        blogMenuOpen = 0;
+    }
 </script>
 <div>
     <header>
+        <img class="logo" src="loghi/panda.svg" alt="" />
         <ul>
             <li>
-                <a href="/">Home</a>
+                <a href="/" on:click={resetToggle}>Home</a>
             </li>
             <li>
-                <a href="/blog">Blog</a>
-                <LiDropdown content={articles} />
+                <a href="/blog" on:click={resetToggle}>Blog</a>
+                <span on:click={toggleShow}>🌐</span>
+                {#if blogMenuOpen === 1}
+                    <HeaderDropdown content={articles} />
+                {/if}
             </li>
         </ul>
     </header>
@@ -44,6 +34,13 @@
 </div>
 
 <style>
+    span{
+        cursor: pointer;
+        line-height: 0px;
+        font-size: .75rem;
+        padding-left: .25rem;
+        border-left: 1px solid #222;
+    }
     ul{
         display: flex;
         flex-direction: row;
@@ -83,4 +80,11 @@
         justify-content: space-between;
         min-height: 100vh;
     }
+    .logo {
+		position: absolute;
+		top: 0px;
+		right: 0px;
+		width: 100px;
+		position: fixed;
+	}
 </style>
