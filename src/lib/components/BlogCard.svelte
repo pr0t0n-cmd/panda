@@ -4,8 +4,8 @@
     export let content
     let cardImageStyle = `
         background: ${content.topImage 
-            ? `url(./${content.topImage});` 
-            : `url(./favicon.png), linear-gradient(45deg, #00000085 100%, #00000015 0%);`}
+            ? `url(${content.topImage});` 
+            : `url(favicon.png), linear-gradient(45deg, #00000085 100%, #00000015 0%);`}
     `
 </script>
 <a href={`blog/articles/${content.link}`} style={cardImageStyle}>
