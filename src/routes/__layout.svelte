@@ -11,7 +11,7 @@
 </script>
 <div>
     <header>
-        <img class="logo" src="/static/loghi/panda.svg" alt="" />
+        <img class="logo" src="loghi/panda.svg" alt="" />
         <ul>
             <li>
                 <a href="/" on:click={handleClick}>Home</a>
