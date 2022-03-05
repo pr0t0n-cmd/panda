@@ -1,4 +1,6 @@
 <script>
+// @ts-nocheck
+
     export let content
     let cardImageStyle = `
         background: ${content.topImage 
