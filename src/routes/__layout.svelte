@@ -1,26 +1,26 @@
 <script>
     import { articles } from '$lib/data/articles.json'
     import HeaderDropdown from '$lib/components/HeaderDropdown.svelte'
-    let blogMenuOpen = 0;
-    function toggleShow(){
-        blogMenuOpen = blogMenuOpen === 0 ? 1 : 0
+
+    let value = 0
+
+    function handleClick(){
+        value = value === 1 ? 0 : 1
     }
-    function resetToggle(){
-        blogMenuOpen = 0;
-    }
+
 </script>
 <div>
     <header>
-        <img class="logo" src="loghi/panda.svg" alt="" />
+        <img class="logo" src="/static/loghi/panda.svg" alt="" />
         <ul>
             <li>
-                <a href="/" on:click={resetToggle}>Home</a>
+                <a href="/" on:click={handleClick}>Home</a>
             </li>
             <li>
-                <a href="/blog" on:click={resetToggle}>Blog</a>
-                <span on:click={toggleShow}>🌐</span>
-                {#if blogMenuOpen === 1}
-                    <HeaderDropdown content={articles} />
+                <a href="/blog" on:click={handleClick}>Blog</a>
+                <span on:click={handleClick}>🌐</span>
+                {#if value === 1}
+                    <HeaderDropdown content={articles} bind:menuValue={value}/>
                 {/if}
             </li>
         </ul>

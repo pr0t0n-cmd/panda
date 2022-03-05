@@ -1,12 +1,17 @@
 <script>
+    import {setContext, getContext} from 'svelte';
     export let content
+    export let menuValue
+    function handleClick(){
+        menuValue = menuValue === 1 ? 0 : 1
+    }
 </script>
 
 <span>
     <ul>
         {#each Object.values(content) as article}
             <li>
-                <a href={`/blog/articles/${article.link}`}>{article.link}</a>
+                <a href={`/blog/articles/${article.link}`} on:click={handleClick}>{article.link}</a>
             </li>
         {/each}
     </ul>
