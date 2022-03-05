@@ -9,15 +9,5 @@ export let articles = {
 		title: 'Le basi di sto cazzo',
 		description: 'lorem ipsum sucaaaaaaaa',
 		link: 'le-basi-di-sto-cazzo'
-	},
-	'le-basi-di-sto-cazzo-2': {
-		title: 'Le basi di sto cazzo 2',
-		description: 'lorem ipsum sucaaaaaaaa 2',
-		link: 'le-basi-di-sto-cazzo-2'
-	},
-	'le-basi-di-sto-cazzo-3': {
-		title: 'Le basi di sto cazzo 2',
-		description: 'lorem ipsum sucaaaaaaaa 2',
-		link: 'le-basi-di-sto-cazzo-3'
 	}
 };
