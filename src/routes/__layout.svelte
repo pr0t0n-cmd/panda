@@ -21,7 +21,7 @@
                 <a href="/" on:click={resetValue}>Home</a>
             </li>
             <li>
-                <a href="/blog" on:click={resetValue}>Blog</a>
+                <a href="/blog/" on:click={resetValue}>Blog</a>
                 <span on:click={handleClick}>🌐</span>
                 {#if value === 1}
                     <HeaderDropdown content={articles} bind:menuValue={value}/>
