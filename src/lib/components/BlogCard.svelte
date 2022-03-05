@@ -8,7 +8,7 @@
             : `url(./favicon.png), linear-gradient(45deg, #00000085 100%, #00000015 0%);`}
     `
 </script>
-<a href={`/blog/articles/${content.link}`} style={cardImageStyle}>
+<a href={`blog/articles/${content.link}`} style={cardImageStyle}>
     <h2>{content.title}</h2>
     <h3>{content.description}</h3>
 
