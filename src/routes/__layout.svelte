@@ -15,7 +15,9 @@
 </script>
 <div>
     <header>
-        <img class="logo" src="/loghi/panda.svg" alt="" />
+        <a class="logo" href="/">
+            <img src="/loghi/panda.svg" alt="" />
+        </a>
         <ul>
             <li>
                 <a href="/" on:click={resetValue}>Home</a>
