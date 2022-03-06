@@ -3,6 +3,16 @@
 </script>
 <section>
     <h1>INDEX</h1>
-    <a href="/blog">Blog</a>
-    <SubscribeForm />
+    <div>
+        <SubscribeForm />
+    </div>
 </section>
+
+<style>
+    div{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+</style>

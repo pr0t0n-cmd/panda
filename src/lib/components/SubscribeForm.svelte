@@ -14,3 +14,12 @@
     <p>Email: {email}</p>
     <p>Address: {address}</p>
 </div>
+
+<style>
+    label{
+        display: block;
+    }
+    input{
+        font-size: 16px;
+    }
+</style>
