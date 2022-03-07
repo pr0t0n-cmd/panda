@@ -1,13 +1,15 @@
 export let articles = {
 	'le-basi-della-blockchain': {
 		title: 'Le basi della Blockchain',
-		description: 'lorem ipsum suca, lorem ipsum suca, lorem ipsum suca',
+		description: 'lorem ipsum basi',
 		link: 'le-basi-della-blockchain',
-		topImage: 'favicon.png'
+		topImage: 'favicon.png',
+		category: 'blockchain'
 	},
-	'le-basi-di-sto-cazzo': {
-		title: 'Le basi di sto cazzo',
-		description: 'lorem ipsum sucaaaaaaaa',
-		link: 'le-basi-di-sto-cazzo'
+	'blockchain-intermedio': {
+		title: 'Blockchain intermedio',
+		description: 'lorem ipsum intermedio',
+		link: 'blockchain-intermedio',
+		category: 'blockchain'
 	}
 };

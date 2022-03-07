@@ -1,5 +1,4 @@
 <script>
-    import {setContext, getContext} from 'svelte';
     export let content
     export let menuValue
     function resetValue(){
@@ -11,7 +10,7 @@
     <ul>
         {#each Object.values(content) as article}
             <li>
-                <a href={`/blog/articles/${article.link}`} on:click={resetValue}>{article.link}</a>
+                <a href={`/blog/articles/${article.category}/${article.link}`} on:click={resetValue}>{article.link}</a>
             </li>
         {/each}
     </ul>

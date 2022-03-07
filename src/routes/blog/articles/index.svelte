@@ -1,1 +1,8 @@
-<h1>Hello</h1>
+<script context="module">
+    export async function load(){
+        return{
+            status: 301,
+            redirect: "/blog"
+        }
+    }
+</script>

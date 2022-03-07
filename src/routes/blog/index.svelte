@@ -1,12 +1,12 @@
 <script>
     import { articles } from '$lib/data/articles.json';
-    import Card from '$lib/components/BlogCard.svelte'
+    import BlogCard from '$lib/components/BlogCard.svelte'
 </script>
 
 <h1>BLOG</h1>
 <div>
     {#each Object.values(articles) as article}
-        <Card content={article}/>
+        <BlogCard content={article}/>
     {/each}
 </div>
 
