@@ -18,6 +18,8 @@
 </script>
 <!-- Check if the page is not the inde at /blog/articles, if it is it doesn't load it to avoid errors in the console and 301 redirects to /blog -->
 {#if article !== false}
+    <p>tag: {article.category}</p>
     <h1>{article.title}</h1>
+    <h2>{article.description}</h2>
 {/if}
 <slot />

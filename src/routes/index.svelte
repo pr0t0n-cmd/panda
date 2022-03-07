@@ -1,8 +1,9 @@
 <script>
     import SubscribeForm from '$lib/components/SubscribeForm.svelte'
 </script>
+
 <section>
-    <h1>INDEX</h1>
+    <h1>THECODINGPANDA.DEV</h1>
     <div>
         <SubscribeForm />
     </div>

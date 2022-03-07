@@ -29,6 +29,9 @@
                     <HeaderDropdown content={articles} bind:menuValue={value}/>
                 {/if}
             </li>
+            <li>
+                <a href="/about" on:click={resetValue}>About</a>
+            </li>
         </ul>
     </header>
     <main>
