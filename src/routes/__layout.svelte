@@ -1,8 +1,6 @@
 <script>
-    import Footer from '$lib/components/Footer.svelte'
-    import Header from '$lib/components/Header.svelte'
-   
-
+    import Footer from '$lib/components/layout/Footer.svelte'
+    import Header from '$lib/components/layout/Header.svelte'
 </script>
 <div >
     <Header/>
@@ -13,16 +11,11 @@
    
 </div>
 
-<style>
-    
-    
-    main{
+<style>main{
         position: relative;
         padding: .5rem 3rem;
         flex: 1;
     }
-     
-    
     div{
         padding: 0;
         margin: 0;
@@ -31,5 +24,4 @@
         justify-content: space-between;
         min-height: 100vh;
     }
-   
 </style>

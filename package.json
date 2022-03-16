@@ -22,6 +22,7 @@
   "type": "module",
   "dependencies": {
     "firebase": "^9.6.8",
-    "marked": "^4.0.12"
+    "marked": "^4.0.12",
+    "three": "^0.138.3"
   }
 }

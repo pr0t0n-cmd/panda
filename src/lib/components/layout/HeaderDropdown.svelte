@@ -1,16 +1,14 @@
 <script>
     export let content
-    export let menuValue
-    function resetValue(){
-        menuValue = 0
-    }
+    export let clickoutside
+    export let toggle
 </script>
 
 <span>
     <ul>
         {#each Object.values(content) as article}
             <li>
-                <a href={`/blog/articles/${article.category}/${article.link}`} on:click={resetValue}>{article.link}</a>
+                <a href={`/blog/articles/${article.category}/${article.link}`} use:clickoutside={toggle}>{article.link}</a>
             </li>
         {/each}
     </ul>

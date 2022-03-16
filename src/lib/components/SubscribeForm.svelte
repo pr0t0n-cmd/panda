@@ -2,6 +2,7 @@
     let email = ''
     let address = ''
 </script>
+
 <div>
     <div>
         <label for="email">Email</label>

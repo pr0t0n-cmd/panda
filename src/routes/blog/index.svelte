@@ -5,11 +5,6 @@
 </script>
 
 <h1>BLOG</h1>
-<!-- <div>
-    {#each Object.values(articles) as article}
-        <BlogCard content={article}/>
-    {/each}
-</div> -->
 <div>
     {#each categories as category}
         <h1>{category}</h1>

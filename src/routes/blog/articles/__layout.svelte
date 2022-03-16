@@ -3,6 +3,8 @@
     import { articles } from '$lib/data/articles.json'
     import { page } from '$app/stores'
 
+    import BlogTitle from '$lib/components/BlogTitle.svelte'
+
     let article
 
     $: updatePage($page.url.pathname)
@@ -16,10 +18,19 @@
         }
     }
 </script>
-<!-- Check if the page is not the inde at /blog/articles, if it is it doesn't load it to avoid errors in the console and 301 redirects to /blog -->
-{#if article !== false}
-    <p>tag: {article.category}</p>
-    <h1>{article.title}</h1>
-    <h2>{article.description}</h2>
-{/if}
-<slot />
+<!-- Check if the page is not the index at /blog/articles, if it is it doesn't load it to avoid errors in the console and 301 redirects to /blog -->
+<div class="blogTitle">
+    <BlogTitle article={article}/>
+</div>
+<div>
+    <slot />
+</div>
+
+<style>
+    div{
+        padding: 2rem 3rem;
+    }
+    .blogTitle{
+        background-color: #222;
+    }
+</style>
