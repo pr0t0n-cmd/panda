@@ -11,7 +11,8 @@
    
 </div>
 
-<style>main{
+<style>
+    main{
         position: relative;
         padding: .5rem 3rem;
         flex: 1;
@@ -23,5 +24,10 @@
         flex-direction: column;
         justify-content: space-between;
         min-height: 100vh;
+    }
+    @media screen and (max-width: 768px){
+        main{
+            padding: .5rem .75rem;
+        }
     }
 </style>

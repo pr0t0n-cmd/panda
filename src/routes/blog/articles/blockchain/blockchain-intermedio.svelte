@@ -14,6 +14,7 @@
     La rendita riesce tranquillamente a coprire il 20% al depositante, il resto della rendita è dedicato ad un fondo, in maniera da garantire la corretta funzionalità del protocollo, anche in momenti in cui le richieste di credito e gli alti depositi dovessero essere più frequenti.<br>
     La “Anchor Rate”, la quota alla quale il rendimento di Anchor Protocol si vuole allineare è impostata al 20%.
     Se la quota dovesse scendere al di sotto della soglia prefissata al 20%(deciso dalla governance), sarebbe prelevato un quantitativo necessario dal deposito e se la quota dovesse salire al di sopra del 20%, gli assets sarebbero nuovamente depositati all’interno del fondo.
+    continua...
 </p>
 <style>
     h3{
@@ -26,6 +27,6 @@
     }
     img{
         width: 250px;
-        height: auto;
+        height: 250px;
     }
 </style>
