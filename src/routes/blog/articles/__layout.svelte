@@ -18,6 +18,9 @@
         }
     }
 </script>
+<svelte:head>
+    <title>{article.title}</title>
+</svelte:head>
 <!-- Check if the page is not the index at /blog/articles, if it is it doesn't load it to avoid errors in the console and 301 redirects to /blog -->
 <div class="blogTitle">
     <BlogTitle article={article}/>
