@@ -69,7 +69,7 @@
   height: 1px;
   display: block;
   position: relative;
-  background: #000;
+  background: #2be40f;
   transition: all 0.3s cubic-bezier(0.4, 0.01, 0.165, 0.99);
   transition-delay: 0s;
 }
@@ -141,7 +141,6 @@
  .navbar.menuOpened .burger-container #burger .bar {
   transition: all 0.4s cubic-bezier(0.4, 0.01, 0.165, 0.99);
   transition-delay: 0.2s;
-  background: #fff;
 }
  .navbar.menuOpened .burger-container #burger .bar.topBar {
   transform: translateY(4px) rotate(45deg);

@@ -10,13 +10,11 @@
         <slot />
     </main>
     <Footer/>
-   
 </div>
 
 <style>
     main{
         position: relative;
-        padding: .5rem 3rem;
         flex: 1;
         margin-top: 30px;
     }

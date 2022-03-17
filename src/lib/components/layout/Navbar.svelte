@@ -29,7 +29,7 @@
 	let showModal = false;
 </script>
 
-<header>
+<nav>
         <a class="logo" href="/">
             <img src="/loghi/panda.svg" alt="panda" />
         </a>
@@ -48,15 +48,16 @@
                 <a href="/about">About</a>
             </li>
         </ul>
-    </header>
+    </nav>
 
     <style>
-    header{
+    nav{
         height: 50px;
         display: flex;
         flex-direction: column;
         justify-content: flex-end;
         align-items: center;
+        z-index: 99;
     }
 
     span{
@@ -99,7 +100,7 @@
     }
 
 @media (max-width: 600px) {
-    header {
+    nav {
         display: none;
     }
 }
