@@ -39,7 +39,7 @@
             </li>
             <li>
                 <a href="/blog">Blog</a>
-                <span on:click={openModal}>🌐</span>
+                <span on:click={openModal}><img src="./icone/arrowdown.png" class="arrow" alt="expand dropdown" /></span>
                 {#if showModal}
                     <HeaderDropdown content={articles} clickoutside={clickOutside} toggle={toggle}/>
                 {/if}
@@ -64,7 +64,6 @@
         line-height: 0px;
         font-size: .75rem;
         padding-left: .25rem;
-        border-left: 1px solid #222;
     }
     ul{
         display: flex;
@@ -72,13 +71,15 @@
     }
     li{
         position: relative;
-        padding: .25rem .75rem;
-        margin: 0 .125rem;
+        /* padding: .25rem .75rem; */
+        margin: 0 .125rem; 
         list-style-type: none;
         background: linear-gradient(180deg, #93ff00 0%, #2be40f 100%);
-        border: 1px solid #222222;
+        border: 1px solid #444;
+        text-align: center;
     }
     a{
+        padding: .25rem .75rem;
         text-decoration: none;
         font-weight: bold;
     }
@@ -89,4 +90,11 @@
 		right: 0px;
 		width: 100px;
 	}
+
+    .arrow{
+        width: 15px;
+        position: absolute;
+        right: 0;
+        top: 0;
+    }
     </style>
