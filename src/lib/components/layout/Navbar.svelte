@@ -1,6 +1,6 @@
 <script>
     import { articles } from '$lib/data/articles.json'
-    import HeaderDropdown from '$lib/components/layout/HeaderDropdown.svelte'
+    import NavDropdown from '$lib/components/layout/NavDropdown.svelte'
     function clickOutside(element, callbackFunction) {
 		function onClick(event) {
 			if (!element.contains(event.target)) {
@@ -41,7 +41,7 @@
                 <a href="/blog">Blog</a>
                 <span on:click={openModal}><img src="./icone/arrowdown.png" class="arrow" alt="expand dropdown" /></span>
                 {#if showModal}
-                    <HeaderDropdown content={articles} clickoutside={clickOutside} toggle={toggle}/>
+                    <NavDropdown content={articles} clickoutside={clickOutside} toggle={toggle}/>
                 {/if}
             </li>
             <li>
@@ -52,10 +52,10 @@
 
     <style>
     header{
-        padding: 2rem 3rem;
+        height: 50px;
         display: flex;
         flex-direction: column;
-        justify-content: center;
+        justify-content: flex-end;
         align-items: center;
     }
 
@@ -97,4 +97,10 @@
         right: 0;
         top: 0;
     }
+
+@media (max-width: 600px) {
+    header {
+        display: none;
+    }
+}
     </style>

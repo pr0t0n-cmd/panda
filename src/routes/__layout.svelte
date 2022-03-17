@@ -1,9 +1,11 @@
 <script>
     import Footer from '$lib/components/layout/Footer.svelte'
-    import Header from '$lib/components/layout/Header.svelte'
+    import Navbar from '$lib/components/layout/Navbar.svelte'
+    import NavbarMobile from '$lib/components/layout/NavbarMobile.svelte'
 </script>
 <div >
-    <Header/>
+    <NavbarMobile />
+    <Navbar/>
     <main>
         <slot />
     </main>
@@ -16,6 +18,7 @@
         position: relative;
         padding: .5rem 3rem;
         flex: 1;
+        margin-top: 30px;
     }
     div{
         padding: 0;
@@ -25,9 +28,9 @@
         justify-content: space-between;
         min-height: 100vh;
     }
-    @media screen and (max-width: 768px){
+    @media screen and (max-width: 600px){
         main{
-            padding: .5rem .75rem;
+            margin-top:80px
         }
     }
 </style>
