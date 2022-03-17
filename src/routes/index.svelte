@@ -13,7 +13,7 @@
 
 <style>
     section{
-    background-image: url(./landing/codingroom.jpg);
+    background-image: url(/landing/codingroom.jpg);
     height: 100vh;
     width: 100vw;
     background-position: center;
