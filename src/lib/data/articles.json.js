@@ -6,10 +6,11 @@ export let articles = {
 		topImage: 'favicon.png',
 		category: 'blockchain'
 	},
-	'blockchain-intermedio': {
-		title: 'Blockchain intermedio',
-		description: 'lorem ipsum intermedio',
-		link: 'blockchain-intermedio',
+	'anchor-protocol': {
+		title: 'Anchor Protocol',
+		description: 'Come guadagnare utilizzando Terra ed il protocollo Anchor',
+		link: 'anchor-protocol',
+		topImage: './anchor.png',
 		category: 'blockchain'
 	}
 };

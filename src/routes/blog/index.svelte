@@ -4,10 +4,9 @@
     import BlogCard from '$lib/components/BlogCard.svelte';
 </script>
 
-<h1>BLOG</h1>
 <div>
     {#each categories as category}
-        <h1>{category}</h1>
+        <h2>{category}</h2>
             {#each Object.values(articles) as article}
                 {#if category === article.category}
                     <BlogCard content={article}/>
@@ -17,8 +16,9 @@
 </div>
 
 <style>
-    h1{
+    h2{
         flex: 100%;
+        text-transform: uppercase;
     }
     div{
         display: flex;
@@ -27,5 +27,6 @@
         align-items: center;
         flex-wrap: wrap;
         gap: .75rem;
+        padding: 1rem 1.75rem;
     }
 </style>

@@ -3,7 +3,7 @@
     import Navbar from '$lib/components/layout/Navbar.svelte'
     import NavbarMobile from '$lib/components/layout/NavbarMobile.svelte'
 </script>
-<div >
+<div>
     <NavbarMobile />
     <Navbar/>
     <main>
