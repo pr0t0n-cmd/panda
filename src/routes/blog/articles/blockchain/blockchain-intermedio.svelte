@@ -1,6 +1,3 @@
-<svelte:head>
-	<title>The Coding Panda | Anchor protocol</title>
-</svelte:head>
 <h3>Anchor Protocol</h3>
 <p>Come fa anchor a garantire un rendimento simile?</p>
 <div>
