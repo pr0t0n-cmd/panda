@@ -17,6 +17,8 @@
         position: relative;
         flex: 1;
         margin-top: 30px;
+        padding: 10%;
+        height: 100%;
     }
     div{
         padding: 0;

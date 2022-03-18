@@ -17,7 +17,7 @@
     </a>
     <ul class="menu">
       <li on:click={handleNav} class="menu-item"><a href="/">Home</a></li>
-      <li on:click={handleNav} class="menu-item"><a href="/blog">Blog</a></li>
+      <li on:click={handleNav} class="menu-item"><a href="/blog">Post</a></li>
       <li on:click={handleNav} class="menu-item"><a href="/about">About</a></li>
       
     </ul>

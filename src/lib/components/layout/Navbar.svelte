@@ -38,7 +38,7 @@
                 <a href="/">Home</a>
             </li>
             <li>
-                <a href="/blog">Blog</a>
+                <a href="/blog">Post</a>
                 <span on:click={openModal}><img src="./icone/arrowdown.png" class="arrow" alt="expand dropdown" /></span>
                 {#if showModal}
                     <NavDropdown content={articles} clickoutside={clickOutside} toggle={toggle}/>
@@ -62,28 +62,44 @@
 
     span{
         cursor: pointer;
-        line-height: 0px;
         font-size: .75rem;
         padding-left: .25rem;
     }
-    ul{
-        display: flex;
-        flex-direction: row;
-    }
-    li{
-        position: relative;
-        /* padding: .25rem .75rem; */
-        margin: 0 .125rem; 
-        list-style-type: none;
-        background: linear-gradient(180deg, #93ff00 0%, #2be40f 100%);
-        border: 1px solid #444;
-        text-align: center;
-    }
-    a{
-        padding: .25rem .75rem;
-        text-decoration: none;
-        font-weight: bold;
-    }
+    
+
+    
+a {
+    color: #333;
+    text-decoration: none;
+    padding: .25rem .75rem;
+    font-weight: 100;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+li {
+	display: inline-block;
+	position: relative;
+	padding-bottom: 3px;
+    margin-right: 10px;
+}
+li:last-child {
+  margin-right: 0;
+}
+
+li:after {
+	content: '';
+	display: block;
+	margin: auto;
+	height: 1px;
+	width: 0px;
+	background: transparent;
+	transition: width .5s ease, background-color .5s ease;
+}
+li:hover:after {
+	width: 80%;
+	background: #2be40f;
+}
 
     .logo{
 		position: absolute;
@@ -93,7 +109,7 @@
 	}
 
     .arrow{
-        width: 15px;
+        width: 10px;
         position: absolute;
         right: 0;
         top: 0;
