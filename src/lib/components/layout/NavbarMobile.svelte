@@ -38,7 +38,7 @@
   overflow: hidden;
   transition: all 0.5s ease-out;
   transition-delay: 0.2s;
-  z-index: 1;
+  z-index: 2;
   padding-bottom: 50px;
 }
  .navbar .burger-container {

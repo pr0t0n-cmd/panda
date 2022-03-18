@@ -19,6 +19,7 @@
         margin-top: 30px;
         padding: 10%;
         height: 100%;
+        overflow: hidden !important;
     }
     div{
         padding: 0;
@@ -30,7 +31,7 @@
     }
     @media screen and (max-width: 600px){
         main{
-            margin-top:80px
+            margin-top:0px
         }
     }
 </style>
