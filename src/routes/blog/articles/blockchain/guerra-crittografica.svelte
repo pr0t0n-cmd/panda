@@ -1,4 +1,4 @@
-<div>
+<section class="blog-style">
   
 
 
@@ -42,13 +42,8 @@ src="https://www.youtube.com/embed/JE4yoU6ssi8">
 <p><a target="_blank" href="https://www.wired.com/1993/02/crypto-rebels/">"Crypto Rebels" (Wired, 1993)</a>
  Questo è l'articolo menzionato da Doctorow nel suo discorso che fornisce una descrizione più dettagliata degli eventi relativi alla crittografia negli anni '90.</p>
 
-<p><a target="_blank" href="https://en.wikipedia.org/wiki/The_Hitchhiker%27s_Guide_to_the_Galaxy">Wiki: la guida per gli autostoppisti all'anonimato online</a>Nervoso per la privacy da parte dei governi? Questa è una guida estremamente dettagliata su come mantenere l'anonimato online. Avviso spoiler: è piuttosto impegnativo!</p>
+<p><a target="_blank" href="https://bbgate.com/index.php?threads/guide-to-online-anonymity-by-https-anonymousplanet-org.8/page-3"> Wiki: la guida per gli autostoppisti all'anonimato online</a> Nervoso per la privacy da parte dei governi? Questa è una guida estremamente dettagliata su come mantenere l'anonimato online. Avviso spoiler: è piuttosto impegnativo!</p>
  
 
-</div>
+</section>
 
-<style>
-  p{
-    padding: 1rem;
-  }
-</style>

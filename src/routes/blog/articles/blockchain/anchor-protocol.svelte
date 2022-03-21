@@ -1,7 +1,8 @@
+<section class="blog-style">
+
 <p>Come fa anchor a garantire un rendimento simile?</p>
-<div>
-    <img src="/anchor.png" alt="">
-</div>
+<div class="img-bg i-1" ></div>
+
 <p>
     Combinando 2 elementi, Anchor riesce a garantire una APY del 20%.
     Da una parte sarai in grado di poter chiedere in prestito degli UST depositando degli asset($LUNA) come collateral.<br>
@@ -12,6 +13,7 @@
     Se la quota dovesse scendere al di sotto della soglia prefissata al 20%(deciso dalla governance), sarebbe prelevato un quantitativo necessario dal deposito e se la quota dovesse salire al di sopra del 20%, gli assets sarebbero nuovamente depositati all’interno del fondo.
     continua...
 </p>
+</section>
 <style>
     h3{
         margin-bottom: 1rem;
@@ -25,8 +27,9 @@
         flex-direction: row;
         justify-content: center;
     }
-    img{
-        width: 250px;
-        height: 250px;
-    }
+   
+
+    .i-1 {
+    background-image: url("/anchor.jpg");
+  }
 </style>

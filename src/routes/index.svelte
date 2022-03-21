@@ -1,5 +1,4 @@
 <script>
-    import SubscribeForm from '$lib/components/SubscribeForm.svelte'
    import { onMount } from 'svelte';
 class TypeWriter {
 	constructor(txtElement, words, wait = 1000) {

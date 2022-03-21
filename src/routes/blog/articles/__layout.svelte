@@ -50,6 +50,20 @@
         font-weight: 100;
     }
 
+    :global(.blog-style .img-bg){
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 300px;
+    margin: 3rem 0;
+    }
+
+  :global(.blog-style  p){
+    padding: 1rem;
+  }
+
+
       @media screen and (max-width:600px){
         div{
         padding: 2rem 1rem;
