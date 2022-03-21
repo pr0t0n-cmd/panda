@@ -4,7 +4,7 @@
     import BlogCard from '$lib/components/BlogCard.svelte';
 </script>
 
-<div>
+<div id="blog">
     {#each categories as category}
         <h2>{category}</h2>
             {#each Object.values(articles) as article}
@@ -16,6 +16,8 @@
 </div>
 
 <style>
+    
+
     h2{
         flex: 100%;
         text-transform: uppercase;
@@ -24,7 +26,7 @@
         border-bottom: 1px solid #ccc;
         font-weight: 100;
     }
-    div{
+    #blog{
         display: flex;
         flex-direction: row;
         justify-content: start;
@@ -33,4 +35,11 @@
         gap: .75rem;
         padding: 1rem 1.75rem;
     }
+
+    @media screen and (max-width:600px){
+        #blog{
+            justify-content: center;
+        }
+    }
+
 </style>

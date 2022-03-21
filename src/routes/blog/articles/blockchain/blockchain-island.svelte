@@ -31,6 +31,9 @@
 </div>
 
 <style>
+  p{
+    padding: 1rem;
+  }
   .img{
     background-position: center;
     background-size: contain;

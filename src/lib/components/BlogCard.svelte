@@ -23,14 +23,21 @@
         padding: 1rem;
         width: 320px;
         height: 400px;
-        box-shadow: 2px 2px 7px #00000015;
+        box-shadow: 2px 2px 7px #00000030;
         text-decoration: none;
         display: flex;
         flex-direction: column;
+        margin-top: 3rem;
+        margin-left: 1rem;
+        margin-right: 1rem;
+    }
+
+    a:first-child{
+        margin-top: 1rem;
     }
 
     a:hover {
-        box-shadow: 2px 2px 10px #00000040;;
+        box-shadow: 2px 2px 10px #00000080;;
     }
 
    
@@ -58,5 +65,11 @@
         position: absolute;
         top: 0;
         left: 0;
+    }
+    @media screen and (max-width:600px){
+        a {
+            margin-left: 0;
+            margin-right: 0;
+        }
     }
 </style>

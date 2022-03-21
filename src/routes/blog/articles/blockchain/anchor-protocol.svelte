@@ -1,4 +1,3 @@
-<h3>Anchor Protocol</h3>
 <p>Come fa anchor a garantire un rendimento simile?</p>
 <div>
     <img src="/anchor.png" alt="">
@@ -17,6 +16,10 @@
     h3{
         margin-bottom: 1rem;
     }
+
+     p{
+    padding: 1rem;
+  }
     div{
         display: flex;
         flex-direction: row;
