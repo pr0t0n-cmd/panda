@@ -39,7 +39,7 @@
             </li>
             <li>
                 <a href="/blog">Post</a>
-                <span on:click={openModal}><img src="icone/arrowdown.png" class="arrow" alt="expand dropdown" /></span>
+                <span on:click={openModal}><img src="/icone/arrowdown.png" class="arrow" alt="expand dropdown" /></span>
                 {#if showModal}
                     <NavDropdown content={articles} clickoutside={clickOutside} toggle={toggle}/>
                 {/if}
