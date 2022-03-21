@@ -18,7 +18,7 @@
         flex: 1;
         margin-top: 30px;
         padding: 10%;
-        height: 100%;
+        min-height: 100vh;
         overflow: hidden !important;
     }
     div{
