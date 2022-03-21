@@ -35,7 +35,7 @@
         <p class="f-bold">Supportaci</p>
           <button onclick={ handleOpenModal } 
           class="btn-donazioni" >
-            <img src="icone/ethereum-eth-logo.svg"alt="Ethereum Logo" />
+            <img src="/icone/ethereum-eth-logo.svg"alt="Ethereum Logo" />
             Ethereum
           </button>
       </div>
