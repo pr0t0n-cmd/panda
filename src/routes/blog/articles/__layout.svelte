@@ -22,9 +22,11 @@
     <title>{article.title}</title>
 </svelte:head>
 <!-- Check if the page is not the index at /blog/articles, if it is it doesn't load it to avoid errors in the console and 301 redirects to /blog -->
+<div class="back"><a href="/blog">&#8592; Indietro</a></div>
 <div class="blogTitle">
     <BlogTitle article={article}/>
 </div>
+
 <div class="blog-content">
     <slot />
 </div>
@@ -42,6 +44,10 @@
         margin: 0 auto;
         max-width: 1200px;
         line-height: 1.5rem;
+    }
+    .back{
+        font-size: .8rem;
+        font-weight: 100;
     }
 
       @media screen and (max-width:600px){
