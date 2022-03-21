@@ -45,28 +45,28 @@
       <p class="f-bold">Seguici sui social</p>
       <div class="f-box-img">
         <a href="#">
-          <img style="width: 15px;" src="icone/social/facebook-f-brands.svg" alt="Facebook">
+          <img style="width: 15px;" src="/icone/social/facebook-f-brands.svg" alt="Facebook">
         </a>
         <a href="#">
-          <img src="icone/social/instagram-brands.svg" alt="Instagram">
+          <img src="/icone/social/instagram-brands.svg" alt="Instagram">
         </a>
         <a href="#">
-         <img style="width: 22px;" src="icone/social/linkedin-in-brands.svg" alt="LinkedIn">
+         <img style="width: 22px;" src="/icone/social/linkedin-in-brands.svg" alt="LinkedIn">
         </a>
         <a href="#">
-           <img style="width: 30px;" src="icone/social/medium-brands.svg" alt="Medium">
+           <img style="width: 30px;" src="/icone/social/medium-brands.svg" alt="Medium">
         </a>
         <a href="#">
-          <img style="width: 25px;" src="icone/social/reddit-brands.svg" alt="Reddit">
+          <img style="width: 25px;" src="/icone/social/reddit-brands.svg" alt="Reddit">
         </a>
         <a href="#">
-          <img src="icone/social/rss-solid.svg" alt="RSS">
+          <img src="/icone/social/rss-solid.svg" alt="RSS">
         </a>
         <a href="#">
-          <img src="icone/social/tiktok-brands.svg" alt="Tik Tok">
+          <img src="/icone/social/tiktok-brands.svg" alt="Tik Tok">
         </a>
         <a href="#">
-         <img style="width: 30px;" src="icone/social/youtube-brands.svg" alt="Youtube">
+         <img style="width: 30px;" src="/icone/social/youtube-brands.svg" alt="Youtube">
         </a>
       </div>
       <p class="f-bk">@thecodingpanda</p>
