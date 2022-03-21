@@ -77,7 +77,9 @@ function init() {
     <div class="header-content">
         <p class="small">Siamo programmatori con la passione per le nuove tecnologie</p>
          <p class="bold">Creiamo contenuti speciali a proposito di</p>
+         <div class="dynamic-text-container">
         <span class="txt-type" data-wait="3000" data-words='["Blockchain","WEB3", "Programmazione Web", "Crypto & Trading", "Grafica & Animazioni"]'></span>
+        </div>
     </div>
 </section>
 
@@ -95,11 +97,19 @@ function init() {
         
     }
 
+    .dynamic-text-container{
+        display: flex;
+        position: relative;
+        width: 100%;
+        height: 500px;
+        justify-content: center;
+    }
+
     .bg-img{
-        background-image: url("./landing/cover-block.jpg");
+        /* background-image: url("./landing/cover-block.jpg");
         background-size: cover;
         background-position: center;
-        background-repeat: no-repeat;
+        background-repeat: no-repeat; */
          position: absolute;
         top: 0;
         left: 0;
