@@ -8,23 +8,55 @@
         `background: url(/favicon.png), linear-gradient(45deg, #00000085 100%, #00000015 0%);`
 </script>
 
-<a href={`/blog/articles/${content.category}/${content.link}`} style={cardImageStyle}>
-    <h2>{content.title}</h2>
-    <h3>{content.description}</h3>
+<a href={`/blog/articles/${content.category}/${content.link}`} >
+    <div style={cardImageStyle} class="img-sfondo"></div>
+    <div class="card-content">
+        <h2>{content.title}</h2>
+        <h4>{content.description}</h4>
+    </div>
+    
 
 </a>
 <style>
     a{
-        padding: 2rem;
+        position: relative;
+        padding: 1rem;
         width: 320px;
         height: 400px;
         box-shadow: 2px 2px 7px #00000015;
         text-decoration: none;
+        display: flex;
+        flex-direction: column;
     }
+
+    a:hover {
+        box-shadow: 2px 2px 10px #00000040;;
+    }
+
+   
 
     h2{
         text-align: center;
         margin-bottom: 1rem;
-        text-shadow: 2px 2px 6px#2be40f ;
+        font-weight: 700;
+        text-transform: uppercase;
+    }
+    h4{
+        font-weight: 400;
+    }
+
+    .card-content{
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        padding: 10px;
+        margin-top: 150px;
+    }
+    .img-sfondo{
+        width: 100%;
+        height: 150px;
+        position: absolute;
+        top: 0;
+        left: 0;
     }
 </style>

@@ -78,7 +78,7 @@ function init() {
         <p class="small">Siamo programmatori con la passione per le nuove tecnologie</p>
          <p class="bold">Creiamo contenuti speciali a proposito di</p>
          <div class="dynamic-text-container">
-        <span class="txt-type" data-wait="3000" data-words='["Blockchain","WEB3", "Programmazione Web", "Crypto & Trading", "Grafica & Animazioni"]'></span>
+        <span class="txt-type" data-wait="3000" data-words='["Blockchain", "Cryptovalute", "WEB3", "Programmazione Web", "Live Hackathon", "Hacker Rank", "Automazione Bot", "Animazioni Avanzate"]'></span>
         </div>
     </div>
 </section>

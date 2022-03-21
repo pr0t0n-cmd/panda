@@ -25,7 +25,7 @@
 <div class="blogTitle">
     <BlogTitle article={article}/>
 </div>
-<div>
+<div class="blog-content">
     <slot />
 </div>
 
@@ -34,6 +34,13 @@
         padding: 2rem 3rem;
     }
     .blogTitle{
+        margin: 0 auto;
+        max-width: 1200px;
         background-color: #222;
+    }
+    .blog-content{
+        margin: 0 auto;
+        max-width: 1200px;
+        line-height: 1.5rem;
     }
 </style>

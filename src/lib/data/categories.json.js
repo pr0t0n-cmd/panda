@@ -1,6 +1,10 @@
 export let categories = [
-    'blockchain',
-    'web',
-    'svelte',
-    'hackerrank'
-]
+	'blockchain',
+	'web3',
+	'programmazione-web',
+	'live-hackathon',
+	'hacker-rank',
+	'automazione-bot',
+	'cryptovalute',
+	'animazioni-avanzate'
+];

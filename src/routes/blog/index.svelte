@@ -19,6 +19,10 @@
     h2{
         flex: 100%;
         text-transform: uppercase;
+        color: #333 ;
+        padding: 1rem;
+        border-bottom: 1px solid #ccc;
+        font-weight: 100;
     }
     div{
         display: flex;
