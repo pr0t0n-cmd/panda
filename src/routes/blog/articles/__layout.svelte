@@ -43,4 +43,10 @@
         max-width: 1200px;
         line-height: 1.5rem;
     }
+
+      @media screen and (max-width:600px){
+        div{
+        padding: 2rem 1rem;
+    }
+    }
 </style>
