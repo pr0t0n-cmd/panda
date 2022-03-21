@@ -31,7 +31,6 @@
     }
     @media screen and (max-width: 600px){
         main{
-            margin-top:0px;
             padding: 10% 0;
         }
     }

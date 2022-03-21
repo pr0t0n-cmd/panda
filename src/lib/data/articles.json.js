@@ -13,7 +13,7 @@ export let articles = {
 		title: 'Blockchain Island',
 		description: 'Un divertente esempio per conoscere come funziona questa tecnologia',
 		link: 'blockchain-island',
-		topImage: 'blog/blockchain-island/blockchain-island-real.jpg',
+		topImage: 'blog/blockchain-island/block-island.png',
 		category: 'blockchain',
 		date: '21/3/2022',
 		modulo: '1'

@@ -149,6 +149,7 @@ function init() {
     @media (max-width:450px){
         section {
             text-align: left;
+            padding: 1rem;
         }
         .small {
             font-size: 1rem;
