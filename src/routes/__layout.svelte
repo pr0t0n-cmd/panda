@@ -6,7 +6,7 @@
 <div>
     <NavbarMobile />
     <Navbar/>
-    <main>
+    <main id="main">
         <slot />
     </main>
     <Footer/>

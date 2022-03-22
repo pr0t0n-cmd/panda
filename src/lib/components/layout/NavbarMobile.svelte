@@ -34,12 +34,13 @@
   left: 0;
   height: 50px;
   width: 100%;
-  background: rgba(0, 0, 0, 0.0);
+  background: linear-gradient(to top right, #333, #000);
   overflow: hidden;
   transition: all 0.5s ease-out;
   transition-delay: 0.2s;
   z-index: 2;
   padding-bottom: 50px;
+  box-shadow: 1px 1px 10px rgb(0 0 0 / 25%);
 }
  .navbar .burger-container {
   position: relative;
@@ -85,6 +86,8 @@
   display: block;
   padding: 0px 48px 0;
   list-style: none;
+  visibility: hidden;
+  transition: all 0.3s ease-in;
 }
  .navbar ul.menu li.menu-item {
   border-bottom: 1px solid #333;
@@ -134,6 +137,10 @@
   transition: all 0.3s ease-in;
   transition-delay: 0.25s;
   z-index: 99;
+}
+
+ .navbar.menuOpened ul.menu{
+  visibility: visible;
 }
  .navbar.menuOpened .burger-container {
   transform: rotate(90deg);

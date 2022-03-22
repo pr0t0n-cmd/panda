@@ -120,6 +120,7 @@ function init() {
 
     .header-content{
         z-index: 2;
+        padding: 10%;
     }
     
  
@@ -149,6 +150,9 @@ function init() {
         section {
             text-align: left;
             padding: 1rem;
+        }
+        .header-content{
+            padding: 5%;
         }
         .small {
             font-size: 1rem;

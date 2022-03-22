@@ -29,7 +29,7 @@
 	let showModal = false;
 </script>
 
-<nav>
+<nav id="nav">
         <a class="logo" href="/">
             <img src="/loghi/panda.svg" alt="panda" />
         </a>
@@ -58,6 +58,7 @@
         justify-content: flex-end;
         align-items: center;
         z-index: 99;
+        font-size: 1rem;
     }
 
     span{

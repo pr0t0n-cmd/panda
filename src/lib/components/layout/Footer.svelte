@@ -22,7 +22,7 @@
         <p class="f-bold">Newsletter</p>
         <div class="newsletter">
           <input type="text">
-          <span id="iscriviti"> <p>Iscriviti</p> </span>
+          <span id="iscriviti"> <p id="subscribe">Iscriviti</p> </span>
         </div>
         
         <!-- <p class="f-bk">Freight forwarders</p>
@@ -44,6 +44,9 @@
     <div class="f-box-social">
       <p class="f-bold">Seguici sui social</p>
       <div class="f-box-img">
+        <a href="#">
+          <img style="width: 30px;" src="/icone/social/discord-brands.svg" alt="Discord">
+        </a>
         <a href="#">
           <img style="width: 15px;" src="/icone/social/facebook-f-brands.svg" alt="Facebook">
         </a>
@@ -72,7 +75,15 @@
       <p class="f-bk">@thecodingpanda</p>
     </div>
 
+    <div style="display: flex; justify-content:flex-end">
+      <a href="#main" style="width: fit-content;">
+          <img class="top-arrow-mobile" src="/icone/arrow-top.svg" alt="Scroll to Top">
+      </a>
 
+      <a href="#nav" style="width: fit-content;">
+          <img class="top-arrow" src="/icone/arrow-top.svg" alt="Scroll to Top">
+      </a>
+    </div>
   </footer>
 
 
@@ -111,15 +122,16 @@
 }
 
 .f-bold {
-  font-size: 1.1rem;
+  font-size: 1.5rem;
 }
 
 .f-bold-s {
-  font-size: 0.8rem;
+  font-size: 1.2rem;
 }
 
 .f-bk {
-  font-size: 0.7rem;
+  font-size: 1rem;
+  letter-spacing: 5px;
 }
 
 .f-box-social {
@@ -183,16 +195,22 @@ p{
   background: transparent;
   color: #fff;
   text-transform: uppercase;
-  font-size: .6rem;
+  font-size: .9rem;
+}
+ 
+
+.newsletter input:focus + span #subscribe {
+color: #2be40f !important;
+
 }
 
 .newsletter span {
-  font-size: .6rem;
   margin-left: .5rem;
 }
 
 .f-box .newsletter span p {
   color: #fff;
+  font-size: .8rem;
   margin-bottom: 0;
   transition: all .5s;
 }
@@ -201,9 +219,6 @@ p{
   cursor: pointer;
 }
 
-.newsletter span:hover p{
-  color: #2be40f;
-}
 
 .btn-donazioni {
   min-width: 150px ;
@@ -215,12 +230,37 @@ p{
   border: none;
   background: transparent;
   color: #fff;
+  font-size: 1rem;
   }
 
   .btn-donazioni img {
     width: 20px;
     height: 20px;
   }
+
+  .top-arrow-mobile{
+    width: 30px;
+    float: right;
+    margin: 10px;
+    display: none;
+  }
+
+   .top-arrow{
+    width: 30px;
+    float: right;
+    margin: 10px;
+  }
+
+  @media (max-width: 600px) {
+    .top-arrow-mobile{
+    display: block;
+  }
+
+   .top-arrow{
+    display: none;
+  }
+  }
+
 
 @media only screen and (min-width: 820px) {
   .f-box:nth-child(2) {

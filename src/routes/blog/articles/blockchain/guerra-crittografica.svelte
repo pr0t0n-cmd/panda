@@ -2,7 +2,7 @@
   
 
 
-<p>Intro di Cory Doctorow</p>
+<p>Introduzione di Cory Doctorow</p>
 <iframe title="Intro di Cory Doctorow" width="100%" height="315"
 src="https://www.youtube.com/embed/JE4yoU6ssi8">
 </iframe>
@@ -10,15 +10,18 @@ src="https://www.youtube.com/embed/JE4yoU6ssi8">
 
 
 
+<blockquote>
+<p>Alla fine degli anni '90, la NSA [Agenzia per la sicurezza nazionale degli Stati Uniti] classificò la crittografia avanzata al limite dell'illegale, paragonandola ad un'arma da fuoco. Sulla base di questa decisione imposero alla popolazione forti limitazioni nel suo utilizzo.</p>
 
-<p>Alla fine degli anni '90, la NSA [Agenzia per la sicurezza nazionale degli Stati Uniti] classificava la crittografia quasi come se fosse un'arma da fuoco ed imponeva alla popolazione forti limitazioni sull'utilizzo della crittografia "avanzata".</p>
+<p>In quel periodo la NSA affermò: "Non possiamo permetterci che i criminali si possano nascondere dietro la crittografia senza più poterli spiare". </p>
 
-<p>Hanno detto: "Non possiamo permetterci che i criminali diventino oscuri, si nasconderanno dietro la crittografia e non saremo in grado di spiarli". Di fronte a tutta quella resistenza, abbiamo finalmente trovato un argomento vincente.</p>
+<p>Sulla base di questa affermazione molte persone favorevoli all'utilizzo della crittografia avanzata si sono presentate davanti  al Tribunale Federale degli Stati Uniti dicendo: <br> "Crediamo che il primo emendamento della Costituzione degli Stati Uniti, il quale garantisce il diritto alla libertà di parola protegga l'accesso dei cittadini alla crittografia avanzata. Il codice è una forma di discorso espressivo nel quadro della Costituzione degli Stati Uniti". Miracolosamente questo appello venno preso in considerazione e vinse la causa. Grazie a queste persone oggi possiamo utilizzare questo tipo di crittografia e dar vita dirompenti infrastrutture informatiche come la Blockchain.</p>
 
-<p>Siamo andati al [tribunale federale degli Stati Uniti] e abbiamo detto: "Crediamo che il primo emendamento della Costituzione degli Stati Uniti, il quale garantisce il diritto alla libertà di parola protegga [l'accesso dei cittadini alla crittografia "forte"]. Il codice è una forma di discorso espressivo nel quadro della Costituzione degli Stati Uniti". E questo ha funzionato. Il motivo per cui potete usare [crittografia forte] è perché abbiamo vinto questa causa.</p>
+</blockquote>
 
 
-<p>Da sempre la crittografia, in particolare quella asimmetrica (ramo della crittografia che utilizza particolari algoritmi e tecniche che la rendono praticamente impossibile da decifrare), ha da sempre rappresentato un'enorme sfida per le strutture di potere più ampie, in particolare quelle incaricate della sicurezza nazionale. L'incapacità dei governi di "decifrare" la crittografia avanzata a chiave pubblica dè una posizione insolita per queste istituzioni. In effetti, ci sono tentativi documentati di istituzioni pubbliche come la NSA di creare porte secondarie chiamate "backdoor" nei protocolli di crittografia a chiave pubblica. Fondamentale notare in questi tentativi "backdoor" è che la matematica stessa dietro la crittografia a chiave pubblica non viene compromessa. Ciò che sarebbe effettivamente compromesso è il modo in cui la matematica viene utilizzata da un software. È la differenza tra dire che un'organizzazione criminale ha "hackerato" il protocollo blockchain di Ethereum (improbabile) rispetto a un'organizzazione criminale che ha "hackerato" un popolare client software Ethereum (meno improbabile).</p>
+
+<p>La crittografia, in particolare quella asimmetrica (ramo della crittografia che utilizza particolari algoritmi e tecniche che la rendono praticamente impossibile da decifrare), ha da sempre rappresentato un'enorme sfida per le strutture di potere più ampie, in particolare quelle incaricate della sicurezza nazionale. L'incapacità dei governi di "decifrare" la crittografia avanzata a chiave pubblica diede una posizione scomoda alle istituzioni. Numerosi sono i tentativi documentati dove istituzioni pubbliche come la NSA provarono a creare porte secondarie chiamate "backdoor" nei protocolli di crittografia a chiave pubblica. Importante sottolineare che i tentativi di creare "backdoor" non interferiscono direttamente sulla matematica dietro alla crittografia, questa non può essere compromessa. Ciò che viene effettivamente compromesso è il modo in cui la matematica viene utilizzata da un software. Possiamo paragonare questa differenza dicendo che un'organizzazione criminale ha "hackerato" il protocollo blockchain di Ethereum (improbabile) è diverso dal dire che un'organizzazione criminale ha "hackerato" un popolare client software Ethereum (meno improbabile).</p>
 
 
 <p>È quasi impossibile costruire una "backdoor" in un concetto, come la crittografia a chiave pubblica. Tuttavia, è possibile compromettere un software popolare che implementa quel concetto. Questo è il motivo per cui è fondamentale che i progetti blockchain siano open source e molto attenti al modo in cui gestiscono i dati sensibili per gli utenti (come le chiavi private). </p>
@@ -34,10 +37,9 @@ src="https://www.youtube.com/embed/JE4yoU6ssi8">
 
 
 
+<h2>** Approfondisci **</h2>
 
-
-<p>Approfondimenti:</p> 
-<p><a target="_blank" href="https://www.scientificamerican.com/article/nsa-nist-encryption-scandal/">Gli sforzi della NSA per eludere lo standard crittografico degli Stati Uniti danneggiato dalla tecnologia di crittografia</a>  Un pezzo sui tentativi della NSA di creare una backdoor negli standard crittografici negli anni '90.</p>
+<p><a target="_blank" href="https://www.scientificamerican.com/article/nsa-nist-encryption-scandal/">Gli sforzi della NSA per eludere lo standard crittografico degli Stati Uniti</a> Un pezzo sui tentativi della NSA di creare una backdoor negli standard crittografici negli anni '90.</p>
 
 <p><a target="_blank" href="https://www.wired.com/1993/02/crypto-rebels/">"Crypto Rebels" (Wired, 1993)</a>
  Questo è l'articolo menzionato da Doctorow nel suo discorso che fornisce una descrizione più dettagliata degli eventi relativi alla crittografia negli anni '90.</p>

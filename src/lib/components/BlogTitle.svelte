@@ -12,5 +12,13 @@
         color: #2be40f;
         text-shadow: 0px 0px 10px #93ff0050;
     }
+    h1 {
+        margin: 1rem 0;
+    }
+
+    h2{
+        line-height: 1.7rem;
+        letter-spacing: 1px;
+    }
 </style>
 
