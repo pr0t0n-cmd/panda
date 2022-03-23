@@ -33,8 +33,7 @@
         justify-content: start;
         align-items: center;
         flex-wrap: wrap;
-        gap: .75rem;
-        padding: 1rem 1.75rem;
+       
     }
 
     @media screen and (max-width:600px){

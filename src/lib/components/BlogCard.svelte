@@ -5,7 +5,7 @@
         content.topImage ?
         `background: url(/${content.topImage});background-size: cover;
         background-position: center;` :
-        `background: url(/favicon.png), linear-gradient(45deg, #00000085 100%, #00000015 0%);`
+        `background: url(/favicon.png), linear-gradient(45deg, #00000085 100%, #00000015 0%); `
 </script>
 
 <a href={`/blog/articles/${content.category}/${content.link}`} >
@@ -65,12 +65,38 @@
         height: 150px;
         position: absolute;
         top: 0;
-        left: 0;
+        right: 0;
     }
     @media screen and (max-width:600px){
         a {
             margin-left: 0;
             margin-right: 0;
+            width: 100%;
+            height: 230px;
         }
+        .img-sfondo{
+            width: 100%;
+            height: 90px;
+            top: 24px;
+            right: 0;
+            opacity: .9;
+        }
+        .card-content{
+        margin-top: 100px;
+    }
+        
+        h2{
+            width: 100%;
+            position: absolute;
+            top: 0px;
+            left: 0;
+            color: #2be40f;
+            background: linear-gradient(to top right , rgba(51, 51, 51, 0.815), #000);
+            text-align: left;
+            padding-left: 10px;
+            font-weight: 100;
+            box-shadow: 0 2px 6px #333;
+        }
+        
     }
 </style>

@@ -73,7 +73,7 @@ function init() {
 	<title>The Coding Panda | Home</title>
 </svelte:head>
 <section>
-    <div class="bg-img"></div>
+    <!-- <div class="bg-img"></div> -->
     <div class="header-content">
         <p class="small">Siamo programmatori con la passione per le nuove tecnologie</p>
          <p class="bold">Creiamo contenuti speciali a proposito di</p>
@@ -81,7 +81,7 @@ function init() {
         <span class="txt-type" data-wait="3000" data-words='["Blockchain", "Cryptovalute", "WEB3", "Programmazione Web", "Live Hackathon", "Hacker Rank", "Automazione Bot", "Animazioni Avanzate"]'></span>
         </div>
     </div>
-
+<div class="blog-container">
     <div id="blog">
         <h2 class="category">🔥🔥 TRENDING</h2>
         <BlogCard content="test"/>
@@ -101,6 +101,8 @@ function init() {
         <BlogCard content="test"/>
         <BlogCard content="test"/>
         <BlogCard content="test"/>
+    </div>
+    
     </div>
 </section>
 
@@ -126,11 +128,11 @@ function init() {
         justify-content: center;
     }
 
-    .bg-img{
-        /* background-image: url("./landing/cover-block.jpg");
+    /* .bg-img{
+        background-image: url("./landing/cover-block.jpg");
         background-size: cover;
         background-position: center;
-        background-repeat: no-repeat; */
+        background-repeat: no-repeat;
          position: absolute;
         top: 0;
         left: 0;
@@ -138,11 +140,11 @@ function init() {
         height: 100%;
         z-index: 1;
         opacity: .4;
-    }
+    } */
 
     .header-content{
         z-index: 2;
-        padding: 10%;
+        padding: 5%;
     }
     
  
@@ -183,8 +185,7 @@ function init() {
         flex-direction: row;
         text-align: left;
         flex-wrap: wrap;
-        gap: .75rem;
-        padding: 1rem 1.75rem;
+        
     }
     @media (max-width:450px){
         section {

@@ -16,8 +16,8 @@
     main{
         position: relative;
         flex: 1;
-        margin-top: 30px;
-        padding: 10%;
+        
+        padding: 5%;
         min-height: 100vh;
         overflow: hidden !important;
     }
@@ -31,7 +31,7 @@
     }
     @media screen and (max-width: 600px){
         main{
-            padding: 10% 0;
+            margin-top: 30px;
         }
     }
 </style>
