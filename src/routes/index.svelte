@@ -1,5 +1,6 @@
 <script>
    import { onMount } from 'svelte';
+   import BlogCard from '$lib/components/BlogCard.svelte';
 class TypeWriter {
 	constructor(txtElement, words, wait = 1000) {
 		this.txtElement = txtElement;
@@ -80,6 +81,27 @@ function init() {
         <span class="txt-type" data-wait="3000" data-words='["Blockchain", "Cryptovalute", "WEB3", "Programmazione Web", "Live Hackathon", "Hacker Rank", "Automazione Bot", "Animazioni Avanzate"]'></span>
         </div>
     </div>
+
+    <div id="blog">
+        <h2 class="category">🔥🔥 TRENDING</h2>
+        <BlogCard content="test"/>
+        <BlogCard content="test"/>
+        <BlogCard content="test"/>
+    </div>
+
+    <div id="blog">
+        <h2 class="category">🎬🎬 VIDEO TUTORIAL</h2>
+        <BlogCard content="test"/>
+        <BlogCard content="test"/>
+        <BlogCard content="test"/>
+    </div>
+
+     <div id="blog">
+        <h2 class="category">👩‍💻👨‍💻 BLOCKCHAIN</h2>
+        <BlogCard content="test"/>
+        <BlogCard content="test"/>
+        <BlogCard content="test"/>
+    </div>
 </section>
 
 <style>
@@ -100,7 +122,7 @@ function init() {
         display: flex;
         position: relative;
         width: 100%;
-        height: 500px;
+        height: 200px;
         justify-content: center;
     }
 
@@ -146,6 +168,24 @@ function init() {
         margin-top: 20px;
         font-weight: 700;
     }
+
+    .category{
+        flex: 100%;
+        text-transform: uppercase;
+        color: #333 ;
+        padding: 1rem;
+        border-bottom: 1px solid #ccc;
+        font-weight: 100;
+        margin-top: 3rem;
+    }
+    #blog{
+        display: flex;
+        flex-direction: row;
+        text-align: left;
+        flex-wrap: wrap;
+        gap: .75rem;
+        padding: 1rem 1.75rem;
+    }
     @media (max-width:450px){
         section {
             text-align: left;
@@ -155,14 +195,19 @@ function init() {
             padding: 5%;
         }
         .small {
-            font-size: 1rem;
+            font-size: 1.3rem;
         }
         .bold{
-            font-size: 1.5rem;
+            font-size: 1.8rem;
         }
         .txt-type{
             font-size: 2.5rem;
             letter-spacing: 1.5px;
+        }
+    }
+     @media screen and (max-width:600px){
+        #blog{
+            justify-content: center;
         }
     }
 </style>

@@ -6,7 +6,7 @@
 
 <div id="blog">
     {#each categories as category}
-        <h2>{category}</h2>
+        <h2 class="category">{category}</h2>
             {#each Object.values(articles) as article}
                 {#if category === article.category}
                     <BlogCard content={article}/>
@@ -18,13 +18,14 @@
 <style>
     
 
-    h2{
+    .category{
         flex: 100%;
         text-transform: uppercase;
         color: #333 ;
         padding: 1rem;
         border-bottom: 1px solid #ccc;
         font-weight: 100;
+        margin-top: 3rem;
     }
     #blog{
         display: flex;

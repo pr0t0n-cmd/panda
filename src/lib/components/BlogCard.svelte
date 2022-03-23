@@ -18,16 +18,17 @@
 
 </a>
 <style>
+    
     a{
         position: relative;
         padding: 1rem;
-        width: 320px;
-        height: 400px;
+        width: 280px;
+        height: 380px;
         box-shadow: 2px 2px 7px #00000030;
         text-decoration: none;
         display: flex;
         flex-direction: column;
-        margin-top: 3rem;
+        margin-top: 1rem;
         margin-left: 1rem;
         margin-right: 1rem;
     }

@@ -75,7 +75,7 @@
       <p class="f-bk">@thecodingpanda</p>
     </div>
 
-    <div style="display: flex; justify-content:flex-end">
+    <div class="top-arrow-container">
       <a href="#main" style="width: fit-content;">
           <img class="top-arrow-mobile" src="/icone/arrow-top.svg" alt="Scroll to Top">
       </a>
@@ -90,11 +90,12 @@
 <style>
  footer {
   background: linear-gradient(to top right, #333, #000);
-  margin-top: -2.5rem;
   position: relative;
   display: flex;
   flex-direction: column;
   color: #fff;
+  height: 500px;
+  justify-content: space-evenly;
 }
 
 .f-box-container {
@@ -251,11 +252,20 @@ color: #2be40f !important;
     margin: 10px;
   }
 
-  @media (max-width: 600px) {
+  .top-arrow-container{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+  }
+
+  @media only screen and (max-width: 450px) {
+    footer{
+      min-height: 100vh;
+      justify-content: space-around;
+    }
     .top-arrow-mobile{
     display: block;
   }
-
    .top-arrow{
     display: none;
   }
@@ -280,22 +290,14 @@ color: #2be40f !important;
     padding-bottom: 0;
   }
 
-  footer {
-    background: linear-gradient(to top right, #333, #000);
-    height: max-content;
-    margin-top: -2.5rem;
-    position: relative;
-    display: flex;
+  footer { 
     flex-direction: column;
-    color: #fff;
-    padding: 1rem;
   }
 
   .f-box-container {
     max-width: 100%;
     display: flex;
     margin: 0 auto;
-    margin-top: 7rem;
     flex-direction: row;
   }
 
