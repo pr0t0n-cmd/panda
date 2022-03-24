@@ -74,7 +74,7 @@ function init() {
 </svelte:head>
 <section>
     <div style="max-width: 1000px;">
-        <video width="100%" height="100%" controls>
+        <video width="100%" height="100%" controls poster="blog/Capture.PNG">
             <source src="blog/test.mp4" type="video/mp4">
         </video>
     </div>
