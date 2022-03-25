@@ -73,11 +73,11 @@ function init() {
 	<title>The Coding Panda | Home</title>
 </svelte:head>
 <section>
-    <div style="max-width: 1000px;">
+    <!-- <div style="max-width: 1000px;">
         <video width="100%" height="100%" controls poster="blog/Capture.PNG">
             <source src="blog/test.mp4" type="video/mp4">
         </video>
-    </div>
+    </div> -->
     <!-- <div class="bg-img"></div> -->
     <div class="header-content">
         <p class="small">Siamo programmatori con la passione per le nuove tecnologie</p>
