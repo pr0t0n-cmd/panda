@@ -1,4 +1,5 @@
 <script>
+    export let author
     export let content
 
     let cardImageStyle = 
@@ -8,17 +9,29 @@
         `background: url(/favicon.png), linear-gradient(45deg, #00000085 100%, #00000015 0%); `
 </script>
 
-<a href={`/blog/articles/${content.category}/${content.link}`} >
-    <div style={cardImageStyle} class="img-sfondo"></div>
-    <div class="card-content">
-        <h2>{content.title}</h2>
-        <h4>{content.description}</h4>
-    </div>
-    
-
-</a>
+{#if typeof content != "string"}
+    <a href={`/blog/articles/${content.category}/${content.link}`} >
+        <div style={cardImageStyle} class="img-sfondo"></div>
+        <div class="card-content">
+            <h2>{content.title}</h2>
+            <h4>{content.description}</h4>
+        </div>
+    </a>
+{:else}
+    <p>🤦‍♂️{content}<span class="author"> - 👨{author}</span></p>
+{/if}
 <style>
-    
+
+    .author{
+        color: #b5b5b5;
+        font-size: smaller;
+        font-style: italic;
+    }
+
+    p{
+        flex-basis: 100%;
+    }
+
     a{
         position: relative;
         padding: 1rem;

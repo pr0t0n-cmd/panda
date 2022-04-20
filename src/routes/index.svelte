@@ -1,59 +1,10 @@
 <script>
    import { onMount } from 'svelte';
    import BlogCard from '$lib/components/BlogCard.svelte';
-class TypeWriter {
-	constructor(txtElement, words, wait = 1000) {
-		this.txtElement = txtElement;
-		this.words = words;
-		this.txt = '';
-		this.wordIndex = 0;
-		this.wait = parseInt(wait, 10);
-		this.type();
-		this.isDeleting = false;
-	}
-
-	type() {
-		// Current index of word
-		const current = this.wordIndex % this.words.length;
-		// Get full text of current word
-		const fullTxt = this.words[current];
-
-		// Check if deleting
-		if (this.isDeleting) {
-			// Remove char
-			this.txt = fullTxt.substring(0, this.txt.length - 1);
-		} else {
-			// Add char
-			this.txt = fullTxt.substring(0, this.txt.length + 1);
-		}
-
-		// Insert txt into element
-		this.txtElement.innerHTML = this.txt;
-
-		// Initial Type Speed
-		let typeSpeed = 100;
-
-		if (this.isDeleting) {
-			typeSpeed /= 2;
-		}
-
-		// If word is complete
-		if (!this.isDeleting && this.txt === fullTxt) {
-			// Make pause at end
-			typeSpeed = this.wait;
-			// Set delete to true
-			this.isDeleting = true;
-		} else if (this.isDeleting && this.txt === '') {
-			this.isDeleting = false;
-			// Move to next word
-			this.wordIndex++;
-			// Pause before start typing
-			typeSpeed = 500;
-		}
-
-		setTimeout(() => this.type(), typeSpeed);
-	}
-}
+   import { articles } from '$lib/data/articles.json';
+    import { categories } from '$lib/data/categories.json';
+    import { TypeWriter } from '$lib/classes/Typewriter';
+    console.log(articles)
 
 // Init On DOM Load
 onMount(init);
@@ -64,7 +15,7 @@ function init() {
 	const words = JSON.parse(txtElement.getAttribute('data-words'));
 	const wait = txtElement.getAttribute('data-wait');
 	// Init TypeWriter
-	new TypeWriter(txtElement, words, wait);
+	new TypeWriter(txtElement, words, parseInt(wait));
 }
 
 
@@ -73,42 +24,34 @@ function init() {
 	<title>The Coding Panda | Home</title>
 </svelte:head>
 <section>
-    <!-- <div style="max-width: 1000px;">
-        <video width="100%" height="100%" controls poster="blog/Capture.PNG">
-            <source src="blog/test.mp4" type="video/mp4">
-        </video>
-    </div> -->
-    <!-- <div class="bg-img"></div> -->
     <div class="header-content">
         <p class="small">Siamo programmatori con la passione per le nuove tecnologie</p>
-         <p class="bold">Creiamo contenuti speciali a proposito di</p>
-         <div class="dynamic-text-container">
-        <span class="txt-type" data-wait="3000" data-words='["Blockchain", "Cryptovalute", "WEB3", "Programmazione Web", "Live Hackathon", "Hacker Rank", "Automazione Bot", "Animazioni Avanzate"]'></span>
+        <p class="bold">Creiamo contenuti speciali a proposito di</p>
+        <div class="dynamic-text-container">
+            <span class="txt-type" data-wait="3000" data-words='["Blockchain", "Cryptovalute", "WEB3", "Programmazione Web", "Live Hackathon", "Hacker Rank", "Automazione Bot", "Animazioni Avanzate"]'></span>
         </div>
     </div>
 <div class="blog-container">
     <div id="blog">
         <h2 class="category">🔥🔥 TRENDING</h2>
-        <BlogCard content="test"/>
-        <BlogCard content="test"/>
-        <BlogCard content="test"/>
+        <BlogCard author="" content={articles['anchor-protocol']}/>
+        <BlogCard author="" content={articles['anchor-protocol']}/>
+        <BlogCard author="" content={articles['anchor-protocol']}/>
     </div>
-
     <div id="blog">
-        <h2 class="category">🎬🎬 VIDEO TUTORIAL</h2>
-        <BlogCard content="test"/>
-        <BlogCard content="test"/>
-        <BlogCard content="test"/>
+        <h2 class="category">🔥🔥 TRENDING</h2>
+        <BlogCard author="andrea" content="Previsioni Shiba inu 2030"/>
+        <BlogCard author="giorgio" content="Come comprare le critovalute su Binance"/>
+        <BlogCard author="andrea" content="Come comprare le critovalute su Coinbase"/>
+        <BlogCard author="giorgio" content="Come scambiare le critovalute su Metamask"/>
+        <BlogCard author="giorgio" content="Come comprare un NFT"/>
+        <BlogCard author="andrea" content="Come creare un NFT"/>
+        <BlogCard author="giorgio" content="Come vendere un NFT"/>
+        <BlogCard author="giorgio" content="Come usare CoinMarketcap"/>
+        <BlogCard author="andrea" content="Come entrare nel metaverso in soli 5 minuti"/>
+        <BlogCard author="andrea" content="Come creare un portafoglio su Metamask"/>
     </div>
-
-     <div id="blog">
-        <h2 class="category">👩‍💻👨‍💻 BLOCKCHAIN</h2>
-        <BlogCard content="test"/>
-        <BlogCard content="test"/>
-        <BlogCard content="test"/>
-    </div>
-    
-    </div>
+</div>
 </section>
 
 <style>
@@ -133,20 +76,6 @@ function init() {
         justify-content: center;
     }
 
-    /* .bg-img{
-        background-image: url("./landing/cover-block.jpg");
-        background-size: cover;
-        background-position: center;
-        background-repeat: no-repeat;
-         position: absolute;
-        top: 0;
-        left: 0;
-        width: 100%;
-        height: 100%;
-        z-index: 1;
-        opacity: .4;
-    } */
-
     .header-content{
         z-index: 2;
         padding: 5%;
@@ -167,12 +96,14 @@ function init() {
     }
 
     .txt-type{
+        font-family: 'Press Start 2P', cursive;
         text-align: center;
-        font-size: 4.5rem;
+        font-size: 2.5rem;
         text-transform: uppercase;
-        color: #2be40f;
+        color: #000;
         letter-spacing: 2px;
-        margin-top: 20px;
+        text-shadow: 0px 0px 5px #2be40f;
+        margin-top: 50px;
         font-weight: 700;
     }
 
