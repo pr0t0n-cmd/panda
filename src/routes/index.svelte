@@ -1,11 +1,11 @@
 <script>
-   import { onMount } from 'svelte';
-   import BlogCard from '$lib/components/BlogCard.svelte';
-   import { articles } from '$lib/data/articles.json';
-    import { categories } from '$lib/data/categories.json';
+    import { MetaTags, JsonLd } from 'svelte-meta-tags';
+    import { onMount } from 'svelte';
+    import BlogCard from '$lib/components/BlogCard.svelte';
+    import { articles } from '$lib/data/articles.json';
+    import { categories2 } from '$lib/data/categories.json';
     import { TypeWriter } from '$lib/classes/Typewriter';
-    console.log(articles)
-
+    
 // Init On DOM Load
 onMount(init);
 
@@ -25,21 +25,23 @@ function init() {
 </svelte:head>
 <section>
     <div class="header-content">
-        <p class="small">Siamo programmatori con la passione per le nuove tecnologie</p>
-        <p class="bold">Creiamo contenuti speciali a proposito di</p>
+        <!-- <p class="small">Siamo programmatori con la passione per le nuove tecnologie</p>
+        <p class="bold">Creiamo contenuti speciali a proposito di</p> -->
         <div class="dynamic-text-container">
-            <span class="txt-type" data-wait="3000" data-words='["Blockchain", "Cryptovalute", "WEB3", "Programmazione Web", "Live Hackathon", "Hacker Rank", "Automazione Bot", "Animazioni Avanzate"]'></span>
+            <h1>
+            <span class="txt-type" data-wait="3000" data-words={categories2}></span>
+            </h1>
         </div>
     </div>
 <div class="blog-container">
     <div id="blog">
         <h2 class="category">🔥🔥 TRENDING</h2>
-        <BlogCard author="" content={articles['anchor-protocol']}/>
-        <BlogCard author="" content={articles['anchor-protocol']}/>
+        <BlogCard author="" content={articles['guerra-crittografica']}/>
+        <BlogCard author="" content={articles['blockchain-island']}/>
         <BlogCard author="" content={articles['anchor-protocol']}/>
     </div>
     <div id="blog">
-        <h2 class="category">🔥🔥 TRENDING</h2>
+        <h2 class="category">🚧🚧 LAVORI IN CORSO</h2>
         <BlogCard author="andrea" content="Previsioni Shiba inu 2030"/>
         <BlogCard author="giorgio" content="Come comprare le critovalute su Binance"/>
         <BlogCard author="andrea" content="Come comprare le critovalute su Coinbase"/>
@@ -78,7 +80,6 @@ function init() {
 
     .header-content{
         z-index: 2;
-        padding: 5%;
     }
     
  
@@ -95,17 +96,19 @@ function init() {
         color: #333;
     }
 
-    .txt-type{
-        font-family: 'Press Start 2P', cursive;
-        text-align: center;
-        font-size: 2.5rem;
-        text-transform: uppercase;
-        color: #000;
-        letter-spacing: 2px;
-        text-shadow: 0px 0px 5px #2be40f;
-        margin-top: 50px;
-        font-weight: 700;
-    }
+
+    h1 .txt-type{
+        font-family: "NNRektoratSTD-HeavyRe";
+    text-align: center;
+    font-size: 4rem;
+    text-transform: uppercase;
+    color: white;
+    letter-spacing: 4px;
+    text-shadow: 3px 3px 7px #333;
+    margin-top: 50px;
+    font-weight: 700;
+}
+    
 
     .category{
         flex: 100%;
@@ -137,7 +140,7 @@ function init() {
         .bold{
             font-size: 1.8rem;
         }
-        .txt-type{
+        h1 .txt-type{
             font-size: 2.5rem;
             letter-spacing: 1.5px;
         }

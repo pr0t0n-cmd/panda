@@ -1,10 +1,2 @@
-export let categories = [
-	'blockchain',
-	'web3',
-	'programmazione-web',
-	'live-hackathon',
-	'hacker-rank',
-	'automazione-bot',
-	'cryptovalute',
-	'animazioni-avanzate'
-];
+export let categories2 = new Array('["blockchain", "crypto", "nft", "coding", "defi", "dao"]');
+export let categories = ["blockchain", "crypto", "nft", "coding", "defi", "dao"];

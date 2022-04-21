@@ -6,9 +6,9 @@
 
 <span>
     <ul>
-        {#each Object.values(content) as article}
+        {#each Object.values(content) as category}
             <li>
-                <a href={`/blog/articles/${article.category}/${article.link}`} use:clickoutside={toggle}>{article.title}</a>
+                <a href={`/blog/${category}`} use:clickoutside={toggle}>{category}</a>
             </li>
         {/each}
     </ul>

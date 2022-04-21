@@ -5,7 +5,7 @@ export let articles = {
 			"Analizziamo come mai ai tempi della seconda guerra mondiale l'utilizzo della crittografia assimetrica spaventava i governi ed era considerata quasi illegale",
 		link: 'guerra-crittografica',
 		topImage: 'blog/guerra-crittografica/guerra-crittografica.jpeg',
-		category: 'blockchain',
+		category: 'crypto',
 		date: '22/3/2022',
 		modulo: '1'
 	},
@@ -23,7 +23,7 @@ export let articles = {
 		description: 'Come guadagnare utilizzando Terra ed il protocollo Anchor',
 		link: 'anchor-protocol',
 		topImage: 'anchor.png',
-		category: 'blockchain',
+		category: 'defi',
 		date: '18/3/2022'
 	}
 };

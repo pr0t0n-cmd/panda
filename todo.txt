@@ -1,0 +1,2 @@
+- Utilizzare file categories.json.js come fonte dati unica da passare dentro la home testo scorrevole e post
+- Menu navigazione visualizzare categorie nel menu a tendina dei post 

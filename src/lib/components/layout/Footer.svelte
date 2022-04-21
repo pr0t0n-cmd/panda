@@ -197,7 +197,11 @@ p{
   color: #fff;
   text-transform: uppercase;
   font-size: .9rem;
+  
 }
+
+
+
  
 
 .newsletter input:focus + span #subscribe {
@@ -205,8 +209,14 @@ color: #2be40f !important;
 
 }
 
-.newsletter span {
+.newsletter span p{
   margin-left: .5rem;
+}
+
+
+.newsletter input span:hover:after {
+	width: 80%;
+	background: #2be40f;
 }
 
 .f-box .newsletter span p {
@@ -214,6 +224,24 @@ color: #2be40f !important;
   font-size: .8rem;
   margin-bottom: 0;
   transition: all .5s;
+  
+  display: inline-block;
+	position: relative;
+}
+
+.f-box .newsletter span p:after {
+  content: '';
+	display: block;
+	margin: auto;
+	height: 1px;
+	width: 0px;
+	background: transparent;
+	transition: width .5s ease, background-color .5s ease;
+}
+
+.f-box .newsletter span:hover p:after {
+	width: 100%;
+	background: #2be40f;
 }
 
 .newsletter span:hover {
