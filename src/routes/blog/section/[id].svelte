@@ -1,16 +1,16 @@
 <script>
-    import { articles } from '$lib/data/articles.json';
-    import { categories } from '$lib/data/categories.json';
-    import BlogCard from '$lib/components/BlogCard.svelte';
-
-  
+  // populated with data from the endpoint
+  import { articles } from '$lib/data/articles.json';
+  import BlogCard from '$lib/components/BlogCard.svelte';
+  export let item;
+  console.log(item)
 </script>
 
 <div id="blog">
-  <h2 class="category">Crypto</h2>
+  <h2 class="category">{item.title}</h2>
             {#each Object.values(articles) as article}
-                {#if article.category === "crypto"}
-                    <BlogCard content={article}/>
+                {#if article.category === item.title}
+                    <BlogCard author="" content={article}/>
                 {/if}
             {/each}
 </div>

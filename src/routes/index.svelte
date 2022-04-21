@@ -2,7 +2,7 @@
     import { onMount } from 'svelte';
     import BlogCard from '$lib/components/BlogCard.svelte';
     import { articles } from '$lib/data/articles.json';
-    import { categories2 } from '$lib/data/categories.json';
+    import { category } from '$lib/data/categories';
     import { TypeWriter } from '$lib/classes/Typewriter';
 
     
@@ -18,6 +18,22 @@ function init() {
 	new TypeWriter(txtElement, words, parseInt(wait));
 }
 
+let categoryString = ''
+
+Object.keys(category).forEach((element, idx) => {
+    if (Object.keys(category).length - idx === 1){
+        categoryString += `"${element.toString()}"`
+    } else{
+        categoryString += `"${element.toString()}", `
+    }
+    console.log(categoryString)
+});
+
+console.log(Object.keys(category).length)
+
+categoryString = `[${categoryString}]`
+
+console.log(categoryString)
 
 </script>
 <svelte:head>
@@ -30,7 +46,7 @@ function init() {
         <div class="dynamic-text-container">
             <h1>
             <!-- <span class="txt-type" data-wait="3000" data-words={categories2}></span> -->
-            <span class="txt-type" data-wait="3000" data-words={categories2}></span>
+            <span class="txt-type" data-wait="3000" data-words={categoryString}></span>
             </h1>
         </div>
     </div>

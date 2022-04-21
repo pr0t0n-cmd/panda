@@ -8,7 +8,7 @@
     <ul>
         {#each Object.values(content) as category}
             <li>
-                <a href={`/blog/${category}`} use:clickoutside={toggle}>{category}</a>
+                <a href={`/blog/section/${category}`} use:clickoutside={toggle}>{category}</a>
             </li>
         {/each}
     </ul>

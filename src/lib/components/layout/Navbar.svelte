@@ -1,6 +1,6 @@
 <script>
     import { articles } from '$lib/data/articles.json'
-    import { categories, category } from '$lib/data/categories.json'
+    import { category } from '$lib/data/categories'
     import NavDropdown from '$lib/components/layout/NavDropdown.svelte'
     
 
@@ -33,8 +33,8 @@
     function toggle(){
         showModal = !showModal
     }
-    function openModal(event){
-        showModal = true;
+    function toggleModal(event){
+        showModal = !showModal;
         event.stopPropagation();
     }
 	let showModal = false;
@@ -50,7 +50,7 @@
             </li>
             <li>
                 <a href="/blog">Post</a>
-                <span on:click={openModal}><img src="/icone/arrowdown.png" class="arrow" alt="expand dropdown" /></span>
+                <span on:click={toggleModal}><img src="/icone/arrowdown.png" class="arrow" alt="expand dropdown" /></span>
                 {#if showModal}
                     <NavDropdown content={array} clickoutside={clickOutside} toggle={toggle}/>
                 {/if}
@@ -62,6 +62,9 @@
     </nav>
 
     <style>
+        img{
+            width: 80px;
+        }
     nav{
         height: 70px;
         display: flex;
@@ -124,10 +127,10 @@ li:hover:after {
 	}
 
     .arrow{
-        width: 10px;
+        width: 25px;
         position: absolute;
-        right: 0;
-        top: 0;
+        right: -15px;
+        top: 0px;
     }
 
 @media (max-width: 600px) {

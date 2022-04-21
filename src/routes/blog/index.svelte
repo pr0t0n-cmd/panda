@@ -1,6 +1,6 @@
 <script>
     import { articles } from '$lib/data/articles.json';
-    import { categories, category } from '$lib/data/categories.json';
+    import { category } from '$lib/data/categories';
     import BlogCard from '$lib/components/BlogCard.svelte';
 
     let array = [];
@@ -14,7 +14,7 @@
         <h2 class="category">{element}</h2>
             {#each Object.values(articles) as article}
                 {#if element === article.category}
-                    <BlogCard content={article}/>
+                    <BlogCard author="" content={article}/>
                 {/if}
             {/each}
     {/each}
