@@ -18,7 +18,7 @@
         </div>
     </a>
 {:else}
-    <p>🤦‍♂️{content}<span class="author"> - 👨{author}</span></p>
+    <p>🤦‍♂️{content}<span class="author"> - 💂🏼‍♂️ {author}</span></p>
 {/if}
 <style>
 
