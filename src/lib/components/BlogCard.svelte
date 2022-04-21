@@ -34,7 +34,7 @@
 
     a{
         position: relative;
-        padding: 1rem;
+        padding: 10px;
         width: 280px;
         height: 380px;
         box-shadow: 2px 2px 7px #00000030;
@@ -57,7 +57,7 @@
    
 
     h2{
-        text-align: center;
+        text-align: left;
         margin-bottom: 1rem;
         font-weight: 700;
         text-transform: uppercase;
@@ -70,7 +70,7 @@
         display: flex;
         flex-direction: column;
         align-items: flex-start;
-        padding: 10px;
+        padding: 10px 0px;
         margin-top: 150px;
         color: #333;
     }
@@ -104,12 +104,13 @@
             position: absolute;
             top: 0px;
             left: 0;
-            color: #2be40f;
+            color: #fff;
             background: linear-gradient(to top right , rgba(51, 51, 51, 0.815), #000);
             text-align: left;
             padding-left: 10px;
             font-weight: 100;
             box-shadow: 0 2px 6px #333;
+            text-shadow: 0px 0px 3px #fff;
         }
         
     }

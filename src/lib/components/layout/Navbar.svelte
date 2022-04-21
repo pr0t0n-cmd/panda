@@ -70,6 +70,7 @@
         align-items: center;
         z-index: 99;
         font-size: 1rem;
+        background: linear-gradient(to top right, #333, #000);
     }
 
     span{
@@ -81,7 +82,7 @@
 
     
 a {
-    color: #333;
+    color: #fff;
     text-decoration: none;
     padding: .25rem .75rem;
     font-family: 'Mukta', sans-serif;

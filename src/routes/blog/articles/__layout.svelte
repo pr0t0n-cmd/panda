@@ -52,7 +52,7 @@
     }
 
     a{
-        color: #333;
+        color: #fff;
     }
 
     :global(.blog-style h3) {
@@ -108,7 +108,6 @@
     background-color: #befabc;
     border-top: 1px solid #90e189;
     border-bottom: 1px solid #89e189;
- 
     background-image: url(images/openquote1.gif);
     background-position: top left;
     background-repeat: no-repeat;
@@ -119,6 +118,10 @@
     background-image: url(images/closequote1.gif);
     background-repeat: no-repeat;
     background-position: bottom right;
+    }
+
+    :global(.blog-style blockquote p) {
+    color: #333;
     }
 
     /* caption for things in the img-wrapper */

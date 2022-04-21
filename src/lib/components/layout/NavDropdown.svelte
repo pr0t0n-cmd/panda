@@ -53,7 +53,7 @@
     }
     a{
         text-decoration: none;
-        color: #333;
+        color: #fff;
         font-family: 'Mukta', sans-serif;
         letter-spacing: 2px;
         font-weight: 200;

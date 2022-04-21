@@ -30,7 +30,7 @@ function init() {
         <div class="dynamic-text-container">
             <h1>
             <!-- <span class="txt-type" data-wait="3000" data-words={categories2}></span> -->
-            <span class="txt-type" data-wait="3000" data-words='["Programmazione"]'></span>
+            <span class="txt-type" data-wait="3000" data-words={categories2}></span>
             </h1>
         </div>
     </div>
@@ -90,9 +90,9 @@ function init() {
     text-align: center;
     font-size: 4rem;
     text-transform: uppercase;
-    color: white;
+    color: #fff;
     letter-spacing: 4px;
-    text-shadow: 3px 3px 7px #333;
+    text-shadow: 0px 0px 6px #fff;
     margin-top: 50px;
     font-weight: 700;
 }
@@ -101,9 +101,9 @@ function init() {
     .category{
         flex: 100%;
         text-transform: uppercase;
-        color: #333 ;
+        color: #fff ;
         padding: 1rem;
-        border-bottom: 1px solid #ccc;
+        border-bottom: 1px solid #fff;
         font-weight: 100;
         margin-top: 3rem;
     }
