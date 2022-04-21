@@ -58,7 +58,7 @@ console.log(categoryString)
         <BlogCard author="" content={articles['anchor-protocol']}/>
     </div>
     <div id="blog">
-        <h2 class="category">🚧🚧 LAVORI IN CORSO</h2>
+        <h2 class="category">🚧🚧 POST</h2>
         <BlogCard author="andrea" content="Previsioni Shiba inu 2030"/>
         <BlogCard author="giorgio" content="Come comprare le critovalute su Binance"/>
         <BlogCard author="andrea" content="Come comprare le critovalute su Coinbase"/>
@@ -69,6 +69,10 @@ console.log(categoryString)
         <BlogCard author="giorgio" content="Come usare CoinMarketcap"/>
         <BlogCard author="andrea" content="Come entrare nel metaverso in soli 5 minuti"/>
         <BlogCard author="andrea" content="Come creare un portafoglio su Metamask"/>
+    </div>
+    <div id="blog">
+        <h2 class="category">🚧🚧 LAVORI IN CORSO</h2>
+        <BlogCard author="andrea" content="Pop-up donazione ETH🐱‍🚀"/>
     </div>
 </div>
 </section>
