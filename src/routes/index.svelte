@@ -83,7 +83,7 @@ function init() {
     }
     
  
-    .small {
+    /* .small {
         font-size: 1.5rem;
         color: #333;
     }
@@ -94,7 +94,7 @@ function init() {
         text-transform: uppercase;
         margin: .5rem 0;
         color: #333;
-    }
+    } */
 
 
     h1 .txt-type{
@@ -134,12 +134,12 @@ function init() {
         .header-content{
             padding: 5%;
         }
-        .small {
+        /* .small {
             font-size: 1.3rem;
         }
         .bold{
             font-size: 1.8rem;
-        }
+        } */
         h1 .txt-type{
             font-size: 2.5rem;
             letter-spacing: 1.5px;
