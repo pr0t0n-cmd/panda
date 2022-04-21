@@ -76,6 +76,9 @@ console.log(categoryString)
         <BlogCard author="andrea" content="Newsletter mailchimp🙊"/>
         <BlogCard author="andrea" content="Rimuovere social📷"/>
         <BlogCard author="giorgio" content="Integrazione Metamask🦊"/>
+        <BlogCard author="andrea" content="Dark-mode"/>
+        <BlogCard author="giorgio" content="Vite image plugin"/>
+        <BlogCard author="andrea" content="plugin SEO"/>
     </div>
 </div>
 </section>
