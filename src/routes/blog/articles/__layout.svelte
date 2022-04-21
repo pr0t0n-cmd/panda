@@ -51,6 +51,10 @@
     font-weight: 100;
     }
 
+    a{
+        color: #333;
+    }
+
     :global(.blog-style h3) {
     color: rgba(101, 112, 139, 0.7);
     /* padding-top: 2%; */

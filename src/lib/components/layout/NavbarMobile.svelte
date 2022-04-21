@@ -18,14 +18,14 @@
     <ul class="menu">
       <li on:click={handleNav} class="menu-item"><a href="/">Home</a></li>
       <li on:click={handleNav} class="menu-item"><a href="/blog">Post</a></li>
-      <li on:click={handleNav} class="menu-item"><a href="/about">About</a></li>
+      <!-- <li on:click={handleNav} class="menu-item"><a href="/about">About</a></li> -->
       
     </ul>
     <div class="shop icon icon-bag"></div>
   </navbar>
 
   <style>
-    @import url(https://fonts.googleapis.com/css?family=Ek+Mukta:200);
+    
 
 .navbar {
   position: absolute;
@@ -121,7 +121,7 @@
   display: block;
   position: relative;
   color: #fff;
-  font-family: "Ek Mukta", sans-serif;
+  font-family: 'Mukta', sans-serif;
   font-weight: 100;
   text-decoration: none;
   font-size: 22px;
@@ -129,6 +129,7 @@
   font-weight: 200;
   width: 100%;
   color: #2be40f;
+  letter-spacing: 2px;
   text-shadow: 0px 0px 10px #93ff0050;
 }
  .navbar.menuOpened {

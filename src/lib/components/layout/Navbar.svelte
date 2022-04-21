@@ -55,15 +55,15 @@
                     <NavDropdown content={array} clickoutside={clickOutside} toggle={toggle}/>
                 {/if}
             </li>
-            <li>
+            <!-- <li>
                 <a href="/about">About</a>
-            </li>
+            </li> -->
         </ul>
     </nav>
 
     <style>
     nav{
-        height: 50px;
+        height: 70px;
         display: flex;
         flex-direction: column;
         justify-content: flex-end;
@@ -84,7 +84,9 @@ a {
     color: #333;
     text-decoration: none;
     padding: .25rem .75rem;
-    font-weight: 100;
+    font-family: 'Mukta', sans-serif;
+    font-weight: 200;
+    font-size: 18px;
     text-transform: uppercase;
     letter-spacing: 2px;
 }

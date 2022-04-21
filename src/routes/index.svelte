@@ -29,7 +29,8 @@ function init() {
         <p class="bold">Creiamo contenuti speciali a proposito di</p> -->
         <div class="dynamic-text-container">
             <h1>
-            <span class="txt-type" data-wait="3000" data-words={categories2}></span>
+            <!-- <span class="txt-type" data-wait="3000" data-words={categories2}></span> -->
+            <span class="txt-type" data-wait="3000" data-words='["Programmazione"]'></span>
             </h1>
         </div>
     </div>
@@ -82,23 +83,10 @@ function init() {
         z-index: 2;
     }
     
- 
-    /* .small {
-        font-size: 1.5rem;
-        color: #333;
-    }
-
-    .bold{
-        font-weight: 700;
-        font-size: 2.5rem;
-        text-transform: uppercase;
-        margin: .5rem 0;
-        color: #333;
-    } */
 
 
     h1 .txt-type{
-        font-family: "NNRektoratSTD-HeavyRe";
+    font-family: "NNRektoratSTD-HeavyRe";
     text-align: center;
     font-size: 4rem;
     text-transform: uppercase;
@@ -124,9 +112,25 @@ function init() {
         flex-direction: row;
         text-align: left;
         flex-wrap: wrap;
-        
     }
-    @media (max-width:450px){
+
+      @media screen and (max-width:800px){
+         h1 .txt-type{
+            font-size: 3rem;
+            letter-spacing: 2.5px;
+        }
+    }
+   
+     @media screen and (max-width:600px){
+        #blog{
+            justify-content: center;
+        }
+         h1 .txt-type{
+            font-size: 2.5rem;
+            letter-spacing: 2px;
+        }
+    }
+     @media (max-width:450px){
         section {
             text-align: left;
             padding: 1rem;
@@ -134,20 +138,16 @@ function init() {
         .header-content{
             padding: 5%;
         }
-        /* .small {
-            font-size: 1.3rem;
-        }
-        .bold{
-            font-size: 1.8rem;
-        } */
         h1 .txt-type{
-            font-size: 2.5rem;
-            letter-spacing: 1.5px;
+            font-size: 2rem;
+            letter-spacing: 1px;
         }
     }
-     @media screen and (max-width:600px){
-        #blog{
-            justify-content: center;
+    @media (max-width:350px){
+      
+        h1 .txt-type{
+            font-size: 1.7rem;
+            letter-spacing: 1px;
         }
     }
 </style>

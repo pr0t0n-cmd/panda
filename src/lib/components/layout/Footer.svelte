@@ -9,13 +9,9 @@
     <div class="f-box-container">
 
       <div class="f-box">
-        <p class="f-bold">The Coding Panda</p>
-        <p class="f-bk">thecodingpanda.dev</p>
-        <!-- <p class="f-bold-s">ITALIA</p>
-        <p class="f-bk">Corso Magenta 46, 20123 <span class="f-bold-s">Milano</span> </p>
-        <p class="f-bk">Tel. 0039 02.48.01.30.81</p>
-        <p class="f-bk">Fax. 0039 02.48.01.14.86</p>
-        <p class="f-bk">cromm@cromm.it</p> -->
+        <p class="f-bold">Contatti</p>
+        
+        <p style="font-size: 0.8rem; letter-spacing:1px; margin-top: 6px"><i class="fa-solid fa-envelope" style="margin-right: 5px;"></i>thecodingpanda.dev@gmail.com</p>
       </div>
 
       <div class="f-box">
@@ -24,11 +20,6 @@
           <input type="text">
           <span id="iscriviti"> <p id="subscribe">Iscriviti</p> </span>
         </div>
-        
-        <!-- <p class="f-bk">Freight forwarders</p>
-        <p class="f-bold-s">NIGERIA</p>
-        <p class="f-bk">25, Oyekan Road,<span class="f-bold-s">Apapa - Lagos</span></p>
-        <p class="f-bk">cromm-nigeria@cromm-nig.com</p> -->
       </div>
 
       <div class="f-box">

@@ -17,11 +17,11 @@
 <style>
     span{
         z-index: 10;
-    position: absolute;
-    top: 150%;
-    left: 0%;
-    padding: 0.75rem;
-    box-shadow: 2px 2px 7px #00000030;
+        position: absolute;
+        top: 100%;
+        left: 0%;
+        padding: 0.75rem;
+        box-shadow: 2px 2px 7px #00000030;
     }
     
     ul{
@@ -36,7 +36,6 @@
         list-style-type: none;
         text-align: left;
         text-transform: uppercase;
-        
     }
 
     li:after {
@@ -55,6 +54,9 @@
     a{
         text-decoration: none;
         color: #333;
+        font-family: 'Mukta', sans-serif;
+        letter-spacing: 2px;
+        font-weight: 200;
     }
 
     
