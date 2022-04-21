@@ -58,7 +58,7 @@ console.log(categoryString)
         <BlogCard author="" content={articles['anchor-protocol']}/>
     </div>
     <div id="blog">
-        <h2 class="category">🚧🚧 POST</h2>
+        <h2 class="category">🎩🎩 POST</h2>
         <BlogCard author="andrea" content="Previsioni Shiba inu 2030"/>
         <BlogCard author="giorgio" content="Come comprare le critovalute su Binance"/>
         <BlogCard author="andrea" content="Come comprare le critovalute su Coinbase"/>
