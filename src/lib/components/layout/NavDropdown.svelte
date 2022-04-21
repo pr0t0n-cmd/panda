@@ -17,27 +17,45 @@
 <style>
     span{
         z-index: 10;
-        position: absolute;
-        top: 150%;
-        left: -50%;
-        width: max-content;
-        padding: .75rem;
-        background: #FFF;
-        border: 1px solid #444;
-        box-shadow: 2px 2px 6px  rgba(0,0,0,.3);
+    position: absolute;
+    top: 150%;
+    left: 0%;
+    padding: 0.75rem;
+    box-shadow: 2px 2px 7px #00000030;
     }
+    
+    ul{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+
     li{
+        position: relative;
         font-size: .75rem;
         padding: .75rem .75rem;
         list-style-type: none;
         text-align: left;
-        text-transform: capitalize;
-        border-bottom: .5px solid rgb(134, 134, 134);
+        text-transform: uppercase;
+        
     }
-    li:last-child{
-        border-bottom: none;
+
+    li:after {
+        content: '';
+        display: block;
+        margin: auto;
+        height: 1px;
+        width: 0px;
+        background: transparent;
+        transition: width .5s ease, background-color .5s ease;
+    }
+    li:hover:after {
+        width: 100%;
+        background: #2be40f;
     }
     a{
         text-decoration: none;
+        color: #333;
     }
+
+    
 </style>

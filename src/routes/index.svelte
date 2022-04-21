@@ -1,10 +1,10 @@
 <script>
-    import { MetaTags, JsonLd } from 'svelte-meta-tags';
     import { onMount } from 'svelte';
     import BlogCard from '$lib/components/BlogCard.svelte';
     import { articles } from '$lib/data/articles.json';
     import { categories2 } from '$lib/data/categories.json';
     import { TypeWriter } from '$lib/classes/Typewriter';
+
     
 // Init On DOM Load
 onMount(init);

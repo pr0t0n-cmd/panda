@@ -1,14 +1,19 @@
 <script>
     import { articles } from '$lib/data/articles.json';
-    import { categories } from '$lib/data/categories.json';
+    import { categories, category } from '$lib/data/categories.json';
     import BlogCard from '$lib/components/BlogCard.svelte';
+
+    let array = [];
+    for (const key in category) {
+    array.push(key)
+    }
 </script>
 
 <div id="blog">
-    {#each categories as category}
-        <h2 class="category">{category}</h2>
+    {#each array as element}
+        <h2 class="category">{element}</h2>
             {#each Object.values(articles) as article}
-                {#if category === article.category}
+                {#if element === article.category}
                     <BlogCard content={article}/>
                 {/if}
             {/each}

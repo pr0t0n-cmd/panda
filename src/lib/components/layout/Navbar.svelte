@@ -1,7 +1,17 @@
 <script>
     import { articles } from '$lib/data/articles.json'
-    import { categories } from '$lib/data/categories.json'
+    import { categories, category } from '$lib/data/categories.json'
     import NavDropdown from '$lib/components/layout/NavDropdown.svelte'
+    
+
+    let array = [];
+    for (const key in category) {
+    array.push(key.toString())
+    }
+
+    
+
+
     function clickOutside(element, callbackFunction) {
 		function onClick(event) {
 			if (!element.contains(event.target)) {
@@ -42,7 +52,7 @@
                 <a href="/blog">Post</a>
                 <span on:click={openModal}><img src="/icone/arrowdown.png" class="arrow" alt="expand dropdown" /></span>
                 {#if showModal}
-                    <NavDropdown content={categories} clickoutside={clickOutside} toggle={toggle}/>
+                    <NavDropdown content={array} clickoutside={clickOutside} toggle={toggle}/>
                 {/if}
             </li>
             <li>

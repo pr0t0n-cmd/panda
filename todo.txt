@@ -1,2 +1,2 @@
-- Utilizzare file categories.json.js come fonte dati unica da passare dentro la home testo scorrevole e post
-- Menu navigazione visualizzare categorie nel menu a tendina dei post 
+- Lib > data > categories.json.js -> Utilizzare in index.svelte l'oggetto category al posto dell'array categories2 come fonte dati da passare dentro la home testo scorrevole e post
+- Lib > data > categories.json.js -> Accedere al elemento icon dell'oggetto category per mostrare icona accanto al nome del blog in NavDropdown.svelte

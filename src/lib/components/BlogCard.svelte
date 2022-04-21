@@ -72,6 +72,7 @@
         align-items: flex-start;
         padding: 10px;
         margin-top: 150px;
+        color: #333;
     }
     .img-sfondo{
         width: 100%;
