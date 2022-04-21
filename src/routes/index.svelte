@@ -1,5 +1,4 @@
 <script>
-    import { MetaTags, JsonLd } from 'svelte-meta-tags';
     import { onMount } from 'svelte';
     import BlogCard from '$lib/components/BlogCard.svelte';
     import { articles } from '$lib/data/articles.json';
