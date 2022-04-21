@@ -44,31 +44,31 @@
     <div class="f-box-social">
       <p class="f-bold">Seguici sui social</p>
       <div class="f-box-img">
-        <a href="#">
+        <a href="/">
           <img style="width: 30px;" src="/icone/social/discord-brands.svg" alt="Discord">
         </a>
-        <a href="#">
+        <a href="/">
           <img style="width: 15px;" src="/icone/social/facebook-f-brands.svg" alt="Facebook">
         </a>
-        <a href="#">
+        <a href="/">
           <img src="/icone/social/instagram-brands.svg" alt="Instagram">
         </a>
-        <a href="#">
+        <a href="/">
          <img style="width: 22px;" src="/icone/social/linkedin-in-brands.svg" alt="LinkedIn">
         </a>
-        <a href="#">
+        <a href="/">
            <img style="width: 30px;" src="/icone/social/medium-brands.svg" alt="Medium">
         </a>
-        <a href="#">
+        <a href="/">
           <img style="width: 25px;" src="/icone/social/reddit-brands.svg" alt="Reddit">
         </a>
-        <a href="#">
+        <a href="/">
           <img src="/icone/social/rss-solid.svg" alt="RSS">
         </a>
-        <a href="#">
+        <a href="/">
           <img src="/icone/social/tiktok-brands.svg" alt="Tik Tok">
         </a>
-        <a href="#">
+        <a href="/">
          <img style="width: 30px;" src="/icone/social/youtube-brands.svg" alt="Youtube">
         </a>
       </div>
@@ -126,9 +126,9 @@
   font-size: 1.5rem;
 }
 
-.f-bold-s {
+/* .f-bold-s {
   font-size: 1.2rem;
-}
+} */
 
 .f-bk {
   font-size: 1rem;
