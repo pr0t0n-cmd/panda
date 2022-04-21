@@ -73,6 +73,9 @@ console.log(categoryString)
     <div id="blog">
         <h2 class="category">🚧🚧 LAVORI IN CORSO</h2>
         <BlogCard author="andrea" content="Pop-up donazione ETH🐱‍🚀"/>
+        <BlogCard author="andrea" content="Newsletter mailchimp🙊"/>
+        <BlogCard author="andrea" content="Rimuovere social📷"/>
+        <BlogCard author="giorgio" content="Integrazione Metamask🦊"/>
     </div>
 </div>
 </section>
