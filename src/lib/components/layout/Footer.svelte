@@ -40,7 +40,7 @@
     <div class="f-box-social">
       <p class="f-bold">Seguici sui social</p>
       <div class="f-box-img">
-        <a href="/">
+        <!-- <a href="/">
           <img style="width: 30px;" src="/icone/social/discord-brands.svg" alt="Discord">
         </a>
         <a href="/">
@@ -63,8 +63,8 @@
         </a>
         <a href="/">
           <img src="/icone/social/tiktok-brands.svg" alt="Tik Tok">
-        </a>
-        <a href="/">
+        </a> -->
+        <a href="https://www.youtube.com/channel/UCrvDRoWnXoOsTh0y0UKvicQ">
          <img style="width: 30px;" src="/icone/social/youtube-brands.svg" alt="Youtube">
         </a>
       </div>
@@ -307,6 +307,7 @@ color: #2be40f !important;
   .footer-sponsor a p {
     margin-right:5px;
   }
+  
 
 
   @media only screen and (max-width: 450px) {
