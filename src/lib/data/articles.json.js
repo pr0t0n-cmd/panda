@@ -9,10 +9,10 @@ export let articles = {
 		date: '22/3/2022',
 		modulo: '1'
 	},
-	'blockchain-island': {
-		title: 'Blockchain Island',
+	'la-isola-della-blockchain': {
+		title: "L'Isola della Blockchain",
 		description: 'Un divertente esempio per conoscere come funziona questa tecnologia',
-		link: 'blockchain-island',
+		link: 'la-isola-della-blockchain',
 		topImage: 'blog/blockchain-island/block-island.png',
 		category: 'blockchain',
 		date: '21/3/2022',

@@ -3,6 +3,7 @@
     import Navbar from '$lib/components/layout/Navbar.svelte'
     import NavbarMobile from '$lib/components/layout/NavbarMobile.svelte'
 </script>
+	
 <div>
     <NavbarMobile />
     <Navbar/>
@@ -10,6 +11,7 @@
         <slot />
     </main>
     <Footer/>
+    
 </div>
 
 <style>
@@ -29,6 +31,7 @@
         justify-content: space-between;
         min-height: 100vh;
     }
+    
 
     :global(.category){
         color: #2be40f !important;

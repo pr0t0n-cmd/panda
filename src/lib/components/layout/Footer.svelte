@@ -3,8 +3,13 @@
   function handleOpenModal (){
     console.log("pino popup")
   }
+
+    let y = 0;
+	$: console.log(y)
+
 </script>
 
+<svelte:window bind:scrollY={y} />
 <footer>
     <div class="f-box-container">
 
@@ -64,9 +69,10 @@
         </a>
       </div>
       <p class="f-bk">@thecodingpanda</p>
+      
     </div>
 
-    <div class="top-arrow-container">
+    <div class="top-arrow-container" class:hide={y >= 600}>
       <a href="#main" style="width: fit-content;">
           <img class="top-arrow-mobile" src="/icone/arrow-top.svg" alt="Scroll to Top">
       </a>
@@ -75,18 +81,22 @@
           <img class="top-arrow" src="/icone/arrow-top.svg" alt="Scroll to Top">
       </a>
     </div>
+
+    <div class="footer-sponsor"><a href="https://kit.svelte.dev/" target="_blank"><p>Sviluppato con </p><img src="loghi/svelte.png" alt="Svelte Kit Logo" style="width: 20px;"></a></div>
+    
   </footer>
 
-
 <style>
+  
  footer {
   background: linear-gradient(to top right, #333, #000);
   position: relative;
   display: flex;
   flex-direction: column;
   color: #fff;
-  height: 500px;
+  height: auto;
   justify-content: space-evenly;
+  padding-top: 80px ;
 }
 
 .f-box-container {
@@ -191,10 +201,6 @@ p{
   
 }
 
-
-
- 
-
 .newsletter input:focus + span #subscribe {
 color: #2be40f !important;
 
@@ -272,10 +278,36 @@ color: #2be40f !important;
   }
 
   .top-arrow-container{
-    position: absolute;
-    bottom: 0;
-    right: 0;
+    opacity: 0;
+    visibility: hidden;
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+    transition: all .5s linear;  
   }
+  .hide{
+    opacity: 1;
+    visibility: visible;
+    transition: all .5s linear;  
+    }
+
+  .footer-sponsor a {
+    font-family: "Ek Mukta";
+    font-size: 12px;
+    width: 100%; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 5px;
+    margin-top: 100px;
+    text-decoration: none;
+    letter-spacing: -.5px;
+  }
+
+  .footer-sponsor a p {
+    margin-right:5px;
+  }
+
 
   @media only screen and (max-width: 450px) {
     footer{

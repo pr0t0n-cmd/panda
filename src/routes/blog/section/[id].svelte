@@ -3,7 +3,6 @@
   import { articles } from '$lib/data/articles.json';
   import BlogCard from '$lib/components/BlogCard.svelte';
   export let item;
-  console.log(item)
 </script>
 
 <div id="blog">

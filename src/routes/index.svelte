@@ -5,7 +5,7 @@
     import { category } from '$lib/data/categories';
     import { TypeWriter } from '$lib/classes/Typewriter';
 
-    
+    console.log(articles)
 // Init On DOM Load
 onMount(init);
 
@@ -26,20 +26,18 @@ Object.keys(category).forEach((element, idx) => {
     } else{
         categoryString += `"${element.toString()}", `
     }
-    console.log(categoryString)
 });
 
-console.log(Object.keys(category).length)
 
 categoryString = `[${categoryString}]`
 
-console.log(categoryString)
 
 </script>
 <svelte:head>
 	<title>The Coding Panda | Home</title>
 </svelte:head>
-<section>
+
+<section >
     <div class="header-content">
         <!-- <p class="small">Siamo programmatori con la passione per le nuove tecnologie</p>
         <p class="bold">Creiamo contenuti speciali a proposito di</p> -->
@@ -53,8 +51,8 @@ console.log(categoryString)
 <div class="blog-container">
     <div id="blog">
         <h2 class="category">🔥🔥 TRENDING</h2>
+        <BlogCard author="" content={articles['la-isola-della-blockchain']}/>
         <BlogCard author="" content={articles['guerra-crittografica']}/>
-        <BlogCard author="" content={articles['blockchain-island']}/>
         <BlogCard author="" content={articles['anchor-protocol']}/>
     </div>
     <div id="blog">
@@ -81,9 +79,13 @@ console.log(categoryString)
         <BlogCard author="andrea" content="plugin SEO"/>
     </div>
 </div>
+
+
+
 </section>
 
 <style>
+
 
     section{
         width: 100%;
