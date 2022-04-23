@@ -64,7 +64,7 @@
         <a href="/">
           <img src="/icone/social/tiktok-brands.svg" alt="Tik Tok">
         </a> -->
-        <a href="https://www.youtube.com/channel/UCrvDRoWnXoOsTh0y0UKvicQ">
+        <a href="https://www.youtube.com/channel/UCrvDRoWnXoOsTh0y0UKvicQ" target="_blank">
          <img style="width: 30px;" src="/icone/social/youtube-brands.svg" alt="Youtube">
         </a>
       </div>
@@ -82,7 +82,7 @@
       </a>
     </div>
 
-    <div class="footer-sponsor"><a href="https://kit.svelte.dev/" target="_blank"><p>Sviluppato con </p><img src="loghi/svelte.png" alt="Svelte Kit Logo" style="width: 20px;"></a></div>
+    <div class="footer-sponsor"><a href="https://kit.svelte.dev/" target="_blank"><p>Sviluppato con </p><img src="./loghi/svelte.png" alt="Svelte Kit Logo" style="width: 20px;"></a></div>
     
   </footer>
 

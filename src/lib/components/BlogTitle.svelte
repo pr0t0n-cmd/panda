@@ -2,9 +2,9 @@
     export let article
 </script>
 {#if article !== false}
-    <p class="title">tag: {article.category}</p>
     <h1 class="title">{article.title}</h1>
     <h2 class="title">{article.description}</h2>
+    <p class="title">{article.category}</p>
 {/if}
 
 <style>
@@ -17,8 +17,11 @@
     }
 
     h2{
-        line-height: 1.7rem;
-        letter-spacing: 1px;
+        line-height: 1.6rem;
+    }
+    p{
+        margin: 1.2rem 0 0 0;
+        font-size: 14px;
     }
 </style>
 

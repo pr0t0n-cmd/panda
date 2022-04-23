@@ -37,7 +37,7 @@
         padding: 10px;
         width: 280px;
         height: 380px;
-        box-shadow: 2px 2px 7px #00000030;
+        box-shadow: 2px 2px 7px #000;
         text-decoration: none;
         display: flex;
         flex-direction: column;

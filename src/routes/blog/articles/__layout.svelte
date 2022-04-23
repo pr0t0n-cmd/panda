@@ -41,6 +41,7 @@
     margin: 0 auto;
     max-width: 1200px;
     background: linear-gradient(to top right, #333, #000);
+    border-radius: 12px;
     }
 
     .blog-content{

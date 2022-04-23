@@ -1,3 +1,83 @@
+<script>
+  import { MetaTags } from 'svelte-meta-tags';
+   import { JsonLd } from 'svelte-meta-tags';
+</script>
+
+<MetaTags
+  title="Using More of Config"
+  titleTemplate="%s | Svelte Meta Tags"
+  description="This example uses more of the available config options."
+  canonical="https://www.canonical.ie/"
+  openGraph={{
+    title: 'Open Graph Article Title',
+    description: 'Description of open graph article',
+    url: 'https://www.example.com/articles/article-title',
+    type: 'article',
+    article: {
+      publishedTime: '2017-06-21T23:04:13Z',
+      modifiedTime: '2018-01-21T18:04:43Z',
+      expirationTime: '2022-12-21T22:04:11Z',
+      section: 'Section II',
+      authors: [
+        'https://www.example.com/authors/@firstnameA-lastnameA',
+        'https://www.example.com/authors/@firstnameB-lastnameB'
+      ],
+      tags: ['Tag A', 'Tag B', 'Tag C']
+    },
+    images: [
+      {
+        url: 'https://www.test.ie/images/cover.jpg',
+        width: 850,
+        height: 650,
+        alt: 'Photo of text'
+      }
+    ]
+  }}
+  twitter={{
+    handle: '@handle',
+    site: '@site',
+    cardType: 'summary_large_image',
+    title: 'Using More of Config',
+    description: 'This example uses more of the available config options.',
+    image: 'https://www.example.ie/twitter-image.jpg',
+    imageAlt: 'Twitter image alt'
+  }}
+  facebook={{
+    appId: '1234567890'
+  }}
+/>
+
+<JsonLd
+  schema={{
+    '@type': 'Article',
+    mainEntityOfPage: {
+      '@type': 'WebPage',
+      '@id': 'https://example.com/article'
+    },
+    headline: 'Article headline',
+    image: [
+      'https://example.com/photos/1x1/photo.jpg',
+      'https://example.com/photos/4x3/photo.jpg',
+      'https://example.com/photos/16x9/photo.jpg'
+    ],
+    datePublished: '2015-02-05T08:00:00+08:00',
+    dateModified: '2015-02-05T09:20:00+08:00',
+    author: {
+      '@type': 'Person',
+      name: 'John Doe'
+    },
+    publisher: {
+      '@type': 'Organization',
+      name: 'Google',
+      logo: {
+        '@type': 'ImageObject',
+        url: 'https://example.com/logo.jpg'
+      }
+    }
+  }}
+/>
+
+
 <section class="blog-style">
   <p>La Blockchain è composta da una serie di blocchi che contentongo informazioni, organizzati in sequenza lineare e connessi uno dopo l'altro con un sistema crittografato. 
   Riassunta così potrebbe non dire molto ma se spiegata attraverso esempi di vita reale potrebbe diventare un concetto molto semplice da capire.</p> 

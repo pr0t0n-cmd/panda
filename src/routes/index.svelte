@@ -4,6 +4,8 @@
     import { articles } from '$lib/data/articles.json';
     import { category } from '$lib/data/categories';
     import { TypeWriter } from '$lib/classes/Typewriter';
+    import { MetaTags } from 'svelte-meta-tags';
+    import { JsonLd } from 'svelte-meta-tags';
 
     console.log(articles)
 // Init On DOM Load
@@ -33,9 +35,6 @@ categoryString = `[${categoryString}]`
 
 
 </script>
-<svelte:head>
-	<title>The Coding Panda | Home</title>
-</svelte:head>
 
 <section >
     <div class="header-content">
@@ -48,15 +47,28 @@ categoryString = `[${categoryString}]`
             </h1>
         </div>
     </div>
-<div class="blog-container">
-    <div id="blog">
+<div>
+    <div class="blog-content">
         <h2 class="category">🔥🔥 TRENDING</h2>
         <BlogCard author="" content={articles['la-isola-della-blockchain']}/>
         <BlogCard author="" content={articles['guerra-crittografica']}/>
         <BlogCard author="" content={articles['anchor-protocol']}/>
     </div>
-    <div id="blog">
-        <h2 class="category">🎩🎩 POST</h2>
+    <div class="blog-content">
+        <h2 class="category">🐱‍🏍🐱‍👤🐱‍🚀 CHAINLINK HACKATHON 2022</h2>
+        <BlogCard author=" https://www.youtube.com/watch?v=UkdYCFVea68" content="The Purpose of Smart Contracts"/>
+        <BlogCard author="https://www.youtube.com/watch?v=HuUcdoPkzeg " content="Intro to Solidity & Remix"/>
+        <BlogCard author=" https://www.youtube.com/watch?v=p8LbgPwbtxw" content="Intro to Chainlink"/>
+        <BlogCard author="https://www.youtube.com/watch?v=5WBng0kWzJo " content="Intro to Hardhat"/>
+        <BlogCard author="https://www.youtube.com/watch?v=JrYdDkpOzyQ" content="Intro to Brownie"/>
+        <BlogCard author="https://www.youtube.com/watch?v=fG66LNaceWU" content="Intro to Foundry"/>
+        <BlogCard author="https://www.youtube.com/watch?v=jPp7a1w-J6 " content="Intro to Truffle"/>
+        <BlogCard author=" https://www.youtube.com/watch?v=fPsH77ZoXt4 " content="Intro to Anchor / Solana Development"/>
+        <BlogCard author=" https://www.youtube.com/watch?v=dDr7glOjtvI" content="Testing with Hardhat"/>
+        <BlogCard author="https://www.youtube.com/watch?v=uR3VKVQtYhQ " content="Testing with Brownie"/>
+    </div>
+    <div class="blog-content">
+        <h2 class="category">🎁💣 PROSSIMI POST</h2>
         <BlogCard author="andrea" content="Previsioni Shiba inu 2030"/>
         <BlogCard author="giorgio" content="Come comprare le critovalute su Binance"/>
         <BlogCard author="andrea" content="Come comprare le critovalute su Coinbase"/>
@@ -68,8 +80,8 @@ categoryString = `[${categoryString}]`
         <BlogCard author="andrea" content="Come entrare nel metaverso in soli 5 minuti"/>
         <BlogCard author="andrea" content="Come creare un portafoglio su Metamask"/>
     </div>
-    <div id="blog">
-        <h2 class="category">🚧🚧 LAVORI IN CORSO</h2>
+    <div class="blog-content">
+        <h2 class="category">🛠🛠 LAVORI IN CORSO</h2>
         <BlogCard author="andrea" content="Pop-up donazione ETH🐱‍🚀"/>
         <BlogCard author="andrea" content="Newsletter mailchimp🙊"/>
         <BlogCard author="andrea" content="Rimuovere social📷"/>
@@ -77,11 +89,9 @@ categoryString = `[${categoryString}]`
         <BlogCard author="andrea" content="Dark-mode"/>
         <BlogCard author="giorgio" content="Vite image plugin"/>
         <BlogCard author="andrea" content="plugin SEO"/>
+        <BlogCard author="andrea" content="Google News account + pubblicazione articoli"/>
     </div>
 </div>
-
-
-
 </section>
 
 <style>
@@ -135,7 +145,7 @@ categoryString = `[${categoryString}]`
         font-weight: 100;
         margin-top: 3rem;
     }
-    #blog{
+    .blog-content{
         display: flex;
         flex-direction: row;
         text-align: left;
@@ -150,7 +160,7 @@ categoryString = `[${categoryString}]`
     }
    
      @media screen and (max-width:600px){
-        #blog{
+        .blog-content{
             justify-content: center;
         }
          h1 .txt-type{
@@ -179,3 +189,42 @@ categoryString = `[${categoryString}]`
         }
     }
 </style>
+
+
+
+
+
+<MetaTags
+  title="The Coding Panda"
+  description="Unisciti alla nostra community ed accedi a contenuti speciali che ti permetteranno di approfondire il mondo della blockchain attraverso gli occhi di due giovani programmatori appassionati di programmazione, nft, defi, dao e molto altro"
+  canonical="https//www.thecodingpanda.dev"
+  openGraph={{
+    url: 'https//www.thecodingpanda.dev',
+    title: 'The Coding Panda',
+    description: 'Unisciti alla nostra community ed accedi a contenuti speciali che ti permetteranno di approfondire il mondo della blockchain attraverso gli occhi di due giovani programmatori appassionati di programmazione, nft, defi, dao e molto altro',
+    images: [
+      {
+        url: 'https://thecodingpanda.dev/loghi/panda.svg',
+        width: 800,
+        height: 600,
+        alt: 'The Coding Panda'
+      },
+      {
+        url: 'https://thecodingpanda.dev/Blockchain_Black.jpg',
+        width: 900,
+        height: 800,
+        alt: 'The Coding Panda'
+      }
+    ],
+    site_name: 'The Coding Panda'
+  }}
+/>
+
+<JsonLd
+  schema={{
+    '@type': 'Dataset',
+    name: 'The Coding Panda',
+    description: 'Unisciti alla nostra community ed accedi a contenuti speciali che ti permetteranno di approfondire il mondo della blockchain attraverso gli occhi di due giovani programmatori appassionati di programmazione, nft, defi, dao e molto altro',
+    license: 'https//www.thecodingpanda.dev'
+  }}
+/>

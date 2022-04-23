@@ -66,10 +66,9 @@
             width: 80px;
         }
     nav{
-        height: 70px;
-        display: flex;
-        flex-direction: column;
-        justify-content: flex-end;
+        display: grid;
+        grid-template-columns: 10% 1fr;
+        justify-content: center;
         align-items: center;
         z-index: 99;
         font-size: 1rem;
@@ -93,6 +92,10 @@ a {
     font-size: 18px;
     text-transform: uppercase;
     letter-spacing: 2px;
+}
+ul{
+    display: flex;
+    justify-self: center;
 }
 
 li {
@@ -120,9 +123,6 @@ li:hover:after {
 }
 
     .logo{
-		position: absolute;
-		top: 0px;
-		right: 0px;
 		width: 100px;
 	}
 

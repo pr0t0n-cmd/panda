@@ -18,10 +18,10 @@
     span{
         z-index: 10;
         position: absolute;
-        top: 100%;
+        top: 137%;
         left: 0%;
         padding: 0.75rem;
-        box-shadow: 2px 2px 7px #00000030;
+        box-shadow: 2px 2px 7px #000;
     }
     
     ul{
