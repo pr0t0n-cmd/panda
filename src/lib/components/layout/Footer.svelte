@@ -22,7 +22,7 @@
       <div class="f-box">
         <p class="f-bold">Newsletter</p>
         <div class="newsletter">
-          <input type="text">
+          <input type="text" placeholder="email">
           <span id="iscriviti"> <p id="subscribe">Iscriviti</p> </span>
         </div>
       </div>
@@ -198,7 +198,6 @@ p{
   color: #fff;
   text-transform: uppercase;
   font-size: .9rem;
-  
 }
 
 .newsletter input:focus + span #subscribe {
