@@ -89,7 +89,7 @@ categoryString = `[${categoryString}]`
         <BlogCard author="andrea" content="Dark-mode"/>
         <BlogCard author="giorgio" content="Vite image plugin"/>
         <BlogCard author="andrea" content="plugin SEO"/>
-        <BlogCard author="andrea" content="Google News account + pubblicazione articoli"/>
+        <BlogCard author="andrea" content="Google News account + pubblicazione articoli -> https://www.davidwparker.com/posts/how-to-make-an-rss-feed-in-sveltekit"/>
     </div>
 </div>
 </section>
