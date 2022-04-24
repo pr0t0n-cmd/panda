@@ -16,6 +16,7 @@
 
 <style>
     span{
+        background: linear-gradient(to top right,#333,#000);
         z-index: 10;
         position: absolute;
         top: 137%;

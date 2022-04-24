@@ -4,46 +4,34 @@
 </script>
 
 <MetaTags
-  title="Using More of Config"
-  titleTemplate="%s | Svelte Meta Tags"
-  description="This example uses more of the available config options."
-  canonical="https://www.canonical.ie/"
+  title="L'Isola della Blockchain"
+  titleTemplate="%s | The Coding Panda"
+  description="Un divertente esempio per conoscere come funziona questa tecnologia"
+  canonical="https://thecodingpanda.dev/"
   openGraph={{
-    title: 'Open Graph Article Title',
-    description: 'Description of open graph article',
-    url: 'https://www.example.com/articles/article-title',
+    title: "L'Isola della Blockchain",
+    description: 'Un divertente esempio per conoscere come funziona questa tecnologia',
+    url: 'https://thecodingpanda.dev/blog/articles/blockchain/la-isola-della-blockchain',
     type: 'article',
     article: {
       publishedTime: '2017-06-21T23:04:13Z',
       modifiedTime: '2018-01-21T18:04:43Z',
       expirationTime: '2022-12-21T22:04:11Z',
-      section: 'Section II',
+      section: 'blockchain',
       authors: [
-        'https://www.example.com/authors/@firstnameA-lastnameA',
-        'https://www.example.com/authors/@firstnameB-lastnameB'
+        'https://thecodingpanda.dev/authors/@andrea-casero',
+        'https://thecodingpanda.dev/authors/@giorgio-bruzzi'
       ],
-      tags: ['Tag A', 'Tag B', 'Tag C']
+      tags: ['blockchain']
     },
     images: [
       {
-        url: 'https://www.test.ie/images/cover.jpg',
+        url: 'https://thecodingpanda.dev/blog/blockchain-island/block-island.png',
         width: 850,
         height: 650,
-        alt: 'Photo of text'
+        alt: "L'Isola della Blockchain"
       }
     ]
-  }}
-  twitter={{
-    handle: '@handle',
-    site: '@site',
-    cardType: 'summary_large_image',
-    title: 'Using More of Config',
-    description: 'This example uses more of the available config options.',
-    image: 'https://www.example.ie/twitter-image.jpg',
-    imageAlt: 'Twitter image alt'
-  }}
-  facebook={{
-    appId: '1234567890'
   }}
 />
 
@@ -52,26 +40,23 @@
     '@type': 'Article',
     mainEntityOfPage: {
       '@type': 'WebPage',
-      '@id': 'https://example.com/article'
+      '@id': 'https://thecodingpanda.dev/blog/articles/blockchain/la-isola-della-blockchain'
     },
-    headline: 'Article headline',
+    headline: 'L'Isola della Blockchain',
     image: [
-      'https://example.com/photos/1x1/photo.jpg',
-      'https://example.com/photos/4x3/photo.jpg',
-      'https://example.com/photos/16x9/photo.jpg'
+      'https://thecodingpanda.dev/blog/blockchain-island/block-island.png'
     ],
-    datePublished: '2015-02-05T08:00:00+08:00',
-    dateModified: '2015-02-05T09:20:00+08:00',
+    datePublished: '2022-02-05T08:00:00+08:00'
     author: {
       '@type': 'Person',
-      name: 'John Doe'
+      name: 'Andrea Casero'
     },
     publisher: {
       '@type': 'Organization',
-      name: 'Google',
+      name: 'The Coding Panda',
       logo: {
         '@type': 'ImageObject',
-        url: 'https://example.com/logo.jpg'
+        url: 'https://thecodingpanda.dev/loghi/panda.png'
       }
     }
   }}

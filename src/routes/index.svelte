@@ -55,7 +55,7 @@ categoryString = `[${categoryString}]`
         <BlogCard author="" content={articles['anchor-protocol']}/>
     </div>
     <div class="blog-content">
-        <h2 class="category">🐱‍🏍🐱‍👤🐱‍🚀 CHAINLINK HACKATHON 2022</h2>
+        <h2 class="category">🤖👨🏾‍💻👩🏾‍💻 CHAINLINK HACKATHON 2022</h2>
         <BlogCard author=" https://www.youtube.com/watch?v=UkdYCFVea68" content="The Purpose of Smart Contracts"/>
         <BlogCard author="https://www.youtube.com/watch?v=HuUcdoPkzeg " content="Intro to Solidity & Remix"/>
         <BlogCard author=" https://www.youtube.com/watch?v=p8LbgPwbtxw" content="Intro to Chainlink"/>
@@ -81,7 +81,7 @@ categoryString = `[${categoryString}]`
         <BlogCard author="andrea" content="Come creare un portafoglio su Metamask"/>
     </div>
     <div class="blog-content">
-        <h2 class="category">🛠🛠 LAVORI IN CORSO</h2>
+        <h2 class="category">🚧🚧 LAVORI IN CORSO</h2>
         <BlogCard author="andrea" content="Pop-up donazione ETH🐱‍🚀"/>
         <BlogCard author="andrea" content="Newsletter mailchimp🙊"/>
         <BlogCard author="andrea" content="Rimuovere social📷"/>
@@ -197,22 +197,14 @@ categoryString = `[${categoryString}]`
 <MetaTags
   title="The Coding Panda"
   description="Unisciti alla nostra community ed accedi a contenuti speciali che ti permetteranno di approfondire il mondo della blockchain attraverso gli occhi di due giovani programmatori appassionati di programmazione, nft, defi, dao e molto altro"
-  canonical="https//www.thecodingpanda.dev"
+  canonical="https://thecodingpanda.dev/"
   openGraph={{
-    url: 'https//www.thecodingpanda.dev',
+    url: 'https://thecodingpanda.dev/',
     title: 'The Coding Panda',
     description: 'Unisciti alla nostra community ed accedi a contenuti speciali che ti permetteranno di approfondire il mondo della blockchain attraverso gli occhi di due giovani programmatori appassionati di programmazione, nft, defi, dao e molto altro',
     images: [
       {
-        url: 'https://thecodingpanda.dev/loghi/panda.svg',
-        width: 800,
-        height: 600,
-        alt: 'The Coding Panda'
-      },
-      {
-        url: 'https://thecodingpanda.dev/Blockchain_Black.jpg',
-        width: 900,
-        height: 800,
+        url: 'https://thecodingpanda.dev/loghi/panda.png',
         alt: 'The Coding Panda'
       }
     ],
@@ -225,6 +217,6 @@ categoryString = `[${categoryString}]`
     '@type': 'Dataset',
     name: 'The Coding Panda',
     description: 'Unisciti alla nostra community ed accedi a contenuti speciali che ti permetteranno di approfondire il mondo della blockchain attraverso gli occhi di due giovani programmatori appassionati di programmazione, nft, defi, dao e molto altro',
-    license: 'https//www.thecodingpanda.dev'
+    license: 'https://thecodingpanda.dev/'
   }}
 />
