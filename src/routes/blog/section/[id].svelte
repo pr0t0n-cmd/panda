@@ -5,8 +5,18 @@
   export let item;
 </script>
 
+ <div class="header-content">
+        <!-- <p class="small">Siamo programmatori con la passione per le nuove tecnologie</p>
+        <p class="bold">Creiamo contenuti speciali a proposito di</p> -->
+        <div class="dynamic-text-container">
+            <h1>
+            <!-- <span class="txt-type" data-wait="3000" data-words={categories2}></span> -->
+            <span class="txt-type">{item.title}</span>
+            </h1>
+        </div>
+    </div>
 <div id="blog">
-  <h2 class="category">{item.title}</h2>
+ 
             {#each Object.values(articles) as article}
                 {#if article.category === item.title}
                     <BlogCard author="" content={article}/>
@@ -17,15 +27,31 @@
 <style>
     
 
-    .category{
-        flex: 100%;
-        text-transform: uppercase;
-        color: #333 ;
-        padding: 1rem;
-        border-bottom: 1px solid #ccc;
-        font-weight: 100;
-        margin-top: 3rem;
+    .dynamic-text-container{
+        display: flex;
+        position: relative;
+        width: 100%;
+        height: 200px;
+        justify-content: center;
     }
+
+    .header-content{
+        z-index: 1;
+    }
+    
+
+
+    h1 .txt-type{
+    font-family: "NNRektoratSTD-HeavyRe";
+    text-align: center;
+    font-size: 4rem;
+    text-transform: uppercase;
+    color: #fff;
+    letter-spacing: 4px;
+    text-shadow: 0px 0px 6px #fff;
+    margin-top: 50px;
+    font-weight: 700;
+}
     #blog{
         display: flex;
         flex-direction: row;
@@ -35,10 +61,43 @@
        
     }
 
-    @media screen and (max-width:600px){
-        #blog{
+     @media screen and (max-width:800px){
+         h1 .txt-type{
+            font-size: 3rem;
+            letter-spacing: 2.5px;
+        }
+        .header-content{
+            margin-top: 100px;
+        }
+    }
+   
+     @media screen and (max-width:600px){
+          #blog{
             justify-content: center;
+        }
+        
+         h1 .txt-type{
+            font-size: 2.5rem;
+            letter-spacing: 2px;
+        }
+    }
+     @media (max-width:450px){
+        
+        .header-content{
+            padding: 5%;
+        }
+        h1 .txt-type{
+            font-size: 2rem;
+            letter-spacing: 1px;
+        }
+    }
+    @media (max-width:350px){
+      
+        h1 .txt-type{
+            font-size: 1.7rem;
+            letter-spacing: 1px;
         }
     }
 
+  
 </style>

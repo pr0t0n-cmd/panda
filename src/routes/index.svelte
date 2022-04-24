@@ -118,7 +118,7 @@ categoryString = `[${categoryString}]`
     }
 
     .header-content{
-        z-index: 2;
+        z-index: 1;
     }
     
 
