@@ -78,7 +78,7 @@
 
     :global(.blog-style  p){
     padding: 1rem 0;
-    font-size: 10px;
+    font-size: 20px;
     }
 
     :global(.blog-style a){
@@ -152,6 +152,9 @@
     @media screen and (max-width:600px){
     div{
     padding: 2rem 1rem;
+    }
+      :global(.blog-style  p){
+    font-size: 16px;
     }
     }
 </style>
