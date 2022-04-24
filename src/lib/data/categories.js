@@ -1,14 +1,14 @@
 export let category = {
-	crypto: {
-		title: 'crypto',
-		description: 'Crypto',
-		link: '',
-		topImage: '',
-		icon: '',
-	},
 	blockchain: {
 		title: 'blockchain',
 		description: '',
+		link: '',
+		topImage: '',
+		icon: ''
+	},
+	crypto: {
+		title: 'crypto',
+		description: 'Crypto',
 		link: '',
 		topImage: '',
 		icon: ''
@@ -18,6 +18,6 @@ export let category = {
 		description: '',
 		link: '',
 		topImage: '',
-		icon: 'aaa',
+		icon: 'aaa'
 	}
 };
