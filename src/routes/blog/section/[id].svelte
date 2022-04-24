@@ -6,15 +6,11 @@
 </script>
 
  <div class="header-content">
-        <!-- <p class="small">Siamo programmatori con la passione per le nuove tecnologie</p>
-        <p class="bold">Creiamo contenuti speciali a proposito di</p> -->
-        <div class="dynamic-text-container">
-            <h1>
-            <!-- <span class="txt-type" data-wait="3000" data-words={categories2}></span> -->
-            <span class="txt-type">{item.title}</span>
-            </h1>
-        </div>
+    <div class="dynamic-text-container">
+        <h1><span class="txt-type">{item.title}</span></h1>
     </div>
+</div>
+
 <div id="blog">
  
             {#each Object.values(articles) as article}

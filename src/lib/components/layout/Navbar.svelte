@@ -49,7 +49,7 @@
                 <a href="/">Home</a>
             </li>
             <li>
-                <a href="/blog">Post</a>
+                <a href="/blog">Blog</a>
                 <span on:click={toggleModal}><img src="/icone/arrowdown.png" class="arrow" alt="expand dropdown" /></span>
                 {#if showModal}
                     <NavDropdown content={array} clickoutside={clickOutside} toggle={toggle}/>
