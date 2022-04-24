@@ -78,6 +78,7 @@
 
     :global(.blog-style  p){
     padding: 1rem 0;
+    font-size: 10px;
     }
 
     :global(.blog-style a){

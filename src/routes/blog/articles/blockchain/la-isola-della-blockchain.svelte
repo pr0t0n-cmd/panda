@@ -42,11 +42,11 @@
       '@type': 'WebPage',
       '@id': 'https://thecodingpanda.dev/blog/articles/blockchain/la-isola-della-blockchain'
     },
-    headline: 'L'Isola della Blockchain',
+    headline: "L'Isola della Blockchain",
     image: [
       'https://thecodingpanda.dev/blog/blockchain-island/block-island.png'
     ],
-    datePublished: '2022-02-05T08:00:00+08:00'
+    datePublished: '2022-02-05T08:00:00+08:00',
     author: {
       '@type': 'Person',
       name: 'Andrea Casero'

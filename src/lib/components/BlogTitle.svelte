@@ -4,7 +4,7 @@
 {#if article !== false}
     <h1 class="title">{article.title}</h1>
     <h2 class="title">{article.description}</h2>
-    <p class="title">{article.category}</p>
+    <p class="title">#{article.category}</p>
 {/if}
 
 <style>
