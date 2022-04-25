@@ -6,7 +6,7 @@ export const get = async () => {
 		if(value.category === "defi"){
 			items += `<item>
     <title>${value.title}</title>
-    <link>https://thecodingpanda.dev/blog/articles/blockchain/${value.link}</link>
+    <link>https://thecodingpanda.dev/blog/articles/defi/${value.link}</link>
     <description>${value.description}</description>
   </item>`;
 		}
