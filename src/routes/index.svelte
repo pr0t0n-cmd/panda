@@ -7,42 +7,38 @@
     import { MetaTags } from 'svelte-meta-tags';
     import { JsonLd } from 'svelte-meta-tags';
 
-    console.log(articles)
-// Init On DOM Load
-onMount(init);
+    // Init On DOM Load
+    onMount(init);
 
-// Init App
-function init() {
-	const txtElement = document.querySelector('.txt-type');
-	const words = JSON.parse(txtElement.getAttribute('data-words'));
-	const wait = txtElement.getAttribute('data-wait');
-	// Init TypeWriter
-	new TypeWriter(txtElement, words, parseInt(wait));
-}
-
-let categoryString = ''
-
-Object.keys(category).forEach((element, idx) => {
-    if (Object.keys(category).length - idx === 1){
-        categoryString += `"${element.toString()}"`
-    } else{
-        categoryString += `"${element.toString()}", `
+    // Init App
+    function init() {
+        const txtElement = document.querySelector('.txt-type');
+        const words = JSON.parse(txtElement.getAttribute('data-words'));
+        const wait = txtElement.getAttribute('data-wait');
+        // Init TypeWriter
+        new TypeWriter(txtElement, words, parseInt(wait));
     }
-});
+
+    let categoryString = ''
+
+    Object.keys(category).forEach((element, idx) => {
+        if (Object.keys(category).length - idx === 1){
+            categoryString += `"${element.toString()}"`
+        } else{
+            categoryString += `"${element.toString()}", `
+        }
+    });
 
 
-categoryString = `[${categoryString}]`
+    categoryString = `[${categoryString}]`
 
 
 </script>
 
 <section >
     <div class="header-content">
-        <!-- <p class="small">Siamo programmatori con la passione per le nuove tecnologie</p>
-        <p class="bold">Creiamo contenuti speciali a proposito di</p> -->
         <div class="dynamic-text-container">
             <h1>
-            <!-- <span class="txt-type" data-wait="3000" data-words={categories2}></span> -->
             <span class="txt-type" data-wait="3000" data-words={categoryString}></span>
             </h1>
         </div>
@@ -69,27 +65,27 @@ categoryString = `[${categoryString}]`
     </div>
     <div class="blog-content">
         <h2 class="category">🎁💣 PROSSIMI POST</h2>
-        <BlogCard author="andrea" content="Previsioni Shiba inu 2030"/>
-        <BlogCard author="giorgio" content="Come comprare le critovalute su Binance"/>
-        <BlogCard author="andrea" content="Come comprare le critovalute su Coinbase"/>
-        <BlogCard author="giorgio" content="Come scambiare le critovalute su Metamask"/>
-        <BlogCard author="giorgio" content="Come comprare un NFT"/>
-        <BlogCard author="andrea" content="Come creare un NFT"/>
-        <BlogCard author="giorgio" content="Come vendere un NFT"/>
-        <BlogCard author="giorgio" content="Come usare CoinMarketcap"/>
-        <BlogCard author="andrea" content="Come entrare nel metaverso in soli 5 minuti"/>
-        <BlogCard author="andrea" content="Come creare un portafoglio su Metamask"/>
+        <BlogCard author="A" content="Previsioni Shiba inu 2030"/>
+        <BlogCard author="G" content="Come comprare le critovalute su Binance"/>
+        <BlogCard author="A" content="Come comprare le critovalute su Coinbase"/>
+        <BlogCard author="G" content="Come scambiare le critovalute su Metamask"/>
+        <BlogCard author="G" content="Come comprare un NFT"/>
+        <BlogCard author="A" content="Come creare un NFT"/>
+        <BlogCard author="G" content="Come vendere un NFT"/>
+        <BlogCard author="G" content="Come usare CoinMarketcap"/>
+        <BlogCard author="A" content="Come entrare nel metaverso in soli 5 minuti"/>
+        <BlogCard author="A" content="Come creare un portafoglio su Metamask"/>
     </div>
     <div class="blog-content">
         <h2 class="category">🚧🚧 LAVORI IN CORSO</h2>
-        <BlogCard author="andrea" content="Pop-up donazione ETH🐱‍🚀"/>
-        <BlogCard author="andrea" content="Newsletter mailchimp🙊"/>
-        <BlogCard author="andrea" content="Rimuovere social📷"/>
-        <BlogCard author="giorgio" content="Integrazione Metamask🦊"/>
-        <BlogCard author="andrea" content="Dark-mode"/>
-        <BlogCard author="giorgio" content="Vite image plugin"/>
-        <BlogCard author="andrea" content="plugin SEO"/>
-        <BlogCard author="andrea" content="Google News account + pubblicazione articoli -> https://www.davidwparker.com/posts/how-to-make-an-rss-feed-in-sveltekit"/>
+        <BlogCard author="A" content="Pop-up donazione ETH🐱‍🚀"/>
+        <BlogCard author="A" content="Newsletter mailchimp🙊"/>
+        <BlogCard author="A" content="Rimuovere social📷"/>
+        <BlogCard author="G" content="Integrazione Metamask🦊"/>
+        <BlogCard author="A" content="Dark-mode"/>
+        <BlogCard author="G" content="Vite image plugin"/>
+        <BlogCard author="A" content="plugin SEO"/>
+        <BlogCard author="A" content="Google News account + pubblicazione articoli -> https://www.davidwparker.com/posts/how-to-make-an-rss-feed-in-sveltekit"/>
     </div>
 </div>
 </section>
