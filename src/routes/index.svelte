@@ -1,8 +1,10 @@
 <script>
     import { onMount } from 'svelte';
     import BlogCard from '$lib/components/BlogCard.svelte';
+    import BlogCardVideo from '$lib/components/BlogCard_Video.svelte';
     import { articles } from '$lib/data/articles.json';
     import { category } from '$lib/data/categories';
+    import { videos } from '$lib/data/videos.json';
     import { TypeWriter } from '$lib/classes/Typewriter';
     import { MetaTags } from 'svelte-meta-tags';
     import { JsonLd } from 'svelte-meta-tags';
@@ -51,17 +53,18 @@
         <BlogCard author="" content={articles['anchor-protocol']}/>
     </div>
     <div class="blog-content">
-        <h2 class="category">🤖👨🏾‍💻👩🏾‍💻 CHAINLINK HACKATHON 2022</h2>
-        <BlogCard author=" https://www.youtube.com/watch?v=UkdYCFVea68" content="The Purpose of Smart Contracts"/>
-        <BlogCard author="https://www.youtube.com/watch?v=HuUcdoPkzeg " content="Intro to Solidity & Remix"/>
-        <BlogCard author=" https://www.youtube.com/watch?v=p8LbgPwbtxw" content="Intro to Chainlink"/>
-        <BlogCard author="https://www.youtube.com/watch?v=5WBng0kWzJo " content="Intro to Hardhat"/>
-        <BlogCard author="https://www.youtube.com/watch?v=JrYdDkpOzyQ" content="Intro to Brownie"/>
-        <BlogCard author="https://www.youtube.com/watch?v=fG66LNaceWU" content="Intro to Foundry"/>
-        <BlogCard author="https://www.youtube.com/watch?v=jPp7a1w-J6 " content="Intro to Truffle"/>
-        <BlogCard author=" https://www.youtube.com/watch?v=fPsH77ZoXt4 " content="Intro to Anchor / Solana Development"/>
-        <BlogCard author=" https://www.youtube.com/watch?v=dDr7glOjtvI" content="Testing with Hardhat"/>
-        <BlogCard author="https://www.youtube.com/watch?v=uR3VKVQtYhQ " content="Testing with Brownie"/>
+        <h2 class="category">👨🏾‍💻👩🏾‍💻 CHAINLINK HACKATHON 2022 <span>(Link video in Inglese)</span> </h2>
+        <BlogCardVideo content={videos['chainlink-01']}></BlogCardVideo>
+        <BlogCardVideo content={videos['chainlink-02']}></BlogCardVideo>
+        <BlogCardVideo content={videos['chainlink-03']}></BlogCardVideo>
+        <BlogCardVideo content={videos['chainlink-04']}></BlogCardVideo>
+        <BlogCardVideo content={videos['chainlink-05']}></BlogCardVideo>
+        <BlogCardVideo content={videos['chainlink-06']}></BlogCardVideo>
+        <BlogCardVideo content={videos['chainlink-07']}></BlogCardVideo>
+        <BlogCardVideo content={videos['chainlink-08']}></BlogCardVideo>
+        <BlogCardVideo content={videos['chainlink-09']}></BlogCardVideo>
+        <BlogCardVideo content={videos['chainlink-10']}></BlogCardVideo>
+        <BlogCardVideo content={videos['chainlink-11']}></BlogCardVideo>
     </div>
     <div class="blog-content">
         <h2 class="category">🎁💣 PROSSIMI POST</h2>
@@ -102,7 +105,6 @@
         align-items: center;
         margin-top: 50px;
         text-align: center;
-        
     }
 
     .dynamic-text-container{
@@ -130,7 +132,11 @@
     margin-top: 50px;
     font-weight: 700;
 }
-    
+    h2 span {
+        font-size: 12px;
+        text-transform: none;
+        color: #2be40f ;
+    }
 
     .category{
         flex: 100%;

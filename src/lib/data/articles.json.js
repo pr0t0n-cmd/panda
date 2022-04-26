@@ -22,7 +22,7 @@ export let articles = {
 		title: 'Anchor Protocol',
 		description: 'Come guadagnare utilizzando Terra ed il protocollo Anchor',
 		link: 'anchor-protocol',
-		topImage: 'anchor.png',
+		topImage: 'blog/anchor-protocol/anchor.png',
 		category: 'defi',
 		date: '18/3/2022'
 	}
