@@ -34,11 +34,9 @@
         margin-top: 1rem;
         margin-left: 1rem;
         margin-right: 1rem;
+        margin-bottom: 1rem;
     }
 
-    a:first-child{
-        margin-top: 1rem;
-    }
 
     a:hover {
         box-shadow: 0px 0px 6px #fff;
