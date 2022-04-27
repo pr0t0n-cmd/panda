@@ -41,7 +41,7 @@
     }
 
     a:hover {
-        box-shadow: 2px 2px 10px #00000080;;
+        box-shadow: 0px 0px 6px #fff;
     }
 
    

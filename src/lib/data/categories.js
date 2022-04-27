@@ -21,7 +21,7 @@ export let category = {
 		icon: 'aaa'
 	},
 	chainlink: {
-		title: 'chainlink hackathon 2022',
+		title: 'chainlink',
 		description: '',
 		link: '',
 		topImage: '',
