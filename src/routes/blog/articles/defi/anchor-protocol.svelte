@@ -30,6 +30,6 @@
    
 
     .i-1 {
-    background-image: url("/anchor.jpg");
+    background-image: url("/blog/anchor-protocol/anchor.jpg");
   }
 </style>

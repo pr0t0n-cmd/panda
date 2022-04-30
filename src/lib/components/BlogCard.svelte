@@ -10,13 +10,24 @@
 </script>
 
 {#if typeof content != "string"}
-    <a href={`/blog/articles/${content.category}/${content.link}`} >
+    {#if content.type != "link"}
+        <a href={`/blog/articles/${content.category}/${content.link}`} >
         <div style={cardImageStyle} class="img-sfondo"></div>
         <div class="card-content">
             <h2>{content.title}</h2>
             <h4>{content.description}</h4>
         </div>
     </a>
+    {:else}
+        <a href={content.link} target="_blank">
+            <div style={cardImageStyle} class="img-sfondo"></div>
+            <div class="card-content">
+                <h2>{content.title}</h2>
+                <h4>{content.description}</h4>
+            </div>
+        </a>
+    {/if}
+    
 {:else}
     <p>🤦‍♂️{content}<span class="author"> - {author === 'A' ? '👳🏼‍♂️' : '👨🏼‍🦰'} {author}</span></p>
 {/if}
@@ -49,7 +60,7 @@
 
 
     a:hover {
-        box-shadow: 0px 0px 6px #2be40f;
+        box-shadow: 0px 0px 6px #fff;
     }
 
    

@@ -1,10 +1,8 @@
 <script>
     import { onMount } from 'svelte';
     import BlogCard from '$lib/components/BlogCard.svelte';
-    import BlogCardVideo from '$lib/components/BlogCard_Video.svelte';
     import { articles } from '$lib/data/articles.json';
     import { category } from '$lib/data/categories';
-    import { videos } from '$lib/data/videos.json';
     import { TypeWriter } from '$lib/classes/Typewriter';
     import { MetaTags } from 'svelte-meta-tags';
     import { JsonLd } from 'svelte-meta-tags';
@@ -38,7 +36,7 @@
 </script>
 
 <section >
-    <a style="position: absolute; top:30px; padding:20px" href="/about"><img width="25px" src="./icone/dev2.svg" alt="about dev"/></a>
+    <a style="position: absolute; top:30px; padding:20px" href="/about"><img width="25px" src="/icone/dev2.svg" alt="about dev"/></a>
     <div class="header-content">
         <div class="dynamic-text-container">
             <h1>
@@ -55,17 +53,17 @@
     </div>
     <div class="blog-content">
         <h2 class="category">👨🏾‍💻👩🏾‍💻 CHAINLINK HACKATHON 2022 <span>(Link video in Inglese)</span> </h2>
-        <BlogCardVideo content={videos['chainlink-01']}></BlogCardVideo>
-        <BlogCardVideo content={videos['chainlink-02']}></BlogCardVideo>
-        <BlogCardVideo content={videos['chainlink-03']}></BlogCardVideo>
-        <BlogCardVideo content={videos['chainlink-04']}></BlogCardVideo>
-        <BlogCardVideo content={videos['chainlink-05']}></BlogCardVideo>
-        <BlogCardVideo content={videos['chainlink-06']}></BlogCardVideo>
-        <BlogCardVideo content={videos['chainlink-07']}></BlogCardVideo>
-        <BlogCardVideo content={videos['chainlink-08']}></BlogCardVideo>
-        <BlogCardVideo content={videos['chainlink-09']}></BlogCardVideo>
-        <BlogCardVideo content={videos['chainlink-10']}></BlogCardVideo>
-        <BlogCardVideo content={videos['chainlink-11']}></BlogCardVideo>
+        <BlogCard author="" content={articles['chainlink-01']}></BlogCard>
+        <BlogCard author="" content={articles['chainlink-02']}></BlogCard>
+        <BlogCard author="" content={articles['chainlink-03']}></BlogCard>
+        <BlogCard author="" content={articles['chainlink-04']}></BlogCard>
+        <BlogCard author="" content={articles['chainlink-05']}></BlogCard>
+        <BlogCard author="" content={articles['chainlink-06']}></BlogCard>
+        <BlogCard author="" content={articles['chainlink-07']}></BlogCard>
+        <BlogCard author="" content={articles['chainlink-08']}></BlogCard>
+        <BlogCard author="" content={articles['chainlink-09']}></BlogCard>
+        <BlogCard author="" content={articles['chainlink-10']}></BlogCard>
+        <BlogCard author="" content={articles['chainlink-11']}></BlogCard>
     </div>
     <div class="blog-content">
         <h2 class="category">🎁💣 PROSSIMI POST</h2>
