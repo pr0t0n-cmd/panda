@@ -32,10 +32,6 @@
         min-height: 100vh;
     }
     
-
-    :global(.category){
-        color: #2be40f !important;
-    }
     @media screen and (max-width: 600px){
         main{
             margin-top: 30px;

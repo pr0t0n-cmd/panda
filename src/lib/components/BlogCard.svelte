@@ -49,7 +49,7 @@
 
 
     a:hover {
-        box-shadow: 0px 0px 6px #fff;
+        box-shadow: 0px 0px 6px #2be40f;
     }
 
    

@@ -11,7 +11,6 @@
 
     function updatePage(currentPage){
         let currentArticle = currentPage.substring(currentPage.lastIndexOf('/') + 1)
-        console.log(currentArticle)
         if(currentArticle !== 'articles'){
             article = articles[currentArticle]
         } else{

@@ -38,6 +38,7 @@
 </script>
 
 <section >
+    <a style="position: absolute; top:30px; padding:20px" href="/about"><img width="25px" src="./icone/dev2.svg" alt="about dev"/></a>
     <div class="header-content">
         <div class="dynamic-text-container">
             <h1>
@@ -135,7 +136,7 @@
     h2 span {
         font-size: 12px;
         text-transform: none;
-        color: #2be40f ;
+        color: #fff ;
     }
 
     .category{
@@ -143,7 +144,7 @@
         text-transform: uppercase;
         color: #fff ;
         padding: 1rem;
-        border-bottom: 1px solid #fff;
+        border-bottom: 1px solid #2be40f;
         font-weight: 100;
         margin-top: 3rem;
     }

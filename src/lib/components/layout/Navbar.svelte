@@ -56,7 +56,7 @@
                 {/if}
             </li>
             <!-- <li>
-                <a href="/about">About</a>
+                <a href="/about"><img src="./icone/dev.png" alt="about dev"/></a>
             </li> -->
         </ul>
     </nav>

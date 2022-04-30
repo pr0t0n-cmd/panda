@@ -1,11 +1,9 @@
 
 <script>
   function handleOpenModal (){
-    console.log("pino popup")
   }
 
     let y = 0;
-	$: console.log(y)
 
 </script>
 
