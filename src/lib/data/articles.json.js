@@ -125,5 +125,85 @@ export let articles = {
 		topImage: 'blog/chainlink/chainlink-11.png',
 		category: 'chainlink',
 		type: 'link'
+	},
+	'chainlink-12': {
+		title: 'Testare con Foundry',
+		description:
+			'Esplora la sezione test di Foundry e scopri perché è uno strumento così potente. Non solo è incredibilmente veloce ma ti permette di scrivere i tuoi test in Solidity invece che in JavaScript.',
+		link: 'https://www.youtube.com/watch?v=pgh74-XulXg',
+		topImage: 'blog/chainlink/chainlink-12.png',
+		category: 'chainlink',
+		type: 'link'
+	},
+	'chainlink-13': {
+		title: 'Testare con Truffle',
+		description:
+			"Scopri come creare ed eseguire un test dei tuoi Smart Contract utilizzando l'ambiente di sviluppo più diffuso: Truffle",
+		link: 'https://www.youtube.com/watch?v=ZomjP89otb0',
+		topImage: 'blog/chainlink/chainlink-13.png',
+		category: 'chainlink',
+		type: 'link'
+	},
+	'chainlink-14': {
+		title: 'Crea la tua prima Dapp con Moralis',
+		description:
+			'Unisciti al CEO di Moralis Ivan Liljeqvist e scopri come diventare uno sviluppatore Web3 completo.',
+		link: 'https://www.youtube.com/watch?v=1OHWB90EJSM',
+		topImage: 'blog/chainlink/chainlink-14.png',
+		category: 'chainlink',
+		type: 'link'
+	},
+	'chainlink-15': {
+		title: 'Come pubblicare uno Smart Contract usando Remix e Alchemy',
+		description:
+			'In questo video tutorial scopri come sviluppare e pubblicare uno smart contract utilizzando Remix e Alchemy.',
+		link: 'https://www.youtube.com/watch?v=f0k3Jwu880s',
+		topImage: 'blog/chainlink/chainlink-15.png',
+		category: 'chainlink',
+		type: 'link'
+	},
+	'chainlink-16': {
+		title: 'Testare con Anchor',
+		description:
+			'Dopo un breve riepilogo di Anchor approfondiremo come testare gli smart contract su Solana ed eseguiraiemo un test utilizzando il framework di Anchor.',
+		link: 'https://www.youtube.com/watch?v=_9xS3ZvDIIU',
+		topImage: 'blog/chainlink/chainlink-16.png',
+		category: 'chainlink',
+		type: 'link'
+	},
+	'chainlink-17': {
+		title: "Codiamo insieme un'applicaziione DeFi di staking",
+		description:
+			'Programma insieme a Patrick Collins, sviluppatore principale di Chainlink Labs, la tua app di staking DeFi personale.',
+		link: 'https://www.youtube.com/watch?v=-48_hdo9_gg',
+		topImage: 'blog/chainlink/chainlink-17.png',
+		category: 'chainlink',
+		type: 'link'
+	},
+	'chainlink-18': {
+		title: 'Codiamo insieme un NFT utilizzando IPFS',
+		description:
+			"Scopri come creare un'applicazione NFT in cui le immagini sono ospitate su IPFS. Svilupperai competenze per aiutarti a creare un progetto NFT e archiviare i tuoi dati in modo decentralizzato.",
+		link: 'https://www.youtube.com/watch?v=xTnDTWHsbIs',
+		topImage: 'blog/chainlink/chainlink-18.png',
+		category: 'chainlink',
+		type: 'link'
+	},
+	'chainlink-19': {
+		title: "NFT 100% onchain",
+		description: "Sviluppiamo insieme a Patrick Collins, Lead Developer Advocate di Chainlink Labs, un'applicazione NFT in cui le immagini sono ospitate al 100% sulla blockchain.",
+		link: 'https://www.youtube.com/watch?v=hYCeB4mkkPk',
+		topImage: 'blog/chainlink/chainlink-19.png',
+		category: 'chainlink',
+		type: 'link'
+	},
+	'chainlink-20': {
+		title: 'Polkadot, Parachains e Substrate',
+		description:
+			"Esploriamo insieme l'architettura di Polkadot, concentrandoci su parachain, interoperabilità, sicurezza condivisa e aggiornamenti forkless utilizzando il framework di sviluppo Substrate.",
+		link: 'https://www.youtube.com/watch?v=gT-9r1bcVHY',
+		topImage: 'blog/chainlink/chainlink-20.png',
+		category: 'chainlink',
+		type: 'link'
 	}
 };

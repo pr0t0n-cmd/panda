@@ -64,6 +64,15 @@
         <BlogCard author="" content={articles['chainlink-09']}></BlogCard>
         <BlogCard author="" content={articles['chainlink-10']}></BlogCard>
         <BlogCard author="" content={articles['chainlink-11']}></BlogCard>
+        <BlogCard author="" content={articles['chainlink-12']}></BlogCard>
+        <BlogCard author="" content={articles['chainlink-13']}></BlogCard>
+        <BlogCard author="" content={articles['chainlink-14']}></BlogCard>
+        <BlogCard author="" content={articles['chainlink-15']}></BlogCard>
+        <BlogCard author="" content={articles['chainlink-16']}></BlogCard>
+        <BlogCard author="" content={articles['chainlink-17']}></BlogCard>
+        <BlogCard author="" content={articles['chainlink-18']}></BlogCard>
+        <BlogCard author="" content={articles['chainlink-19']}></BlogCard>
+        <BlogCard author="" content={articles['chainlink-20']}></BlogCard>
     </div>
     <div class="blog-content">
         <h2 class="category">🎁💣 PROSSIMI POST</h2>
@@ -196,7 +205,7 @@
 
 
 <MetaTags
-  title="The Coding Panda"
+  title="The Coding Panda | Il Blog per appassionati di Blockchain - NFT - DeFi - DAO"
   description="Unisciti alla nostra community ed accedi a contenuti speciali che ti permetteranno di approfondire il mondo della blockchain attraverso gli occhi di due giovani programmatori appassionati di programmazione, nft, defi, dao e molto altro"
   canonical="https://thecodingpanda.dev/"
   openGraph={{
@@ -216,8 +225,18 @@
 <JsonLd
   schema={{
     '@type': 'Dataset',
-    name: 'The Coding Panda',
+    name: 'The Coding Panda | Il Blog per appassionati di Blockchain - NFT - DeFi - DAO',
     description: 'Unisciti alla nostra community ed accedi a contenuti speciali che ti permetteranno di approfondire il mondo della blockchain attraverso gli occhi di due giovani programmatori appassionati di programmazione, nft, defi, dao e molto altro',
-    license: 'https://thecodingpanda.dev/'
+    license: 'https://thecodingpanda.dev/',
+    creator: {
+        "@type":"Organization",
+         "url": "https://www.thecodingpanda.dev/",
+         "name":"The Coding Panda",
+         "contactPoint":{
+            "@type":"ContactPoint",
+            "contactType": "Sviluppatori",
+            "email":"thecodingpanda.dev@gmail.com"
+         }
+    }
   }}
 />
