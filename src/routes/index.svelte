@@ -35,13 +35,14 @@
 
 </script>
 
+<svelte:head>
+    <script src="https://widgets.coingecko.com/coingecko-coin-price-marquee-widget.js"></script>
+</svelte:head>
+
 <section >
-    <script type="text/javascript" src="https://files.coinmarketcap.com/static/widget/coinMarquee.js"></script>
-     <div id="coinmarketcap-widget-marquee" coins="1,1027,5426,4172,5805,7296,4030,2130,4687,6636,8857,6210,1966,5994,3890,6719" currency="EUR" theme="dark" transparent="true" show-symbol-logo="true"></div>
-    <div class="header-banner">
-        <a style="position: absolute; top:10px; right:0; padding:20px" href="/about"><img width="25px" src="/icone/dev2.svg" alt="about dev"/></a>
+    <div class="header-banner" style="position: absolute; top: 0">
+        <coingecko-coin-price-marquee-widget  coin-ids="bitcoin,ethereum,algorand,terra-luna,solana,truebit-protocol,enjincoin,the-sandbox,decentraland,anchor-protocol,avalanche-2" currency="eur" background-color="transparent" locale="it" font-color="#ffffff"></coingecko-coin-price-marquee-widget>
     </div>
-    
     <div class="header-content">
         <div class="dynamic-text-container">
             <h1>
@@ -113,7 +114,6 @@
 </section>
 
 <style>
-
 
     section{
         width: 100%;

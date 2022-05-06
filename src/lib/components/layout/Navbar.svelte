@@ -59,6 +59,7 @@
                 <a href="/about"><img src="./icone/dev.png" alt="about dev"/></a>
             </li> -->
         </ul>
+         <a style="position: absolute; top:10px; right:0; padding:20px" href="/about"><img class="team" src="/icone/dev2.svg" alt="about dev"/></a>
     </nav>
 
     <style>
@@ -73,6 +74,10 @@
         z-index: 99;
         font-size: 1rem;
         background: linear-gradient(to top right, #333, #000);
+    }
+
+    .team {
+        width:25px;
     }
 
     span{
