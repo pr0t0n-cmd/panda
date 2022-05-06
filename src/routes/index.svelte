@@ -207,7 +207,6 @@
      @media (max-width:450px){
         section {
             text-align: left;
-            padding: 1rem;
         }
         .header-content{
             padding: 5%;

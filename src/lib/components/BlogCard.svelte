@@ -95,6 +95,10 @@
     @media (max-width: 600px){
         a{
             margin-bottom: 2rem;
+            width: 100%;
+            height: 350px;
+            margin-right: 0.5rem;
+            margin-left: 0.5rem;
         }
     }
     
