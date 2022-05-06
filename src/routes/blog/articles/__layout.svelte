@@ -52,6 +52,7 @@
     .back{
         font-size: .8rem;
         font-weight: 100;
+        padding: 1rem;
     }
 
     a{
@@ -146,11 +147,19 @@
     padding: 20px;
     }
 
+     @media screen and (max-width:900px){
+        div{
+    padding: 2rem 1rem;
+    }
+     }
 
 
     @media screen and (max-width:600px){
     div{
-    padding: 2rem 1rem;
+    padding: 2rem 0rem;
+    }
+    .blogTitle{
+        background: transparent;
     }
       :global(.blog-style  p){
     font-size: 16px;
