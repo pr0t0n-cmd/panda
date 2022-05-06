@@ -36,7 +36,6 @@
 </script>
 
 <section >
-    <!-- <script type="text/javascript" src="https://files.coinmarketcap.com/static/widget/currency.js"></script><div class="coinmarketcap-currency-widget" data-currencyid="1" data-base="USD" data-secondary="" data-ticker="true" data-rank="true" data-marketcap="true" data-volume="true" data-statsticker="true" data-stats="USD"></div> -->
     <script type="text/javascript" src="https://files.coinmarketcap.com/static/widget/coinMarquee.js"></script>
      <div id="coinmarketcap-widget-marquee" coins="1,1027,5426,4172,5805,7296,4030,2130,4687,6636,8857,6210,1966,5994,3890,6719" currency="EUR" theme="dark" transparent="true" show-symbol-logo="true"></div>
     <div class="header-banner">
