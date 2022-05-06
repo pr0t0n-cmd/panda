@@ -188,6 +188,15 @@
             font-size: 2.5rem;
             letter-spacing: 2px;
         }
+        .dynamic-text-container{
+            height: 50px;
+        }
+        .header-content{
+            margin-top:120px;
+        }
+        .header-banner{
+            margin-top: 50px;
+        }
     }
      @media (max-width:450px){
         section {
