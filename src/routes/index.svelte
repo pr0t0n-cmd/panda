@@ -36,7 +36,13 @@
 </script>
 
 <section >
-    <a style="position: absolute; top:30px; padding:20px" href="/about"><img width="25px" src="/icone/dev2.svg" alt="about dev"/></a>
+    <!-- <script type="text/javascript" src="https://files.coinmarketcap.com/static/widget/currency.js"></script><div class="coinmarketcap-currency-widget" data-currencyid="1" data-base="USD" data-secondary="" data-ticker="true" data-rank="true" data-marketcap="true" data-volume="true" data-statsticker="true" data-stats="USD"></div> -->
+    <script type="text/javascript" src="https://files.coinmarketcap.com/static/widget/coinMarquee.js"></script>
+     <div id="coinmarketcap-widget-marquee" coins="1,1027,5426,4172,5805,7296,4030,2130,4687,6636,8857,6210,1966,5994,3890,6719" currency="EUR" theme="dark" transparent="true" show-symbol-logo="true"></div>
+    <div class="header-banner">
+        <a style="position: absolute; top:10px; right:0; padding:20px" href="/about"><img width="25px" src="/icone/dev2.svg" alt="about dev"/></a>
+    </div>
+    
     <div class="header-content">
         <div class="dynamic-text-container">
             <h1>
@@ -73,6 +79,12 @@
         <BlogCard author="" content={articles['chainlink-18']}></BlogCard>
         <BlogCard author="" content={articles['chainlink-19']}></BlogCard>
         <BlogCard author="" content={articles['chainlink-20']}></BlogCard>
+        <BlogCard author="" content={articles['chainlink-21']}></BlogCard>
+        <BlogCard author="" content={articles['chainlink-22']}></BlogCard>
+        <BlogCard author="" content={articles['chainlink-23']}></BlogCard>
+        <BlogCard author="" content={articles['chainlink-24']}></BlogCard>
+        <BlogCard author="" content={articles['chainlink-25']}></BlogCard>
+        <BlogCard author="" content={articles['chainlink-26']}></BlogCard>
     </div>
     <div class="blog-content">
         <h2 class="category">🎁💣 PROSSIMI POST</h2>
@@ -111,7 +123,6 @@
         flex-direction: column;
         justify-content: center;
         align-items: center;
-        margin-top: 50px;
         text-align: center;
     }
 
@@ -119,12 +130,13 @@
         display: flex;
         position: relative;
         width: 100%;
-        height: 200px;
+        height: 120px;
         justify-content: center;
     }
 
     .header-content{
         z-index: 1;
+        margin-top: 80px;
     }
     
 

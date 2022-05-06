@@ -190,8 +190,9 @@ export let articles = {
 		type: 'link'
 	},
 	'chainlink-19': {
-		title: "NFT 100% onchain",
-		description: "Sviluppiamo insieme a Patrick Collins, Lead Developer Advocate di Chainlink Labs, un'applicazione NFT in cui le immagini sono ospitate al 100% sulla blockchain.",
+		title: 'NFT 100% onchain',
+		description:
+			"Sviluppiamo insieme a Patrick Collins, Lead Developer Advocate di Chainlink Labs, un'applicazione NFT in cui le immagini sono ospitate al 100% sulla blockchain.",
 		link: 'https://www.youtube.com/watch?v=hYCeB4mkkPk',
 		topImage: 'blog/chainlink/chainlink-19.png',
 		category: 'chainlink',
@@ -203,6 +204,60 @@ export let articles = {
 			"Esploriamo insieme l'architettura di Polkadot, concentrandoci su parachain, interoperabilità, sicurezza condivisa e aggiornamenti forkless utilizzando il framework di sviluppo Substrate.",
 		link: 'https://www.youtube.com/watch?v=gT-9r1bcVHY',
 		topImage: 'blog/chainlink/chainlink-20.png',
+		category: 'chainlink',
+		type: 'link'
+	},
+	'chainlink-21': {
+		title: 'Integrazione di un sistema Play-To-Earn su Polygon',
+		description:
+			'In questo video con Rahat Chowdhury, sviluppatore Polygon, scopriamo come aggiungere funzionalità Play-To-Earn a un semplice gioco nel browser.',
+		link: 'https://www.youtube.com/watch?v=9RxZ5mmVrw4',
+		topImage: 'blog/chainlink/chainlink-21.png',
+		category: 'chainlink',
+		type: 'link'
+	},
+	'chainlink-22': {
+		title: 'Utilizzare Python con i protocolli DeFi',
+		description:
+			'Approfondiamo attraverso il codice come avere successo nel mondo DeFi sfruttando le potenzialità di Python.',
+		link: 'https://www.youtube.com/watch?v=tCV_4WBMVGA',
+		topImage: 'blog/chainlink/chainlink-22.png',
+		category: 'chainlink',
+		type: 'link'
+	},
+	'chainlink-23': {
+		title: 'Come creare un sito in Web3',
+		description:
+			"Esplora i fondamenti dello sviluppo Web3 e scopri come programmare un'applicazione Web3 full-stack. Se sei nuovo allo sviluppo web questo tutorial è un ottimo punto di partenza.",
+		link: 'https://www.youtube.com/watch?v=l4r0IXjAlpc',
+		topImage: 'blog/chainlink/chainlink-23.png',
+		category: 'chainlink',
+		type: 'link'
+	},
+	'chainlink-24': {
+		title: 'Introduzione a IPFS e Filecoin',
+		description:
+			"Analizziamo come l'archiviazione decentralizzata è cresciuta fino a diventare un'infrastruttura quasi imprescindibile nello sviluppo di applicazioni in Web3.",
+		link: 'https://www.youtube.com/watch?v=WcPqf4mWh4E',
+		topImage: 'blog/chainlink/chainlink-24.png',
+		category: 'chainlink',
+		type: 'link'
+	},
+	'chainlink-25': {
+		title: 'Crea una Lotteria digitale con Solidity e Next Js',
+		description:
+			"In questo video scopriremo come creare un'applicazione per lotteria utilizzando Solidity. Vedrai l'intero processo, a partire dagli smart contract e terminando con il frontend.",
+		link: 'https://www.youtube.com/watch?v=8bMrko6iD9Q',
+		topImage: 'blog/chainlink/chainlink-25.png',
+		category: 'chainlink',
+		type: 'link'
+	},
+	'chainlink-26': {
+		title: 'Eseguire un nodo di Chainlink in locale: codiamo insieme',
+		description:
+			'In questo video guarda come viene eseguito un nodo di Chainlink in locale in modo da imparare ad interagire con un nodo quando sviluppi i tuoi Smart Contract.',
+		link: 'https://www.youtube.com/watch?v=DO3O6ZUtwbs',
+		topImage: 'blog/chainlink/chainlink-26.png',
 		category: 'chainlink',
 		type: 'link'
 	}
