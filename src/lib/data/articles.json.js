@@ -394,16 +394,16 @@ export let articles = {
 		type: 'link'
 	},
 	'chainlink-42': {
-		title: 'Programma Smart Contract insieme al Team di Parity',
+		title: 'Programmare Smart Contract in Rust con Ink!',
 		description:
-			"Impara a scrivere Smart Contract con Parity'sink! in Rust e compilati in WebAssembly utilizzabili con qualsiasi parachain di Polkadot o Kusama che supporta il modulo dei contratti di Substrate.",
+			"Impara a scrivere Smart Contract con Parity's ink! in Rust e compilati in WebAssembly utilizzabili con qualsiasi parachain di Polkadot o Kusama che supporta il modulo dei contratti di Substrate.",
 		link: 'https://www.youtube.com/watch?v=_J6BsbOaedw',
 		topImage: 'blog/chainlink/chainlink-42.png',
 		category: 'chainlink',
 		type: 'link'
 	},
 	'chainlink-43': {
-		title: "Dati sull'inflazione decentralizzata",
+		title: "Analizzare i dati sull'inflazione decentralizzata",
 		description:
 			"Truflation è un vero indice di inflazione progettato per fornire aggiornamenti sull'inflazione che possono alimentare i protocolli con metriche accurate basate sui dati di mercato attuali.",
 		link: 'https://www.youtube.com/watch?v=lugCHOxKBPg',
