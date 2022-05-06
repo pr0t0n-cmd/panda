@@ -59,11 +59,12 @@
     .category{
         flex: 100%;
         text-transform: uppercase;
-        color: #333 ;
+        color: #2be40f ;
         padding: 1rem;
-        border-bottom: 1px solid #ccc;
+        border-bottom: 1px solid #2be40f;
         font-weight: 100;
         margin-top: 3rem;
+        margin-bottom: 1rem;
     }
     #blog{
         display: flex;
@@ -88,6 +89,9 @@
      @media screen and (max-width:600px){
           #blog{
             justify-content: center;
+        }
+        .category{
+            margin-bottom: 2rem;
         }
         
          h1 .txt-type{

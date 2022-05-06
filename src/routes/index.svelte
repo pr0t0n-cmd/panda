@@ -161,11 +161,12 @@
     .category{
         flex: 100%;
         text-transform: uppercase;
-        color: #fff ;
+        color: #2be40f ;
         padding: 1rem;
         border-bottom: 1px solid #2be40f;
         font-weight: 100;
         margin-top: 3rem;
+        margin-bottom: 1rem;
     }
     .blog-content{
         display: flex;
@@ -189,6 +190,10 @@
             font-size: 2.5rem;
             letter-spacing: 2px;
         }
+        .category{
+            margin-bottom: 2rem;
+        }
+        
         .dynamic-text-container{
             height: 50px;
         }

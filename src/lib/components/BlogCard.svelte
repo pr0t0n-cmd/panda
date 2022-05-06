@@ -43,6 +43,7 @@
         flex-basis: 100%;
     }
 
+
     a{
         position: relative;
         padding: 10px;
@@ -89,6 +90,12 @@
         position: absolute;
         top: 0;
         right: 0;
+    }
+
+    @media (max-width: 600px){
+        a{
+            margin-bottom: 2rem;
+        }
     }
     
 </style>
