@@ -102,13 +102,14 @@
     <div class="blog-content">
         <h2 class="category">🚧🚧 LAVORI IN CORSO</h2>
         <BlogCard author="A" content="Pop-up donazione ETH🐱‍🚀"/>
+        <BlogCard author="G" content="Carosello Crypto con Api CoinGeeko powered by The Coding Panda"/>
         <BlogCard author="A" content="Newsletter mailchimp🙊"/>
         <BlogCard author="A" content="Rimuovere social📷"/>
         <BlogCard author="G" content="Integrazione Metamask🦊"/>
         <BlogCard author="A" content="Dark-mode"/>
         <BlogCard author="G" content="Vite image plugin"/>
-        <BlogCard author="A" content="plugin SEO"/>
-        <BlogCard author="A" content="Google News account + pubblicazione articoli -> https://www.davidwparker.com/posts/how-to-make-an-rss-feed-in-sveltekit"/>
+        <BlogCard author="A" content="plugin SEO campi dinamici"/>
+        <BlogCard author="A" content="Fix Google News account + pubblicazione articoli -> https://www.davidwparker.com/posts/how-to-make-an-rss-feed-in-sveltekit"/>
     </div>
 </div>
 </section>
