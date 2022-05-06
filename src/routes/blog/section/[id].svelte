@@ -27,12 +27,14 @@
         display: flex;
         position: relative;
         width: 100%;
-        height: 200px;
+        height: 120px;
         justify-content: center;
     }
 
     .header-content{
         z-index: 1;
+        margin-top: 50px;
+        margin-bottom: 100px;
     }
     
 
@@ -62,16 +64,22 @@
             font-size: 3rem;
             letter-spacing: 2.5px;
         }
-        .header-content{
-            margin-top: 100px;
-        }
+         
+    
     }
    
      @media screen and (max-width:600px){
           #blog{
             justify-content: center;
         }
-        
+        .header-content{
+            margin-top: 80px;
+            margin-bottom: 0;
+        }
+        .dynamic-text-container{
+            height: 80px;
+            margin-bottom: 3rem;
+        }
          h1 .txt-type{
             font-size: 2.5rem;
             letter-spacing: 2px;
@@ -80,7 +88,7 @@
      @media (max-width:450px){
         
         .header-content{
-            padding: 5%;
+            padding: 3%;
         }
         h1 .txt-type{
             font-size: 2rem;

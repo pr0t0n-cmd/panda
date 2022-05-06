@@ -156,13 +156,20 @@
 
     @media screen and (max-width:600px){
     div{
-    padding: 2rem 0rem;
+    padding: 1rem 0rem;
+    }
+    .back{
+        margin-top: 30px;
+        padding-left: 0;
+    }
+    .back a{
+        padding-left: 0;
     }
     .blogTitle{
         background: transparent;
     }
       :global(.blog-style  p){
-    font-size: 16px;
+    font-size: 18px;
     }
     }
 </style>

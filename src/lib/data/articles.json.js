@@ -260,5 +260,155 @@ export let articles = {
 		topImage: 'blog/chainlink/chainlink-26.png',
 		category: 'chainlink',
 		type: 'link'
+	},
+	'chainlink-27': {
+		title: 'Come utilizzare API esterne con Chainlink',
+		description:
+			'Scopri come effettuare chiamate personalizzate a qualsiasi API ed incorporare dati esterni nelle tue applicazioni tramite Smart Contract.',
+		link: 'https://www.youtube.com/watch?v=fICFYsN4E74',
+		topImage: 'blog/chainlink/chainlink-27.png',
+		category: 'chainlink',
+		type: 'link'
+	},
+	'chainlink-28': {
+		title: 'Come Aggiornare uno Smart Contract',
+		description:
+			'Scopri come creare uno Smart Contract aggiornabile una volta pubblicato sulla blockchain',
+		link: 'https://www.youtube.com/watch?v=8w8xJaGtZwo',
+		topImage: 'blog/chainlink/chainlink-28.png',
+		category: 'chainlink',
+		type: 'link'
+	},
+	'chainlink-29': {
+		title: 'Introduzione a Substrate',
+		description:
+			"Substrate ti consente di creare blockchain specializzate per qualsiasi caso d'uso ed è stato utilizzato da Parity Technologies per creare Polkadot stesso, che ne attesta l'alto livello di prestazioni, flessibilità e robustezza.",
+		link: 'https://www.youtube.com/watch?v=o5ANk0sRxEY',
+		topImage: 'blog/chainlink/chainlink-29.png',
+		category: 'chainlink',
+		type: 'link'
+	},
+	'chainlink-30': {
+		title: 'Creare un feed di dati universali con Covalent e Chainlink',
+		description:
+			'In questo tutorial, scopri come creare feed di dati universali utilizzando Covalent e Chainlink.',
+		link: 'https://www.youtube.com/watch?v=JmaCmrQyjNU',
+		topImage: 'blog/chainlink/chainlink-30.png',
+		category: 'chainlink',
+		type: 'link'
+	},
+	'chainlink-31': {
+		title: 'Come tenere traccia degli NFT mintati in tempo reale con Alchemy',
+		description:
+			'In questa guida scriveremo uno script per recuperare aggiornamenti in tempo reale ogni volta che qualcuno conia un nuovo NFT.',
+		link: 'https://www.youtube.com/watch?v=J4avAsOn8F0',
+		topImage: 'blog/chainlink/chainlink-31.png',
+		category: 'chainlink',
+		type: 'link'
+	},
+	'chainlink-32': {
+		title: 'Ottimizzazione GAS',
+		description:
+			'Questo tutorial esplora la sintassi EVM di basso livello e come utilizzarla per rendere i tuoi contratti più sicuri e più efficienti dal punto di vista dei consumi del gas.',
+		link: 'https://www.youtube.com/watch?v=M8_4THWJkHQ',
+		topImage: 'blog/chainlink/chainlink-32.png',
+		category: 'chainlink',
+		type: 'link'
+	},
+	'chainlink-33': {
+		title: 'Come creare una DAO',
+		description:
+			"Crea un'organizzazione autonoma decentralizzata (DAO) che utilizza un sistema di voto 100% onchain attraverso un token ERC20",
+		link: 'https://www.youtube.com/watch?v=i5-3Wx_BrSA',
+		topImage: 'blog/chainlink/chainlink-33.png',
+		category: 'chainlink',
+		type: 'link'
+	},
+	'chainlink-34': {
+		title: "Come creare un'applicazione DeFi completa",
+		description:
+			"Scopri come creare da zero un'applicazione DeFi full-stack. Imparerai ogni aspetto dell'applicazione, dalla logica dello Smart Contract al frontend.",
+		link: 'https://www.youtube.com/watch?v=5vhVInexaUI',
+		topImage: 'blog/chainlink/chainlink-34.png',
+		category: 'chainlink',
+		type: 'link'
+	},
+	'chainlink-35': {
+		title: 'Sviluppare Smart Contract sicuri',
+		description:
+			"Esplora i fondamenti della sicurezza e del controllo nell'ambito degli smart contract. In questo video imparerai ad utilizzare strumenti fondamentali come Slither, Echidna e Mythril.",
+		link: 'https://www.youtube.com/watch?v=0aJfCug1zTM',
+		topImage: 'blog/chainlink/chainlink-35.png',
+		category: 'chainlink',
+		type: 'link'
+	},
+	'chainlink-36': {
+		title: 'Crea un progetto NFT con Alchemy',
+		description: 'Scopri quanto rapidamente puoi creare un progetto nft attraverso Alchemy',
+		link: 'https://www.youtube.com/watch?v=mjfzRMOEcdU',
+		topImage: 'blog/chainlink/chainlink-36.png',
+		category: 'chainlink',
+		type: 'link'
+	},
+	'chainlink-37': {
+		title: 'Come sviluppare un gioco su Web3',
+		description: 'Impariamo a sviluppare un gioco in Web3 utilizzando gli Smart Contract',
+		link: 'https://www.youtube.com/watch?v=bPfTBr2D1gc',
+		topImage: 'blog/chainlink/chainlink-37.png',
+		category: 'chainlink',
+		type: 'link'
+	},
+	'chainlink-38': {
+		title: 'Strumenti avanzati per la sicurezza e il controllo degli Smart Contract',
+		description:
+			'Immergiti negli strumenti di auditing avanzati utilizzati per lo sviluppo e controllo degli Smart Contract.',
+		link: 'https://www.youtube.com/watch?v=PTE1Hcqup_M',
+		topImage: 'blog/chainlink/chainlink-38.png',
+		category: 'chainlink',
+		type: 'link'
+	},
+	'chainlink-39': {
+		title: 'Come scalare la tua Dapp con la nuova Sidechain di Binance',
+		description:
+			'BAS è la nuova sidechain di Binance, una blockchain separata ma ancorata in qualche modo alla blockchain principale(BSC).',
+		link: 'https://www.youtube.com/watch?v=gLFtqRTeX9E',
+		topImage: 'blog/chainlink/chainlink-39.png',
+		category: 'chainlink',
+		type: 'link'
+	},
+	'chainlink-40': {
+		title: 'Come avviare un progetto personale',
+		description:
+			'Insieme a Jocy Lin, partner fondatore di IOSG Ventures, scopriamo come sviluppare un protocollo Smart Contract di successo.',
+		link: 'https://www.youtube.com/watch?v=2FFCwpzcqS0',
+		topImage: 'blog/chainlink/chainlink-40.png',
+		category: 'chainlink',
+		type: 'link'
+	},
+	'chainlink-41': {
+		title: 'Un progetto sostenibile: Filecoin',
+		description: 'Un panel sulla sostenibilità green insieme al Team di Filecoin',
+		link: 'https://www.youtube.com/watch?v=nk4dn2NGmXM',
+		topImage: 'blog/chainlink/chainlink-41.png',
+		category: 'chainlink',
+		type: 'link'
+	},
+	'chainlink-42': {
+		title: 'Programma Smart Contract insieme al Team di Parity',
+		description:
+			"Impara a scrivere Smart Contract con Parity'sink! in Rust e compilati in WebAssembly utilizzabili con qualsiasi parachain di Polkadot o Kusama che supporta il modulo dei contratti di Substrate.",
+		link: 'https://www.youtube.com/watch?v=_J6BsbOaedw',
+		topImage: 'blog/chainlink/chainlink-42.png',
+		category: 'chainlink',
+		type: 'link'
+	},
+	'chainlink-43': {
+		title: "Dati sull'inflazione decentralizzata",
+		description:
+			"Truflation è un vero indice di inflazione progettato per fornire aggiornamenti sull'inflazione che possono alimentare i protocolli con metriche accurate basate sui dati di mercato attuali.",
+		link: 'https://www.youtube.com/watch?v=lugCHOxKBPg',
+		topImage: 'blog/chainlink/chainlink-43.png',
+		category: 'chainlink',
+		type: 'link'
 	}
 };

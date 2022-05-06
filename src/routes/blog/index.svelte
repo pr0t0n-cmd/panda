@@ -33,15 +33,15 @@
         display: flex;
         position: relative;
         width: 100%;
-        height: 200px;
+        height: 120px;
         justify-content: center;
     }
 
     .header-content{
         z-index: 1;
+          margin-top: 80px;
     }
-    
-
+     
 
     h1 .txt-type{
     font-family: "NNRektoratSTD-HeavyRe";
@@ -81,9 +81,6 @@
             font-size: 3rem;
             letter-spacing: 2.5px;
         }
-        .header-content{
-            margin-top: 100px;
-        }
     }
    
      @media screen and (max-width:600px){
@@ -97,6 +94,9 @@
          h1 .txt-type{
             font-size: 2.5rem;
             letter-spacing: 2px;
+        }
+        .dynamic-text-container{
+            height: 50px;
         }
     }
      @media (max-width:450px){

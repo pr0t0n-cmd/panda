@@ -85,6 +85,23 @@
         <BlogCard author="" content={articles['chainlink-24']}></BlogCard>
         <BlogCard author="" content={articles['chainlink-25']}></BlogCard>
         <BlogCard author="" content={articles['chainlink-26']}></BlogCard>
+        <BlogCard author="" content={articles['chainlink-27']}></BlogCard>
+        <BlogCard author="" content={articles['chainlink-28']}></BlogCard>
+        <BlogCard author="" content={articles['chainlink-29']}></BlogCard>
+        <BlogCard author="" content={articles['chainlink-30']}></BlogCard>
+        <BlogCard author="" content={articles['chainlink-31']}></BlogCard>
+        <BlogCard author="" content={articles['chainlink-32']}></BlogCard>
+        <BlogCard author="" content={articles['chainlink-33']}></BlogCard>
+        <BlogCard author="" content={articles['chainlink-34']}></BlogCard>
+        <BlogCard author="" content={articles['chainlink-35']}></BlogCard>
+        <BlogCard author="" content={articles['chainlink-36']}></BlogCard>
+        <BlogCard author="" content={articles['chainlink-37']}></BlogCard>
+        <BlogCard author="" content={articles['chainlink-38']}></BlogCard>
+        <BlogCard author="" content={articles['chainlink-39']}></BlogCard>
+        <BlogCard author="" content={articles['chainlink-40']}></BlogCard>
+        <BlogCard author="" content={articles['chainlink-41']}></BlogCard>
+        <BlogCard author="" content={articles['chainlink-42']}></BlogCard>
+        <BlogCard author="" content={articles['chainlink-43']}></BlogCard>
     </div>
     <div class="blog-content">
         <h2 class="category">🎁💣 PROSSIMI POST</h2>
