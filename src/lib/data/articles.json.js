@@ -76,7 +76,7 @@ export let articles = {
 		title: 'Programmare con Brownie',
 		description:
 			'Esaminiamo le basi di questo framework per sviluppare Smart Contracts con Python. Utilizzeremo anche la repository di chainlink-mix per avviare il tuo progetto in pochi minuti.',
-		link: 'https://www.youtube.com/watch?v=JrYdDkpOzy',
+		link: 'https://www.youtube.com/watch?v=JrYdDkpOzyQ',
 		topImage: 'blog/chainlink/chainlink-06.png',
 		category: 'chainlink',
 		type: 'link'
