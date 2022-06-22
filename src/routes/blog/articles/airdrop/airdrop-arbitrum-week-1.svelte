@@ -103,7 +103,7 @@
 
 	<div>
 		<img src="/blog/airdrop/b-2.PNG" alt="dapp-bridge-eth-arbitrum" />
-		<p class="credit">Credit https://l2beat.com/</p>
+		<p class="credit">Credit https://twitter.com/arbitrum/status/1537942320741355520</p>
 	</div>
 
 	<p>
