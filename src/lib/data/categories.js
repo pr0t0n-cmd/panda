@@ -20,8 +20,15 @@ export let category = {
 		topImage: '',
 		icon: 'aaa'
 	},
-	chainlink: {
-		title: 'chainlink',
+	hackathon: {
+		title: 'hackathon',
+		description: '',
+		link: '',
+		topImage: '',
+		icon: 'aaa'
+	},
+	airdrop: {
+		title: 'airdrop',
 		description: '',
 		link: '',
 		topImage: '',

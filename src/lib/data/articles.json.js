@@ -33,7 +33,7 @@ export let articles = {
 			"Chainlink Hackathon prende il via il 22 aprile! In palio $ 500.000 in premi e l'opportunità di presentare il progetto ad importanti investitori.",
 		link: 'https://www.youtube.com/watch?v=3v0vhdPh1m4',
 		topImage: 'blog/chainlink/chainlink-01.png',
-		category: 'chainlink',
+		category: 'hackathon',
 		type: 'link'
 	},
 	'chainlink-02': {
@@ -42,7 +42,7 @@ export let articles = {
 			'In questo video impareremo come funzionano gli Smart Contracts. Questo workshop può essere utile anche per chi non appartiene al mondo della programmazione.',
 		link: 'https://youtu.be/UkdYCFVea68',
 		topImage: 'blog/chainlink/chainlink-02.png',
-		category: 'chainlink',
+		category: 'hackathon',
 		type: 'link'
 	},
 	'chainlink-03': {
@@ -51,7 +51,7 @@ export let articles = {
 			"Attraverso l'intuitivo ambiente di sviluppo di Remix approfondiamo il linguaggio degli Smart Contract più utilizzato: Solidity",
 		link: 'https://youtu.be/HuUcdoPkzeg',
 		topImage: 'blog/chainlink/chainlink-03.png',
-		category: 'chainlink',
+		category: 'hackathon',
 		type: 'link'
 	},
 	'chainlink-04': {
@@ -60,7 +60,7 @@ export let articles = {
 			"Analizziamo con Remix tutte le funzionalità dei contratti di Chainlin: Feed dei prezzi, VRF, Keepers e l'integrazione di API normali",
 		link: 'https://www.youtube.com/watch?v=p8LbgPwbtxw',
 		topImage: 'blog/chainlink/chainlink-04.png',
-		category: 'chainlink',
+		category: 'hackathon',
 		type: 'link'
 	},
 	'chainlink-05': {
@@ -69,7 +69,7 @@ export let articles = {
 			'Esaminiamo le basi di questo framework per sviluppare Smart Contracts con Javascript. Utilizzeremo anche la repository hardhat-starter-kit per avviare il tuo progetto in pochi minuti.',
 		link: 'https://www.youtube.com/watch?v=5WBng0kWzJo',
 		topImage: 'blog/chainlink/chainlink-05.png',
-		category: 'chainlink',
+		category: 'hackathon',
 		type: 'link'
 	},
 	'chainlink-06': {
@@ -78,7 +78,7 @@ export let articles = {
 			'Esaminiamo le basi di questo framework per sviluppare Smart Contracts con Python. Utilizzeremo anche la repository di chainlink-mix per avviare il tuo progetto in pochi minuti.',
 		link: 'https://www.youtube.com/watch?v=JrYdDkpOzyQ',
 		topImage: 'blog/chainlink/chainlink-06.png',
-		category: 'chainlink',
+		category: 'hackathon',
 		type: 'link'
 	},
 	'chainlink-07': {
@@ -87,7 +87,7 @@ export let articles = {
 			'Esaminiamo le basi di questo nuovissimo framework per sviluppare Smart Contracts.',
 		link: 'https://www.youtube.com/watch?v=fG66LNaceWU',
 		topImage: 'blog/chainlink/chainlink-07.png',
-		category: 'chainlink',
+		category: 'hackathon',
 		type: 'link'
 	},
 	'chainlink-08': {
@@ -96,7 +96,7 @@ export let articles = {
 			'Esaminiamo le basi del framework Truffle per sviluppare Smart Contracts con Javascript. Utilizzeremo anche la repository truffle-starter-kit per avviare il tuo progetto in pochi minuti.',
 		link: 'https://www.youtube.com/watch?v=jPp7a1w-J6E',
 		topImage: 'blog/chainlink/chainlink-08.png',
-		category: 'chainlink',
+		category: 'hackathon',
 		type: 'link'
 	},
 	'chainlink-09': {
@@ -105,7 +105,7 @@ export let articles = {
 			'Esaminiamo le basi del framework Anchor per sviluppare Smart Contracts con Rust. Utilizzeremo anche la repository solana-starter-kit per avviare il tuo progetto in pochi minuti.',
 		link: 'https://www.youtube.com/watch?v=fPsH77ZoXt4',
 		topImage: 'blog/chainlink/chainlink-09.png',
-		category: 'chainlink',
+		category: 'hackathon',
 		type: 'link'
 	},
 	'chainlink-10': {
@@ -114,7 +114,7 @@ export let articles = {
 			'Esamineremo le tecniche di test avanzate ed essenziali con questo framework Javascript.',
 		link: 'https://www.youtube.com/watch?v=dDr7glOjtvI',
 		topImage: 'blog/chainlink/chainlink-10.png',
-		category: 'chainlink',
+		category: 'hackathon',
 		type: 'link'
 	},
 	'chainlink-11': {
@@ -123,7 +123,7 @@ export let articles = {
 			'Esamineremo le tecniche di test avanzate ed essenziali con questo framework Python.',
 		link: 'https://www.youtube.com/watch?v=uR3VKVQtYhQ',
 		topImage: 'blog/chainlink/chainlink-11.png',
-		category: 'chainlink',
+		category: 'hackathon',
 		type: 'link'
 	},
 	'chainlink-12': {
@@ -132,7 +132,7 @@ export let articles = {
 			'Esplora la sezione test di Foundry e scopri perché è uno strumento così potente. Non solo è incredibilmente veloce ma ti permette di scrivere i tuoi test in Solidity invece che in JavaScript.',
 		link: 'https://www.youtube.com/watch?v=pgh74-XulXg',
 		topImage: 'blog/chainlink/chainlink-12.png',
-		category: 'chainlink',
+		category: 'hackathon',
 		type: 'link'
 	},
 	'chainlink-13': {
@@ -141,7 +141,7 @@ export let articles = {
 			"Scopri come creare ed eseguire un test dei tuoi Smart Contract utilizzando l'ambiente di sviluppo più diffuso: Truffle",
 		link: 'https://www.youtube.com/watch?v=ZomjP89otb0',
 		topImage: 'blog/chainlink/chainlink-13.png',
-		category: 'chainlink',
+		category: 'hackathon',
 		type: 'link'
 	},
 	'chainlink-14': {
@@ -150,7 +150,7 @@ export let articles = {
 			'Unisciti al CEO di Moralis Ivan Liljeqvist e scopri come diventare uno sviluppatore Web3 completo.',
 		link: 'https://www.youtube.com/watch?v=1OHWB90EJSM',
 		topImage: 'blog/chainlink/chainlink-14.png',
-		category: 'chainlink',
+		category: 'hackathon',
 		type: 'link'
 	},
 	'chainlink-15': {
@@ -159,7 +159,7 @@ export let articles = {
 			'In questo video tutorial scopri come sviluppare e pubblicare uno smart contract utilizzando Remix e Alchemy.',
 		link: 'https://www.youtube.com/watch?v=f0k3Jwu880s',
 		topImage: 'blog/chainlink/chainlink-15.png',
-		category: 'chainlink',
+		category: 'hackathon',
 		type: 'link'
 	},
 	'chainlink-16': {
@@ -168,7 +168,7 @@ export let articles = {
 			'Dopo un breve riepilogo di Anchor approfondiremo come testare gli smart contract su Solana ed eseguiraiemo un test utilizzando il framework di Anchor.',
 		link: 'https://www.youtube.com/watch?v=_9xS3ZvDIIU',
 		topImage: 'blog/chainlink/chainlink-16.png',
-		category: 'chainlink',
+		category: 'hackathon',
 		type: 'link'
 	},
 	'chainlink-17': {
@@ -177,7 +177,7 @@ export let articles = {
 			'Programma insieme a Patrick Collins, sviluppatore principale di Chainlink Labs, la tua app di staking DeFi personale.',
 		link: 'https://www.youtube.com/watch?v=-48_hdo9_gg',
 		topImage: 'blog/chainlink/chainlink-17.png',
-		category: 'chainlink',
+		category: 'hackathon',
 		type: 'link'
 	},
 	'chainlink-18': {
@@ -186,7 +186,7 @@ export let articles = {
 			"Scopri come creare un'applicazione NFT in cui le immagini sono ospitate su IPFS. Svilupperai competenze per aiutarti a creare un progetto NFT e archiviare i tuoi dati in modo decentralizzato.",
 		link: 'https://www.youtube.com/watch?v=xTnDTWHsbIs',
 		topImage: 'blog/chainlink/chainlink-18.png',
-		category: 'chainlink',
+		category: 'hackathon',
 		type: 'link'
 	},
 	'chainlink-19': {
@@ -195,7 +195,7 @@ export let articles = {
 			"Sviluppiamo insieme a Patrick Collins, Lead Developer Advocate di Chainlink Labs, un'applicazione NFT in cui le immagini sono ospitate al 100% sulla blockchain.",
 		link: 'https://www.youtube.com/watch?v=hYCeB4mkkPk',
 		topImage: 'blog/chainlink/chainlink-19.png',
-		category: 'chainlink',
+		category: 'hackathon',
 		type: 'link'
 	},
 	'chainlink-20': {
@@ -204,7 +204,7 @@ export let articles = {
 			"Esploriamo insieme l'architettura di Polkadot, concentrandoci su parachain, interoperabilità, sicurezza condivisa e aggiornamenti forkless utilizzando il framework di sviluppo Substrate.",
 		link: 'https://www.youtube.com/watch?v=gT-9r1bcVHY',
 		topImage: 'blog/chainlink/chainlink-20.png',
-		category: 'chainlink',
+		category: 'hackathon',
 		type: 'link'
 	},
 	'chainlink-21': {
@@ -213,7 +213,7 @@ export let articles = {
 			'In questo video con Rahat Chowdhury, sviluppatore Polygon, scopriamo come aggiungere funzionalità Play-To-Earn a un semplice gioco nel browser.',
 		link: 'https://www.youtube.com/watch?v=9RxZ5mmVrw4',
 		topImage: 'blog/chainlink/chainlink-21.png',
-		category: 'chainlink',
+		category: 'hackathon',
 		type: 'link'
 	},
 	'chainlink-22': {
@@ -222,7 +222,7 @@ export let articles = {
 			'Approfondiamo attraverso il codice come avere successo nel mondo DeFi sfruttando le potenzialità di Python.',
 		link: 'https://www.youtube.com/watch?v=tCV_4WBMVGA',
 		topImage: 'blog/chainlink/chainlink-22.png',
-		category: 'chainlink',
+		category: 'hackathon',
 		type: 'link'
 	},
 	'chainlink-23': {
@@ -231,7 +231,7 @@ export let articles = {
 			"Esplora i fondamenti dello sviluppo Web3 e scopri come programmare un'applicazione Web3 full-stack. Se sei nuovo allo sviluppo web questo tutorial è un ottimo punto di partenza.",
 		link: 'https://www.youtube.com/watch?v=l4r0IXjAlpc',
 		topImage: 'blog/chainlink/chainlink-23.png',
-		category: 'chainlink',
+		category: 'hackathon',
 		type: 'link'
 	},
 	'chainlink-24': {
@@ -240,7 +240,7 @@ export let articles = {
 			"Analizziamo come l'archiviazione decentralizzata è cresciuta fino a diventare un'infrastruttura quasi imprescindibile nello sviluppo di applicazioni in Web3.",
 		link: 'https://www.youtube.com/watch?v=WcPqf4mWh4E',
 		topImage: 'blog/chainlink/chainlink-24.png',
-		category: 'chainlink',
+		category: 'hackathon',
 		type: 'link'
 	},
 	'chainlink-25': {
@@ -249,7 +249,7 @@ export let articles = {
 			"In questo video scopriremo come creare un'applicazione per lotteria utilizzando Solidity. Vedrai l'intero processo, a partire dagli smart contract e terminando con il frontend.",
 		link: 'https://www.youtube.com/watch?v=8bMrko6iD9Q',
 		topImage: 'blog/chainlink/chainlink-25.png',
-		category: 'chainlink',
+		category: 'hackathon',
 		type: 'link'
 	},
 	'chainlink-26': {
@@ -258,7 +258,7 @@ export let articles = {
 			'In questo video guarda come viene eseguito un nodo di Chainlink in locale in modo da imparare ad interagire con un nodo quando sviluppi i tuoi Smart Contract.',
 		link: 'https://www.youtube.com/watch?v=DO3O6ZUtwbs',
 		topImage: 'blog/chainlink/chainlink-26.png',
-		category: 'chainlink',
+		category: 'hackathon',
 		type: 'link'
 	},
 	'chainlink-27': {
@@ -267,7 +267,7 @@ export let articles = {
 			'Scopri come effettuare chiamate personalizzate a qualsiasi API ed incorporare dati esterni nelle tue applicazioni tramite Smart Contract.',
 		link: 'https://www.youtube.com/watch?v=fICFYsN4E74',
 		topImage: 'blog/chainlink/chainlink-27.png',
-		category: 'chainlink',
+		category: 'hackathon',
 		type: 'link'
 	},
 	'chainlink-28': {
@@ -276,7 +276,7 @@ export let articles = {
 			'Scopri come creare uno Smart Contract aggiornabile una volta pubblicato sulla blockchain',
 		link: 'https://www.youtube.com/watch?v=8w8xJaGtZwo',
 		topImage: 'blog/chainlink/chainlink-28.png',
-		category: 'chainlink',
+		category: 'hackathon',
 		type: 'link'
 	},
 	'chainlink-29': {
@@ -285,7 +285,7 @@ export let articles = {
 			"Substrate ti consente di creare blockchain specializzate per qualsiasi caso d'uso ed è stato utilizzato da Parity Technologies per creare Polkadot stesso, che ne attesta l'alto livello di prestazioni, flessibilità e robustezza.",
 		link: 'https://www.youtube.com/watch?v=o5ANk0sRxEY',
 		topImage: 'blog/chainlink/chainlink-29.png',
-		category: 'chainlink',
+		category: 'hackathon',
 		type: 'link'
 	},
 	'chainlink-30': {
@@ -294,7 +294,7 @@ export let articles = {
 			'In questo tutorial, scopri come creare feed di dati universali utilizzando Covalent e Chainlink.',
 		link: 'https://www.youtube.com/watch?v=JmaCmrQyjNU',
 		topImage: 'blog/chainlink/chainlink-30.png',
-		category: 'chainlink',
+		category: 'hackathon',
 		type: 'link'
 	},
 	'chainlink-31': {
@@ -303,7 +303,7 @@ export let articles = {
 			'In questa guida scriveremo uno script per recuperare aggiornamenti in tempo reale ogni volta che qualcuno conia un nuovo NFT.',
 		link: 'https://www.youtube.com/watch?v=J4avAsOn8F0',
 		topImage: 'blog/chainlink/chainlink-31.png',
-		category: 'chainlink',
+		category: 'hackathon',
 		type: 'link'
 	},
 	'chainlink-32': {
@@ -312,7 +312,7 @@ export let articles = {
 			'Questo tutorial esplora la sintassi EVM di basso livello e come utilizzarla per rendere i tuoi contratti più sicuri e più efficienti dal punto di vista dei consumi del gas.',
 		link: 'https://www.youtube.com/watch?v=M8_4THWJkHQ',
 		topImage: 'blog/chainlink/chainlink-32.png',
-		category: 'chainlink',
+		category: 'hackathon',
 		type: 'link'
 	},
 	'chainlink-33': {
@@ -321,7 +321,7 @@ export let articles = {
 			"Crea un'organizzazione autonoma decentralizzata (DAO) che utilizza un sistema di voto 100% onchain attraverso un token ERC20",
 		link: 'https://www.youtube.com/watch?v=i5-3Wx_BrSA',
 		topImage: 'blog/chainlink/chainlink-33.png',
-		category: 'chainlink',
+		category: 'hackathon',
 		type: 'link'
 	},
 	'chainlink-34': {
@@ -330,7 +330,7 @@ export let articles = {
 			"Scopri come creare da zero un'applicazione DeFi full-stack. Imparerai ogni aspetto dell'applicazione, dalla logica dello Smart Contract al frontend.",
 		link: 'https://www.youtube.com/watch?v=5vhVInexaUI',
 		topImage: 'blog/chainlink/chainlink-34.png',
-		category: 'chainlink',
+		category: 'hackathon',
 		type: 'link'
 	},
 	'chainlink-35': {
@@ -339,7 +339,7 @@ export let articles = {
 			"Esplora i fondamenti della sicurezza e del controllo nell'ambito degli smart contract. In questo video imparerai ad utilizzare strumenti fondamentali come Slither, Echidna e Mythril.",
 		link: 'https://www.youtube.com/watch?v=0aJfCug1zTM',
 		topImage: 'blog/chainlink/chainlink-35.png',
-		category: 'chainlink',
+		category: 'hackathon',
 		type: 'link'
 	},
 	'chainlink-36': {
@@ -347,7 +347,7 @@ export let articles = {
 		description: 'Scopri quanto rapidamente puoi creare un progetto nft attraverso Alchemy',
 		link: 'https://www.youtube.com/watch?v=mjfzRMOEcdU',
 		topImage: 'blog/chainlink/chainlink-36.png',
-		category: 'chainlink',
+		category: 'hackathon',
 		type: 'link'
 	},
 	'chainlink-37': {
@@ -355,7 +355,7 @@ export let articles = {
 		description: 'Impariamo a sviluppare un gioco in Web3 utilizzando gli Smart Contract',
 		link: 'https://www.youtube.com/watch?v=bPfTBr2D1gc',
 		topImage: 'blog/chainlink/chainlink-37.png',
-		category: 'chainlink',
+		category: 'hackathon',
 		type: 'link'
 	},
 	'chainlink-38': {
@@ -364,7 +364,7 @@ export let articles = {
 			'Immergiti negli strumenti di auditing avanzati utilizzati per lo sviluppo e controllo degli Smart Contract.',
 		link: 'https://www.youtube.com/watch?v=PTE1Hcqup_M',
 		topImage: 'blog/chainlink/chainlink-38.png',
-		category: 'chainlink',
+		category: 'hackathon',
 		type: 'link'
 	},
 	'chainlink-39': {
@@ -373,7 +373,7 @@ export let articles = {
 			'BAS è la nuova sidechain di Binance, una blockchain separata ma ancorata in qualche modo alla blockchain principale(BSC).',
 		link: 'https://www.youtube.com/watch?v=gLFtqRTeX9E',
 		topImage: 'blog/chainlink/chainlink-39.png',
-		category: 'chainlink',
+		category: 'hackathon',
 		type: 'link'
 	},
 	'chainlink-40': {
@@ -382,7 +382,7 @@ export let articles = {
 			'Insieme a Jocy Lin, partner fondatore di IOSG Ventures, scopriamo come sviluppare un protocollo Smart Contract di successo.',
 		link: 'https://www.youtube.com/watch?v=2FFCwpzcqS0',
 		topImage: 'blog/chainlink/chainlink-40.png',
-		category: 'chainlink',
+		category: 'hackathon',
 		type: 'link'
 	},
 	'chainlink-41': {
@@ -390,7 +390,7 @@ export let articles = {
 		description: 'Un panel sulla sostenibilità green insieme al Team di Filecoin',
 		link: 'https://www.youtube.com/watch?v=nk4dn2NGmXM',
 		topImage: 'blog/chainlink/chainlink-41.png',
-		category: 'chainlink',
+		category: 'hackathon',
 		type: 'link'
 	},
 	'chainlink-42': {
@@ -399,7 +399,7 @@ export let articles = {
 			"Impara a scrivere Smart Contract con Parity's ink! in Rust e compilati in WebAssembly utilizzabili con qualsiasi parachain di Polkadot o Kusama che supporta il modulo dei contratti di Substrate.",
 		link: 'https://www.youtube.com/watch?v=_J6BsbOaedw',
 		topImage: 'blog/chainlink/chainlink-42.png',
-		category: 'chainlink',
+		category: 'hackathon',
 		type: 'link'
 	},
 	'chainlink-43': {
@@ -408,7 +408,17 @@ export let articles = {
 			"Truflation è un vero indice di inflazione progettato per fornire aggiornamenti sull'inflazione che possono alimentare i protocolli con metriche accurate basate sui dati di mercato attuali.",
 		link: 'https://www.youtube.com/watch?v=lugCHOxKBPg',
 		topImage: 'blog/chainlink/chainlink-43.png',
-		category: 'chainlink',
+		category: 'hackathon',
 		type: 'link'
+	},
+	'airdrop-arbitrum-week-1': {
+		title: 'Airdrop Arbitrum',
+		description:
+			"1° Settimana - Scopriamo insieme come ottenere il primo NFT degli otto totali che potrebbero garantirti l'airdrop di Arbitrum",
+		link: 'airdrop-arbitrum-week-1',
+		topImage: 'blog/airdrop/arbitrum-airdrop.png',
+		category: 'airdrop',
+		date: '22/06/2022',
+		type: 'article'
 	}
 };
