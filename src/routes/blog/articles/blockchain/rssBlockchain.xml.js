@@ -3,12 +3,12 @@ import { articles } from '$lib/data/articles.json';
 export const get = async () => {
 	let items = '';
 	for (const [key, value] of Object.entries(articles)) {
-		if (value.category === 'crypto') {
+		if (value.category === 'blockchain') {
 			items += `<item>
     <title>${value.title}</title>
-    <link>https://thecodingpanda.dev/blog/articles/crypto/${value.link}</link>
+    <link>https://thecodingpanda.dev/blog/articles/blockchain/${value.link}</link>
     <description>${value.description}</description>
-		<guid>https://thecodingpanda.dev/blog/articles/crypto/${value.link}2</guid>
+		<guid>https://thecodingpanda.dev/blog/articles/blockchain/${value.link}</guid>
   </item>`;
 		}
 	}
