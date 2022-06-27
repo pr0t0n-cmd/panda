@@ -12,8 +12,7 @@ export const get = async () => {
   </item>`;
 		}
 	}
-	const rssDocument = `<?xml version="1.0" encoding="UTF-8" ?>
-<rss version="2.0">
+	const rssDocument = `<rss xmlns:dc="https://purl.org/dc/elements/1.1/" xmlns:content="https://purl.org/rss/1.0/modules/content/" xmlns:atom="https://www.w3.org/2005/Atom" version="2.0">
 <channel>
   <title>The Coding Panda</title>
   <link>https://www.thecodingpanda.dev</link>
@@ -24,7 +23,8 @@ export const get = async () => {
 	return {
 		status: 200,
 		headers: {
-			'Content-Type': 'application/rss+xml'
+			'Cache-Control': 'max-age=0, s-maxage=3600',
+			'Content-Type': 'application/xml'
 		},
 		body: rssDocument
 	};
