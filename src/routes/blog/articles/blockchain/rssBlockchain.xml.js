@@ -1,17 +1,19 @@
 import { articles } from '$lib/data/articles.json';
 
 export const get = async () => {
-	let items = ""
+	let items = '';
 	for (const [key, value] of Object.entries(articles)) {
-		if(value.category === "blockchain"){
+		if (value.category === 'blockchain') {
 			items += `<item>
     <title>${value.title}</title>
     <link>https://thecodingpanda.dev/blog/articles/blockchain/${value.link}</link>
     <description>${value.description}</description>
+		<guid>${value.link}</guid>
   </item>`;
 		}
 	}
 	const rssDocument = `
+	<?xml version="1.0" encoding="UTF-8" ?>
 <rss version="2.0">
 <channel>
   <title>The Coding Panda</title>
