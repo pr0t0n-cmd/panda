@@ -6,9 +6,9 @@ export const get = async () => {
 		if (value.category === 'crypto') {
 			items += `<item>
     <title>${value.title}</title>
-    <link>https://thecodingpanda.dev/blog/articles/blockchain/${value.link}</link>
+    <link>https://thecodingpanda.dev/blog/articles/crypto/${value.link}</link>
     <description>${value.description}</description>
-		<guid>https://thecodingpanda.dev/blog/articles/blockchain/${value.link}</guid>
+		<guid>https://thecodingpanda.dev/blog/articles/crypto/${value.link}2</guid>
   </item>`;
 		}
 	}
