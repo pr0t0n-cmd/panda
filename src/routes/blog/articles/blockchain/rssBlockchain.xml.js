@@ -3,7 +3,7 @@ import { articles } from '$lib/data/articles.json';
 export const get = async () => {
 	let items = '';
 	for (const [key, value] of Object.entries(articles)) {
-		if (value.category === 'blockchain') {
+		if (value.category === 'crypto') {
 			items += `<item>
     <title>${value.title}</title>
     <link>https://thecodingpanda.dev/blog/articles/blockchain/${value.link}</link>
