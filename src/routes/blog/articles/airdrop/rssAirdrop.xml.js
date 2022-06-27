@@ -9,7 +9,7 @@ export const get = async () => {
     <title>${value.title}</title>
     <link>https://thecodingpanda.dev/blog/articles/airdrop/${value.link}</link>
     <description>${value.description}</description>
-    <guid>${value.link}</guid>
+    <guid>https://thecodingpanda.dev/blog/articles/airdrop/${value.link}</guid>
   </item>`;
 		}
 	}
@@ -21,7 +21,6 @@ export const get = async () => {
   <description>Free web building tutorials</description>
   ${items}
 </channel>
-
 </rss>`;
 	return {
 		status: 200,
