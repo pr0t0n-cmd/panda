@@ -8,12 +8,11 @@ export const get = async () => {
     <title>${value.title}</title>
     <link>https://thecodingpanda.dev/blog/articles/defi/${value.link}</link>
     <description>${value.description}</description>
-		<guid>${value.link}</guid>
+		<guid>https://thecodingpanda.dev/blog/articles/defi/${value.link}</guid>
   </item>`;
 		}
 	}
-	const rssDocument = `
-	<?xml version="1.0" encoding="UTF-8" ?>
+	const rssDocument = `<?xml version="1.0" encoding="UTF-8" ?>
 <rss version="2.0">
 <channel>
   <title>The Coding Panda</title>
@@ -21,7 +20,6 @@ export const get = async () => {
   <description>Free web building tutorials</description>
   ${items}
 </channel>
-
 </rss>`;
 	return {
 		status: 200,
