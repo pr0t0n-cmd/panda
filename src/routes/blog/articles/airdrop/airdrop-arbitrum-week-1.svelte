@@ -1,4 +1,4 @@
-<script>
+<!-- <script>
 	import { MetaTags } from 'svelte-meta-tags';
 	import { JsonLd } from 'svelte-meta-tags';
 	import { articles } from '$lib/data/articles.json';
@@ -58,7 +58,7 @@
 			}
 		}
 	}}
-/>
+/> -->
 
 <section class="blog-style">
 	<h3>Che cosa è Arbitrum</h3>

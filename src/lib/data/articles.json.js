@@ -420,15 +420,5 @@ export let articles = {
 		category: 'airdrop',
 		date: '22/06/2022',
 		type: 'article'
-	},
-	'airdrop-arbitrum-week-2': {
-		title: 'Airdrop Arbitrum 2',
-		description:
-			"2° Settimana - Scopriamo insieme come ottenere il primo NFT degli otto totali che potrebbero garantirti l'airdrop di Arbitrum",
-		link: 'airdrop-arbitrum-week-2',
-		topImage: 'blog/airdrop/arbitrum-airdrop.png',
-		category: 'airdrop',
-		date: '27/06/2022',
-		type: 'article'
 	}
 };
