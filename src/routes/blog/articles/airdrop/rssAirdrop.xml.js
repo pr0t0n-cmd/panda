@@ -4,11 +4,10 @@ export const get = async () => {
 	let items = '';
 	for (const value of Object.values(articles)) {
 		if (value.category == 'airdrop') {
-			console.log('WWWWWWWWWWW', value);
 			items += `<item>
     <title>${value.title}</title>
     <link>https://thecodingpanda.dev/blog/articles/airdrop/${value.link}</link>
-    <description>${value.description}</description>
+    <description>Scopriamo insieme come ottenere il primo NFT degli otto totali che potrebbero garantirti un airdrop da Arbitrum</description>
     <guid>https://thecodingpanda.dev/blog/articles/airdrop/${value.link}</guid>
   </item>`;
 		}
