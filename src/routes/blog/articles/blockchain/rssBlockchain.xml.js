@@ -19,9 +19,9 @@ export const get = async () => {
   <description>Free web building tutorials</description>
   <item>
     <title>Isola della Blockchain</title>
-    <link>https://thecodingpanda.dev/blog/articles/blockchain/la-isola-della-blockchain</link>
+    <link>https://thecodingpanda.dev/blog/articles/crypto/guerra-crittografica</link>
     <description>Un divertente esempio per conoscere come funziona questa tecnologia</description>
-		<guid>https://thecodingpanda.dev/blog/articles/blockchain/la-isola-della-blockchain</guid>
+		<guid>https://thecodingpanda.dev/blog/articles/crypto/guerra-crittografica</guid>
   </item>
 </channel>
 </rss>`;
