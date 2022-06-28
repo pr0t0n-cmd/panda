@@ -1,41 +1,41 @@
-<script>
-	import { MetaTags } from 'svelte-meta-tags';
-	import { JsonLd } from 'svelte-meta-tags';
+<!-- <script>
+  import { MetaTags } from 'svelte-meta-tags';
+   import { JsonLd } from 'svelte-meta-tags';
 </script>
 
 <MetaTags
-	title="L'Isola della Blockchain"
-	titleTemplate="%s | The Coding Panda"
-	description="Un divertente esempio per conoscere come funziona questa tecnologia"
-	canonical="https://thecodingpanda.dev/"
-	openGraph={{
-		title: "L'Isola della Blockchain",
-		description: 'Un divertente esempio per conoscere come funziona questa tecnologia',
-		url: 'https://thecodingpanda.dev/blog/articles/blockchain/la-isola-della-blockchain',
-		type: 'article',
-		article: {
-			publishedTime: '2017-06-21T23:04:13Z',
-			modifiedTime: '2018-01-21T18:04:43Z',
-			expirationTime: '2022-12-21T22:04:11Z',
-			section: 'blockchain',
-			authors: [
-				'https://thecodingpanda.dev/authors/@andrea-casero',
-				'https://thecodingpanda.dev/authors/@giorgio-bruzzi'
-			],
-			tags: ['blockchain']
-		},
-		images: [
-			{
-				url: 'https://thecodingpanda.dev/blog/blockchain-island/block-island.png',
-				width: 850,
-				height: 650,
-				alt: "L'Isola della Blockchain"
-			}
-		]
-	}}
+  title="L'Isola della Blockchain"
+  titleTemplate="%s | The Coding Panda"
+  description="Un divertente esempio per conoscere come funziona questa tecnologia"
+  canonical="https://thecodingpanda.dev/"
+  openGraph={{
+    title: "L'Isola della Blockchain",
+    description: 'Un divertente esempio per conoscere come funziona questa tecnologia',
+    url: 'https://thecodingpanda.dev/blog/articles/blockchain/la-isola-della-blockchain',
+    type: 'article',
+    article: {
+      publishedTime: '2017-06-21T23:04:13Z',
+      modifiedTime: '2018-01-21T18:04:43Z',
+      expirationTime: '2022-12-21T22:04:11Z',
+      section: 'blockchain',
+      authors: [
+        'https://thecodingpanda.dev/authors/@andrea-casero',
+        'https://thecodingpanda.dev/authors/@giorgio-bruzzi'
+      ],
+      tags: ['blockchain']
+    },
+    images: [
+      {
+        url: 'https://thecodingpanda.dev/blog/blockchain-island/block-island.png',
+        width: 850,
+        height: 650,
+        alt: "L'Isola della Blockchain"
+      }
+    ]
+  }}
 />
 
-<!-- <JsonLd
+<JsonLd
   schema={{
     '@type': 'Article',
     mainEntityOfPage: {
