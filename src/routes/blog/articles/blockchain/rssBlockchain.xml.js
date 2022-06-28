@@ -5,7 +5,7 @@ export const get = async () => {
 	for (const [key, value] of Object.entries(articles)) {
 		if (value.category === 'blockchain') {
 			items += `<item>
-    <title>${value.title}</title>
+    <title>Isola della Blockchain</title>
     <link>https://thecodingpanda.dev/blog/articles/blockchain/${value.link}</link>
     <description>${value.description}</description>
 		<guid>https://thecodingpanda.dev/blog/articles/blockchain/${value.link}</guid>
