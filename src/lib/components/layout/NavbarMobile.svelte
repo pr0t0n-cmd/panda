@@ -13,7 +13,7 @@
       </div>
     </div>
     <a class="logo" href="/">
-      <img src="/loghi/panda.svg" alt="panda" />
+      <img src="/loghi/panda-bg-black.png" alt="panda" />
     </a>
     <ul class="menu">
       <li on:click={handleNav} class="menu-item"><a href="/">Home</a></li>

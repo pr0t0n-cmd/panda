@@ -62,6 +62,7 @@
   }}
 /> -->
 
+
 <section class="blog-style">
 	<p>
 		La Blockchain è composta da una serie di blocchi che contentongo informazioni, organizzati in
